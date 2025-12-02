@@ -1,0 +1,35 @@
+{
+  "name": "py-vrt-playwright-english",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "allure:clear": "rm -r allure-results/** && cp -r allure-reports/history/ allure-results && rm -r allure-reports/**",
+    "allure:report": "allure generate allure-results --name 'PlayWright_Demo' --clean -o allure-reports",
+    "test:baseline": "NODE_ENV=release npx playwright test",
+    "pretest:compare": "npm run allure:clear",
+    "test:compare": "NODE_ENV=staging npx playwright test || npm run posttest:compare",
+    "posttest:compare": "npm run allure:report",
+    "test:update-baseline": "NODE_ENV=release npx playwright test --update-snapshots"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiteshtare/py-vrt-playwright-english.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hiteshtare/py-vrt-playwright-english/issues"
+  },
+  "homepage": "https://github.com/hiteshtare/py-vrt-playwright-english#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0",
+    "allure-playwright": "^3.4.2"
+  },
+  "dependencies": {
+    "@visual-regression-tracker/agent-playwright": "^5.3.1",
+    "dotenv": "^17.2.3"
+  }
+}

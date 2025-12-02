@@ -1,0 +1,21 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+/screenshots/
+
+# Node modules
+node_modules
+
+# Environment variables
+.env.staging
+.env.release
+
+# Allure
+allure-reports
+allure-results
