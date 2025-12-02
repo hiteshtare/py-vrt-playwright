@@ -50,11 +50,11 @@ test.describe("English - Priority Pages", () => {
     test(`${item.label}`, async ({ page }) => {
       await navigateToPage(page, item.referenceUrl);
 
-      await vrt.trackPage(page, item.label, trackOptions);
+      // await vrt.trackPage(page, item.label, trackOptions);
 
-      // await expect(page).toHaveScreenshot(item.label, {
-      //   fullPage: true,
-      // });
+      await expect(page).toHaveScreenshot(`${ item.label }.png`, {
+        fullPage: true,
+      });
     });
   });
 });
