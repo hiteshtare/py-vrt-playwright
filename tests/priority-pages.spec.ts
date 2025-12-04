@@ -15,7 +15,7 @@ const config: Config = {
   project: "" + process.env.VRT_PROJECT, // Project name or ID
   apiKey: "" + process.env.VRT_APIKEY, // User apiKey
   branchName: "" + process.env.VRT_BRANCHNAME, // Current git branch
-  ciBuildId: "priority-pages",
+  ciBuildId: "CURRENT_priority-pages",
   enableSoftAssert: true, // Log errors instead of throwing exceptions
 };
 
