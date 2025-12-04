@@ -28,6 +28,6 @@ export async function navigateToPage(page: Page, url: string) {
   expect.soft(true, `Reference: https://yssofindia.org/${url}`).toBeTruthy();
   console.warn(`link: ${finalURL}`);
   return await page.goto(finalURL, {
-    waitUntil: "domcontentloaded",
+    waitUntil: "load",
   });
 }
