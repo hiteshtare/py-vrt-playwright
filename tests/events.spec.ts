@@ -15,7 +15,8 @@ const config: Config = {
   project: "" + process.env.VRT_PROJECT, // Project name or ID
   apiKey: "" + process.env.VRT_APIKEY, // User apiKey
   branchName: "" + process.env.VRT_BRANCHNAME, // Current git branch
-  ciBuildId: "CURRENT_events",
+  // ciBuildId: new Date().getTime().toString(36),
+  ciBuildId: "CURRENT_Mobile_events",
   enableSoftAssert: true, // Log errors instead of throwing exceptions
 };
 
@@ -27,11 +28,10 @@ const trackOptions: PageTrackOptions = {
   screenshotOptions: {
     fullPage: true,
   },
-  // agent: {
-  //   device: "Desktop",
-  //   os:"Linux",
-  //   viewport: "1366x768"
-  // }
+  agent: {
+    device: "Mobile",
+    viewport: "375x667"
+  }
 };
 
 test.beforeAll(async () => {
@@ -46,7 +46,7 @@ test.afterAll(async () => {
 const testDataForItems = require("../tests/testData/events.json");
 
 // Iterate over the imported JSON array
-test.describe("English - events", () => {
+test.describe.only("English - events", () => {
   testDataForItems.forEach((item: any, index: number) => {
     test(`${item.label}`, async ({ page }) => {
       await navigateToPage(page, item.referenceUrl);
