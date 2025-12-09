@@ -11,7 +11,7 @@ const testDataForItems = require("../../tests/testData/english/events.json");
 
 const { vrt, trackOptions } = setupVRT(
   "events",
-  APP_CONFIG.vrtProjects.english
+  APP_CONFIG.vrtProjects.English
 );
 
 // Iterate over the imported JSON array

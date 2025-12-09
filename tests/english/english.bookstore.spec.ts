@@ -8,7 +8,7 @@ import { APP_CONFIG } from "../config";
 
 const { vrt, trackOptions } = setupVRT(
   "bookstore",
-  APP_CONFIG.vrtProjects.english
+  APP_CONFIG.vrtProjects.English
 );
 
 test.beforeAll(async () => {

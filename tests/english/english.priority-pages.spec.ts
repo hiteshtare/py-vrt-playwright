@@ -11,7 +11,7 @@ const testDataForItems = require("../../tests/testData/english/priority-pages.js
 
 const { vrt, trackOptions } = setupVRT(
   "priority-pages",
-  APP_CONFIG.vrtProjects.english
+  APP_CONFIG.vrtProjects.English
 );
 
 // Iterate over the imported JSON array

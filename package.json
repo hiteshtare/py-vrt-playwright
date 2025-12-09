@@ -32,7 +32,13 @@
     "log4js": "^6.9.1"
   },
   "dependencies": {
+    "@types/google-spreadsheet": "^3.3.2",
+    "@types/lodash": "^4.17.21",
     "@visual-regression-tracker/agent-playwright": "^5.3.1",
-    "dotenv": "^17.2.3"
+    "dotenv": "^17.2.3",
+    "google-auth-library": "^9.15.1",
+    "google-spreadsheet": "^4.1.4",
+    "lodash": "^4.17.21",
+    "write-json-file": "^6.0.0"
   }
 }

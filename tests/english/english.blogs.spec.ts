@@ -11,7 +11,7 @@ const testDataForItems = require("../../tests/testData/english/blogs.json");
 
 const { vrt, trackOptions } = setupVRT(
   "blogs",
-  APP_CONFIG.vrtProjects.english
+  APP_CONFIG.vrtProjects.English
 );
 
 test.beforeAll(async () => {
