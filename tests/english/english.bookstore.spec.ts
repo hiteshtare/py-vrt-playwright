@@ -1,17 +1,17 @@
+// Import node modules
 import { expect, test } from "@playwright/test";
-
-// Import custom config
-import { APP_CONFIG } from "../config";
-
-//Importing Custom modules
-import { navigateToPage } from "../util/common.util";
-
 import {
   PlaywrightVisualRegressionTracker,
   Config,
   PageTrackOptions,
 } from "@visual-regression-tracker/agent-playwright";
 import { chromium, Browser, Page, BrowserContext } from "@playwright/test";
+
+//Importing Custom modules
+import { navigateToPage } from "../util/common.util";
+
+// Import custom config
+import { APP_CONFIG } from "../config";
 
 const config: Config = {
   apiUrl: "" + process.env.VRT_APIURL, // URL where backend is running
@@ -204,9 +204,9 @@ test.describe.skip("Bookstore - Checkout flow", () => {
       page.locator("iframe").first().contentFrame().getByTestId("Netbanking")
     ).toBeVisible();
 
-     //wait for 3 sec
+    //wait for 3 sec
     await page.waitForTimeout(3000);
-    
+
     await vrt.trackPage(page, "#7_RazorPay modal after PayNow", trackOptions);
 
     await expect(page).toHaveScreenshot("razor-pay-modal-after-paynow.png", {

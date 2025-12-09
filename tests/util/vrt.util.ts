@@ -4,7 +4,6 @@ import {
   PageTrackOptions,
 } from "@visual-regression-tracker/agent-playwright";
 import { chromium } from "@playwright/test";
-import { generateShortRandomChars } from "./common.util";
 
 export function setupVRT(buildName: string, projectId: string) {
   const buildId = `${
