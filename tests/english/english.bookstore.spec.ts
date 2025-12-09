@@ -1,40 +1,15 @@
 // Import node modules
 import { expect, test } from "@playwright/test";
-import {
-  PlaywrightVisualRegressionTracker,
-  Config,
-  PageTrackOptions,
-} from "@visual-regression-tracker/agent-playwright";
-import { chromium, Browser, Page, BrowserContext } from "@playwright/test";
 
 //Importing Custom modules
 import { navigateToPage } from "../util/common.util";
-
-// Import custom config
+import { setupVRT } from "../util/vrt.util";
 import { APP_CONFIG } from "../config";
 
-const config: Config = {
-  apiUrl: "" + process.env.VRT_APIURL, // URL where backend is running
-  project: "" + process.env.VRT_PROJECT, // Project name or ID
-  apiKey: "" + process.env.VRT_APIKEY, // User apiKey
-  branchName: "" + process.env.VRT_BRANCHNAME, // Current git branch
-  enableSoftAssert: true, // Log errors instead of throwing exceptions
-};
-
-const browserName = chromium.name();
-const vrt = new PlaywrightVisualRegressionTracker(browserName, config);
-
-const trackOptions: PageTrackOptions = {
-  diffTollerancePercent: 5,
-  screenshotOptions: {
-    fullPage: true,
-  },
-  // agent: {
-  //   device: "Desktop",
-  //   os:"Linux",
-  //   viewport: "1366x768"
-  // }
-};
+const { vrt, trackOptions } = setupVRT(
+  "bookstore",
+  APP_CONFIG.vrtProjects.english
+);
 
 test.beforeAll(async () => {
   await vrt.start();
