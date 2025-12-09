@@ -1,10 +1,10 @@
 import { expect, test } from "@playwright/test";
 
 // Import custom config
-import { APP_CONFIG } from "./config";
+import { APP_CONFIG } from "../config";
 
 //Importing Custom modules
-import { navigateToPage } from "./util/common.util";
+import { navigateToPage } from "../util/common.util";
 
 import {
   PlaywrightVisualRegressionTracker,

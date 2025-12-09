@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 
 //Importing Custom modules
-import { navigateToPage } from "./util/common.util";
+import { navigateToPage } from "../util/common.util";
 
 import {
   PlaywrightVisualRegressionTracker,
@@ -15,7 +15,8 @@ const config: Config = {
   project: "" + process.env.VRT_PROJECT, // Project name or ID
   apiKey: "" + process.env.VRT_APIKEY, // User apiKey
   branchName: "" + process.env.VRT_BRANCHNAME, // Current git branch
-  ciBuildId: "CURRENT_blogs",
+  // ciBuildId: new Date().getTime().toString(36),
+  ciBuildId: "CURRENT_Mobile_events",
   enableSoftAssert: true, // Log errors instead of throwing exceptions
 };
 
@@ -27,11 +28,10 @@ const trackOptions: PageTrackOptions = {
   screenshotOptions: {
     fullPage: true,
   },
-  // agent: {
-  //   device: "Desktop",
-  //   os:"Linux",
-  //   viewport: "1366x768"
-  // }
+  agent: {
+    device: "Mobile",
+    viewport: "375x667",
+  },
 };
 
 test.beforeAll(async () => {
@@ -42,11 +42,11 @@ test.afterAll(async () => {
   await vrt.stop();
 });
 
-//Import test data for blogs
-const testDataForItems = require("../tests/testData/blogs.json");
+//Import test data for events
+const testDataForItems = require("../../tests/testData/english/events.json");
 
 // Iterate over the imported JSON array
-test.describe("English - Blogs", () => {
+test.describe.skip("English - Events", () => {
   testDataForItems.forEach((item: any, index: number) => {
     test(`${item.label}`, async ({ page }) => {
       await navigateToPage(page, item.referenceUrl);

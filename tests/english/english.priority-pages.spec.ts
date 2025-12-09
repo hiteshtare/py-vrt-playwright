@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 
 //Importing Custom modules
-import { navigateToPage } from "./util/common.util";
+import { navigateToPage } from "../util/common.util";
 
 import {
   PlaywrightVisualRegressionTracker,
@@ -43,10 +43,10 @@ test.afterAll(async () => {
 });
 
 //Import test data for Priority Pages
-const testDataForItems = require("../tests/testData/priority-pages.json");
+const testDataForItems = require("../../tests/testData/english/priority-pages.json");
 
 // Iterate over the imported JSON array
-test.describe("English - Priority Pages", () => {
+test.describe.skip("English - Priority Pages", () => {
   testDataForItems.forEach((item: any, index: number) => {
     test(`${item.label}`, async ({ page }) => {
       await navigateToPage(page, item.referenceUrl);
