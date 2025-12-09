@@ -1,25 +1,71 @@
+// Import node modules
 import { expect, Page } from "@playwright/test";
+import { getLogger, Logger } from "log4js";
+import * as log4js from "log4js";
+import dateFormat from "dateformat";
+import { config } from "dotenv";
 
 // Import custom config
 import { APP_CONFIG } from "../config";
 
+// Import configuration/variables from .env file in root folder
+config();
+
+// Logger initialise
+const _logger = getLoggerLevel();
+
 export function loadConfigFromENV(): void {
-  console.warn("loadConfigFromENV");
+  _logger.warn("loadConfigFromENV");
+
+ APP_CONFIG.loggerLevel = "" + process.env.LOGGER_LEVEL;
+  _logger.info(`loggerLevel : ${APP_CONFIG.loggerLevel}`);
 
   APP_CONFIG.baseURL = "" + process.env.BASE_URL;
   APP_CONFIG.authPopUpUser = "" + process.env.AUTH_POPUP_USER;
   APP_CONFIG.authPopUpPassword = "" + process.env.AUTH_POPUP_PASSWORD;
   APP_CONFIG.loginEmail = "" + process.env.LOGIN_EMAIL;
   APP_CONFIG.loginPassword = "" + process.env.LOGIN_PASSWORD;
-  console.warn(`baseURL : ${APP_CONFIG.baseURL}`);
+  _logger.info(`baseURL : ${APP_CONFIG.baseURL}`);
   //Logging env variables for debugging
   // console.debug(`authPopUpPassword : ${process.env.AUTH_POPUP_PASSWORD}`);
 }
 
+export function getLoggerLevel(): Logger {
+  log4js.configure({
+    appenders: {
+      out: {
+        type: "stdout",
+        layout: {
+          type: "pattern",
+          pattern: "%[%x{customDate} [%p] - %m%]",
+          tokens: {
+            customDate: function (logEvent: any) {
+              const eventStartTime = new Date(logEvent.startTime);
+              const customDateTimeFormat = dateFormat(
+                eventStartTime,
+                "dddd, mmm d yyyy, hh:MM:ss TT"
+              );
+              // modify as you want the timestamp for example getting it in the local time zone
+              return customDateTimeFormat;
+            },
+          },
+        },
+      },
+    },
+    categories: { default: { appenders: ["out"], level: "debug" } },
+  });
+
+  const logger = getLogger();
+  logger.level = APP_CONFIG.loggerLevel;
+  return logger;
+}
+
+
 export async function navigateToPage(page: Page, urlLegacy: string) {
   let finalURL = "";
   const url = removeDomainRegex(urlLegacy);
-  console.warn(`url: ${url}`);
+
+  _logger.debug(`url: ${url}`);
 
   if (APP_CONFIG.baseURL === "yssofindia.org") {
     finalURL = `https://${APP_CONFIG.baseURL}${url}`;
@@ -33,16 +79,10 @@ export async function navigateToPage(page: Page, urlLegacy: string) {
     )
     .toBeTruthy();
   expect.soft(true, `Reference: https://yssofindia.org/${url}`).toBeTruthy();
-  console.warn(`link: ${finalURL}`);
+  _logger.info(`link: ${finalURL}`);
   return await page.goto(finalURL, {
     waitUntil: "load",
   });
-}
-
-export function generateShortRandomChars() {
-  // toString(36) converts to base 36 (0-9, a-z)
-  // slice(2, 8) extracts characters from index 2 up to (but not including) 8, resulting in a 6-character string.
-  return Math.random().toString(36).slice(2, 8);
 }
 
 export function removeDomainRegex(urlString: string) {

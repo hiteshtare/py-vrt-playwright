@@ -25,8 +25,11 @@
   "homepage": "https://github.com/hiteshtare/py-vrt-playwright-english#readme",
   "devDependencies": {
     "@playwright/test": "^1.56.1",
+    "@types/dateformat": "^5.0.3",
     "@types/node": "^24.10.0",
-    "allure-playwright": "^3.4.2"
+    "allure-playwright": "^3.4.2",
+    "dateformat": "^5.0.3",
+    "log4js": "^6.9.1"
   },
   "dependencies": {
     "@visual-regression-tracker/agent-playwright": "^5.3.1",

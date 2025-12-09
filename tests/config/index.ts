@@ -1,4 +1,5 @@
 export const APP_CONFIG = {
+  loggerLevel: "",
   //Global settings
   baseURL: "",
   authPopUpUser: "",
