@@ -160,9 +160,8 @@ export async function loadSheetConfig() {
     APP_CONFIG.sheet = [];
     for (const row of configRows) {
       APP_CONFIG.sheet.push({
-        center: row.get("Center ID"),
-        centerName: row.get("Center Name"),
-        fileName: row.get("File Name"),
+        id: row.get("ID"),
+        name: row.get("Name"),
         filePath: row.get("File Path"),
         sheetID: row.get("Sheet ID"),
       });
@@ -176,13 +175,13 @@ export async function loadSheetConfig() {
   }
 }
 
-export async function getSheetConfigByCenter(
-  centerId: string,
+export async function getSheetConfigById(
+  Id: string,
   languageId: string
 ) {
-  _logger.warn("getSheetConfigByCenter");
+  _logger.warn("getSheetConfigById");
 
-  let centerConfig = APP_CONFIG.sheet.find((x: any) => x.center == centerId);
+  let centerConfig = APP_CONFIG.sheet.find((x: any) => x.id == Id);
 
   /*
   If centerConfig is found then check for configured Language then after both check proceed

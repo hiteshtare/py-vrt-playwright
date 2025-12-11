@@ -8,10 +8,9 @@ export const APP_CONFIG = {
   //Dynamic config for Centers using Google Sheet
   sheet: [
     {
-      centerName: "",
-      fileName: "",
+      id: "",
+      name: "",
       filePath: "",
-      center: "",
       sheetID: "",
     },
   ],
