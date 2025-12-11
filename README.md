@@ -5,6 +5,14 @@
 ###  Description 
 Demo of Visual Testing with Playwright
 
+
+#### Steps to Generate JSONs for VRT:
+
+- Run the following script
+```bash
+npm run regenerate-jsons
+```
+
 #### Steps to run project:
 
 - Run the following script
