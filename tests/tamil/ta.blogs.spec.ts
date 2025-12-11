@@ -7,7 +7,7 @@ import { setupVRT } from "../util/vrt.util";
 import { APP_CONFIG } from "../config";
 
 //Import test data for blogs
-const testDataForItems = require("../../tests/testData/tamil/blogs.json");
+const testDataForItems = require("../../tests/testData/blogs/ta-blogs.json");
 
 const { vrt, trackOptions } = setupVRT(
   "blogs",

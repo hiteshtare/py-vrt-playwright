@@ -7,7 +7,7 @@ import { setupVRT } from "../util/vrt.util";
 import { APP_CONFIG } from "../config";
 
 //Import test data for priority-pages
-const testDataForItems = require("../../tests/testData/hindi/priority-pages.json");
+const testDataForItems = require("../../tests/testData/priority-pages/hi-priority-pages.json");
 
 const { vrt, trackOptions } = setupVRT(
   "priority-pages",

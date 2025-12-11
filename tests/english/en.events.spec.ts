@@ -7,7 +7,7 @@ import { setupVRT } from "../util/vrt.util";
 import { APP_CONFIG } from "../config";
 
 //Import test data for events
-const testDataForItems = require("../../tests/testData/english/events.json");
+const testDataForItems = require("../../tests/testData/events/en-events.json");
 
 const { vrt, trackOptions } = setupVRT(
   "events",
