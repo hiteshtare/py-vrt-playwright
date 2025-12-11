@@ -182,10 +182,10 @@ export async function loadSheetConfig() {
   }
 }
 
-export async function getSheetConfigById(Id: string, languageId: string) {
-  _logger.warn("getSheetConfigById");
+export async function getSheetConfigByName(Name: string, languageId: string) {
+  _logger.warn("getSheetConfigByName");
 
-  let centerConfig = APP_CONFIG.sheet.find((x: any) => x.id == Id);
+  let centerConfig = APP_CONFIG.sheet.find((x: any) => x.filePath == Name);
 
   /*
   If centerConfig is found then check for configured Language then after both check proceed

@@ -1,7 +1,7 @@
 // Import custom config
 import { getLoggerLevel, loadConfigFromENV } from "./common.util";
 import {
-  getSheetConfigById,
+  getSheetConfigByName,
   loadSheetConfig,
   writeConfigJSONFile,
   writeJSONFileUsingSheetTab,
@@ -50,15 +50,11 @@ export function loadConfigForRegeneration(): void {
 export async function regenerateJSONS() {
   _logger.warn("regenerateJSONS");
 
-  // 1	Priority Pages
-  // 2	Events
-  // 3	Blogs
-  // 4	Gallery
-  // 5	Locations
-  // 6	Templates
-  // 7	Teaching Library
+  // priority-pages
+  // events
+  // blogs
   
-  let id = "3";
+  let name = "priority-pages";
 
   try {
     let message = "";
@@ -71,12 +67,12 @@ export async function regenerateJSONS() {
     //To create a single JSON config file only once
     await writeConfigJSONFile(sheetConfig);
 
-    if (id) {
-      currentConfig = await getSheetConfigById(id, "en");
+    if (name) {
+      currentConfig = await getSheetConfigByName(name, "en");
 
       if (currentConfig && currentConfig.sheetID) {
         await writeJSONFileUsingSheetTab(currentConfig);
-        message = `JSONs for id:${id} are regenerated successfully!`;
+        message = `JSONs for name:${name} are regenerated successfully!`;
       } else {
         _logger.error("RegenerateJSON Error - Invalid id!");
         message = "RegenerateJSON Error - Invalid id!";
