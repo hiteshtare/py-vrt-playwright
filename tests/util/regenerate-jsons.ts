@@ -50,7 +50,15 @@ export function loadConfigForRegeneration(): void {
 export async function regenerateJSONS() {
   _logger.warn("regenerateJSONS");
 
-  let id = "1";
+  // 1	Priority Pages
+  // 2	Events
+  // 3	Blogs
+  // 4	Gallery
+  // 5	Locations
+  // 6	Templates
+  // 7	Teaching Library
+  
+  let id = "3";
 
   try {
     let message = "";

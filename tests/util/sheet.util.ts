@@ -98,26 +98,34 @@ export async function writeJSONFileUsingSheetTab(currentConfig: any) {
     _logger.info("JSON - Total sheets(tabs)");
     _logger.debug(sheetCount);
 
-    for (var i = 0; i < sheetCount - 1; i++) {
+    for (var i = 0; i < sheetCount; i++) {
       const sheet = doc.sheetsByIndex[i];
       _logger.info("JSON - Sheet(tab) Name");
       _logger.debug(sheet.title);
 
       if (sheet) {
-        const rows = await sheet.getRows();
+        let rows = await sheet.getRows();
         _logger.info("JSON - Total rows");
         _logger.debug(rows.length);
 
-        let jsonArr = "[";
-        for (const row of rows) {
-          jsonArr += row.get("[");
+        if (rows.length === 0) {
+          _logger.error("JSON - empty JSON array due to no data");
+          return "[]"; // Return an empty JSON array if no data
         }
-        jsonArr += "]";
-        const jsonsResult = JSON.parse(jsonArr.toString());
-        _logger.info("jsonsResult");
-        _logger.debug(jsonsResult);
 
-        let file_name = `${currentConfig.filePath}.json`;
+        // Map the rows to a clean JSON array (optional, if you need only specific fields)
+        const jsonData = rows.map((row, index) => {
+          return {
+            label: `${index + 1}-${row.get("label")}`,
+            url: row.get("url"),
+            // Add other columns as needed
+          };
+        });
+
+        // _logger.info("jsonData");
+        // _logger.debug(jsonData);
+
+        let file_name = `${sheet.title}.json`;
         file_name = file_name.toLowerCase();
         file_name = file_name.replace(/\s/g, "-");
 
@@ -126,7 +134,7 @@ export async function writeJSONFileUsingSheetTab(currentConfig: any) {
 
         _logger.info("file_path");
         _logger.debug(file_path);
-        await writeJsonFile(file_path, jsonsResult);
+        await writeJsonFile(file_path, jsonData);
       }
     }
 
@@ -169,15 +177,12 @@ export async function loadSheetConfig() {
     return APP_CONFIG.sheet;
   } catch (err: any) {
     axiosErrorHandling(err);
-    throw err
+    throw err;
     // return [];
   }
 }
 
-export async function getSheetConfigById(
-  Id: string,
-  languageId: string
-) {
+export async function getSheetConfigById(Id: string, languageId: string) {
   _logger.warn("getSheetConfigById");
 
   let centerConfig = APP_CONFIG.sheet.find((x: any) => x.id == Id);

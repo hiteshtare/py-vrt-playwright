@@ -1,10 +1,10 @@
 [
-  {
-    "label": "1-Homepage / English",
-    "url": "https://yssofindia.org/"
-  },
-  {
-    "label": "2-AOY AudioBook / English",
-    "url": "https://yssofindia.org/autobiography-of-a-yogi-regional-languages-free-audiobook"
-  }
+	{
+		"label": "1-Homepage / Tamil",
+		"url": "https://yssofindia.org/ta/"
+	},
+	{
+		"label": "2-AudioBook / Tamil",
+		"url": "https://yssofindia.org/ta/autobiography-of-a-yogi-regional-languages-free-audiobook"
+	}
 ]
