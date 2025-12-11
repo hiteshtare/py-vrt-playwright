@@ -1,6 +1,3 @@
-// Import node modules
-import { config } from "dotenv";
-
 // Import custom config
 import { getLoggerLevel, loadConfigFromENV } from "./common.util";
 import {
@@ -45,7 +42,7 @@ export function loadConfigForRegeneration(): void {
   APP_CONFIG.googleAuthKey = APP_CONFIG.googleAuthKey
     .split(String.raw`\n`)
     .join("\n");
-  _logger.info(`googleAuthKey : ${APP_CONFIG.googleAuthKey}`);
+  // _logger.info(`googleAuthKey : ${APP_CONFIG.googleAuthKey}`);
   APP_CONFIG.configSheetID = "" + process.env.CONFIG_SHEET_ID;
   _logger.info(`configSheetID : ${APP_CONFIG.configSheetID}`);
 }

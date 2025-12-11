@@ -34,16 +34,15 @@ export async function writeConfigJSONFile(sheetConfig: any) {
 
     for (const singleConfig of sheetConfig) {
       configArr.push({
-        centerName: `${singleConfig.centerName}`,
-        fileName: `${singleConfig.fileName}`,
+        id: `${singleConfig.id}`,
+        name: `${singleConfig.name}`,
         filePath: `${singleConfig.filePath}`,
-        center: `${singleConfig.center}`,
         sheetID: `${singleConfig.sheetID ? singleConfig.sheetID : ""}`,
       });
     }
 
-    let file_name = `all-locations-events-config.json`;
-    let file_path = `assets/jsons/`;
+    let file_name = `vrt-all-languages-config.json`;
+    let file_path = `tests/testData`;
     file_path = `${file_path}/${file_name}`;
 
     _logger.info("Config - file_path");
@@ -60,8 +59,8 @@ export async function writeConfigJSONFile(sheetConfig: any) {
 export async function readConfigJSONFile() {
   _logger.warn("readConfigJSONFile");
 
-  let file_name = `all-locations-events-config.json`;
-  file_name = `assets/jsons/${file_name}`;
+  let file_name = `vrt-all-languages-config.json`;
+  file_name = `tests/testData/${file_name}`;
 
   try {
     const file_path = path.resolve(file_name);
@@ -115,14 +114,14 @@ export async function writeJSONFileUsingSheetTab(currentConfig: any) {
         }
         jsonArr += "]";
         const jsonsResult = JSON.parse(jsonArr.toString());
-        // _logger.info("jsonsResult");
-        // _logger.debug(jsonsResult);
+        _logger.info("jsonsResult");
+        _logger.debug(jsonsResult);
 
-        let file_name = `${currentConfig.center}-${currentConfig.fileName}-${sheet.title}-events.json`;
+        let file_name = `${currentConfig.filePath}.json`;
         file_name = file_name.toLowerCase();
         file_name = file_name.replace(/\s/g, "-");
 
-        let file_path = `assets/jsons/${currentConfig.filePath}`;
+        let file_path = `tests/testData/${currentConfig.filePath}`;
         file_path = `${file_path}/${file_name}`;
 
         _logger.info("file_path");
