@@ -2,7 +2,7 @@
 import { expect, test } from "@playwright/test";
 
 //Importing Custom modules
-import { navigateToPage } from "../util/common.util";
+import { navigateToPageWithInterations } from "../util/common.util";
 import { setupVRT } from "../util/vrt.util";
 import { APP_CONFIG } from "../config";
 
@@ -23,7 +23,7 @@ test.describe.skip("Bookstore - Checkout flow", () => {
   test("RazorPay modal after clicking on PayNow", async ({ page }) => {
     const url = `autobiography-of-a-yogi`;
 
-    await navigateToPage(page, url);
+    await navigateToPageWithInterations(page, url);
 
     // Click on Hindi language radio
     await page.locator('a:has-text("Hindi")').click();
@@ -82,7 +82,7 @@ test.describe.skip("Bookstore - Checkout flow", () => {
     // ---------------------- God Talks with Arjuna ---------------------- //
     const second_url = `product/god-talks-with-arjuna-the-bhagavad-gita`;
 
-    await navigateToPage(page, second_url);
+    await navigateToPageWithInterations(page, second_url);
 
     await page.waitForSelector(`img[alt='GTWA-Eng-front']`, {
       state: "attached",
@@ -96,7 +96,7 @@ test.describe.skip("Bookstore - Checkout flow", () => {
     // ---------------------- Man's Eternal Quest ---------------------- //
     const third_url = `product/mans-eternal-quest`;
 
-    await navigateToPage(page, third_url);
+    await navigateToPageWithInterations(page, third_url);
 
     // Click on Tamil language radio
     await page.locator('a:has-text("Tamil")').click();
@@ -133,7 +133,7 @@ test.describe.skip("Bookstore - Checkout flow", () => {
     // ---------------------- Armrest ---------------------- //
     const fourth_url = `/product/armrest-wooden`;
 
-    await navigateToPage(page, fourth_url);
+    await navigateToPageWithInterations(page, fourth_url);
 
     await page.waitForSelector(
       `img[alt='armrest-wooden-foldable-yss-front.jpg']`,
