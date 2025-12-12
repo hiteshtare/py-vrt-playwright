@@ -1,30 +1,20 @@
 // Import node modules
-import { expect, test } from "@playwright/test";
+import { test } from "@playwright/test";
 
 //Importing Custom modules
-import { navigateToPage } from "../util/common.util";
-import { setupVRT } from "../util/vrt.util";
+import { setupVRT, trackPagesInVRT } from "../util/vrt.util";
 import { APP_CONFIG } from "../config";
 
-//Import test data for events
-const testDataForItems = require("../../tests/testData/events/hi-events.json");
+const { vrt, trackOptions } = setupVRT("events", APP_CONFIG.vrtProjects.Hindi);
 
-const { vrt, trackOptions } = setupVRT(
-  "events",
-  APP_CONFIG.vrtProjects.Hindi
-);
+test.beforeAll(async () => {
+  await vrt.start();
+});
 
-// Iterate over the imported JSON array
-test.describe.skip("Hindi - Events", () => {
-  testDataForItems.forEach((item: any, index: number) => {
-    test(`${item.label}`, async ({ page }) => {
-      await navigateToPage(page, item.referenceUrl);
+test.afterAll(async () => {
+  await vrt.stop();
+});
 
-      await vrt.trackPage(page, item.label, trackOptions);
-
-      // await expect(page).toHaveScreenshot(`${ item.label }.png`, {
-      //   fullPage: true,
-      // });
-    });
-  });
+test.describe("Hindi - Events", () => {
+   trackPagesInVRT(vrt, trackOptions, APP_CONFIG.jsonConfig.Hindi.Events);
 });

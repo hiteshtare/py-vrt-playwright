@@ -3,12 +3,13 @@ import {
   Config,
   PageTrackOptions,
 } from "@visual-regression-tracker/agent-playwright";
-import { chromium } from "@playwright/test";
+import test, { chromium } from "@playwright/test";
+import { navigateToPage } from "./common.util";
 
 export function setupVRT(buildName: string, projectId: string) {
   const buildId = `${
     process.env.VRT_BUILDPREFIX
-  }_${buildName}_${new Date().toLocaleDateString('en-IN')}`;
+  }_${buildName}_${new Date().toLocaleDateString("en-IN")}`;
 
   const config: Config = {
     apiUrl: "" + process.env.VRT_APIURL, // URL where backend is running
@@ -35,4 +36,20 @@ export function setupVRT(buildName: string, projectId: string) {
   };
 
   return { vrt, trackOptions };
+}
+
+export function trackPagesInVRT(vrt: any, trackOptions: any, filePath: string) {
+  const testDataForItems = require(filePath);
+
+  testDataForItems.forEach((item: any, index: number) => {
+    test(`${item.label}`, async ({ page }) => {
+      await navigateToPage(page, item.url);
+
+      await vrt.trackPage(page, item.label, trackOptions);
+
+      // await expect(page).toHaveScreenshot(`${ item.label }.png`, {
+      //   fullPage: true,
+      // });
+    });
+  });
 }

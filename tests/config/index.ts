@@ -47,4 +47,25 @@ export const APP_CONFIG = {
     Hindi: "12438585-efc0-48bc-8bbd-8de4cc220a92",
     Tamil: "f408d220-612b-41a5-a4eb-435633dbdb86",
   },
+  //JSON config
+  jsonConfig: {
+    English: {
+      PriorityPages:
+        "../../tests/testData/priority-pages/en-priority-pages.json",
+      Events: "../../tests/testData/events/en-events.json",
+      Blogs: "../../tests/testData/blogs/en-blogs.json",
+    },
+    Hindi: {
+      PriorityPages:
+        "../../tests/testData/priority-pages/hi-priority-pages.json",
+      Events: "../../tests/testData/events/hi-events.json",
+      Blogs: "../../tests/testData/blogs/hi-blogs.json",
+    },
+    Tamil: {
+      PriorityPages:
+        "../../tests/testData/priority-pages/ta-priority-pages.json",
+      Events: "../../tests/testData/events/ta-events.json",
+      Blogs: "../../tests/testData/blogs/ta-blogs.json",
+    },
+  },
 };
