@@ -45,12 +45,16 @@ export function trackPagesInVRT(vrt: any, trackOptions: any, filePath: string) {
     test(`${item.label}`, async ({ page }) => {
       await navigateToPage(page, item.url);
 
-      if (item.clickSelector) {
-        // Locate a button using a CSS selector
-        await page.locator(item.clickSelector).click();
+      if (item.elementSelector) {
+        const selector = await page.$(`${item.elementSelector}`);
+        await vrt.trackElementHandle(selector, item.label, trackOptions);
+      } else {
+        if (item.clickSelector) {
+          // Locate a button using a CSS selector
+          await page.locator(item.clickSelector).click();
+        }
+        await vrt.trackPage(page, item.label, trackOptions);
       }
-
-      await vrt.trackPage(page, item.label, trackOptions);
 
       // await expect(page).toHaveScreenshot(`${ item.label }.png`, {
       //   fullPage: true,
