@@ -4,8 +4,17 @@ import {
   PageTrackOptions,
 } from "@visual-regression-tracker/agent-playwright";
 import test, { chromium } from "@playwright/test";
-import { navigateToPage } from "./common.util";
+import { config } from "dotenv";
+
+//Importing Custom modules
 import { APP_CONFIG } from "../config";
+import { getLoggerLevel, navigateToPage } from "./common.util";
+
+// Import configuration/variables from .env file in root folder
+config();
+
+// Logger initialise
+const _logger = getLoggerLevel();
 
 export function setupVRT(projectId: string, buildName: string) {
   const buildId = `${
@@ -52,11 +61,16 @@ export function trackPagesInVRT(vrt: any, trackOptions: any, filePath: string) {
       }
 
       if (item.elementSelector) {
+        _logger.info("elementSelector");
+        _logger.debug(item.elementSelector);
+       
         const selector = await page.$(`${item.elementSelector}`);
         await vrt.trackElementHandle(selector, item.label, trackOptions);
       } else {
         if (item.clickSelector) {
-          // Locate a button using a CSS selector
+           _logger.info("clickSelector");
+          _logger.debug(item.clickSelector);
+
           await page.locator(item.clickSelector).click();
         }
         await vrt.trackPage(page, item.label, trackOptions);

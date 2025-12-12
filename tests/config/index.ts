@@ -57,6 +57,10 @@ export const APP_CONFIG = {
         name: "blogs",
         jsonPath: "../../tests/testData/blogs/en-blogs.json",
       },
+      Templates: {
+        name: "templates",
+        jsonPath: "../../tests/testData/templates/en-templates.json",
+      },
     },
     Hindi: {
       Id: "12438585-efc0-48bc-8bbd-8de4cc220a92",
