@@ -1,10 +1,16 @@
 [
 	{
-		"label": "1-“In Divine Friendship” by Sri Daya Mata / Hindi",
-		"url": "https://yssofindia.org/hi/blog/in-divine-friendship-by-sri-daya-mata"
+		"label": "“In Divine Friendship” by Sri Daya Mata / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/blog/in-divine-friendship-by-sri-daya-mata",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/blog/in-divine-friendship-by-sri-daya-mata?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
-		"label": "2-A Divine Fellowship, Beyond Words: Young Sadhak Sangam September 2025 / Hindi",
-		"url": "https://yssofindia.org/hi/blog/a-divine-fellowship-beyond-words-young-sadhak-sangam-september-2025"
+		"label": "A Divine Fellowship, Beyond Words: Young Sadhak Sangam September 2025 / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/blog/a-divine-fellowship-beyond-words-young-sadhak-sangam-september-2025",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/blog/a-divine-fellowship-beyond-words-young-sadhak-sangam-september-2025?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	}
 ]

@@ -1,10 +1,16 @@
 [
 	{
-		"label": "1-Spiritual Discourse on the Bhagavad Gita (in Hindi) / Tamil",
-		"url": "https://yssofindia.org/ta/event/discourse-in-hindi-november-30-2025"
+		"label": "Spiritual Discourse on the Bhagavad Gita (in Hindi) / Tamil",
+		"referenceUrl": "https://yssofindia.org/ta/event/discourse-in-hindi-november-30-2025",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/discourse-in-hindi-november-30-2025?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
-		"label": "2-Spiritual Discourse on the Bhagavad Gita (in Telugu) / Tamil",
-		"url": "https://yssofindia.org/ta/event/discourse-in-telugu-november-29-2025"
+		"label": "Spiritual Discourse on the Bhagavad Gita (in Telugu) / Tamil",
+		"referenceUrl": "https://yssofindia.org/ta/event/discourse-in-telugu-november-29-2025",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/discourse-in-telugu-november-29-2025?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	}
 ]
