@@ -5,7 +5,10 @@ import { test } from "@playwright/test";
 import { setupVRT, trackPagesInVRT } from "../util/vrt.util";
 import { APP_CONFIG } from "../config";
 
-const { vrt, trackOptions } = setupVRT("blogs", APP_CONFIG.vrtProjects.English);
+const { vrt, trackOptions } = setupVRT(
+  APP_CONFIG.projects.English.Id,
+  APP_CONFIG.projects.English.Blogs.name
+);
 
 test.beforeAll(async () => {
   await vrt.start();
@@ -16,5 +19,9 @@ test.afterAll(async () => {
 });
 
 test.describe.skip("English - Blogs", () => {
-  trackPagesInVRT(vrt, trackOptions, APP_CONFIG.jsonConfig.English.Blogs);
+  trackPagesInVRT(
+    vrt,
+    trackOptions,
+    APP_CONFIG.projects.English.Blogs.jsonPath
+  );
 });

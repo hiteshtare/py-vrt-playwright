@@ -6,7 +6,7 @@ import {
 import test, { chromium } from "@playwright/test";
 import { navigateToPage } from "./common.util";
 
-export function setupVRT(buildName: string, projectId: string) {
+export function setupVRT(projectId: string, buildName: string) {
   const buildId = `${
     process.env.VRT_BUILDPREFIX
   }_${buildName}_${new Date().toLocaleDateString("en-IN")}`;

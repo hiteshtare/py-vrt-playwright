@@ -5,7 +5,10 @@ import { test } from "@playwright/test";
 import { setupVRT, trackPagesInVRT } from "../util/vrt.util";
 import { APP_CONFIG } from "../config";
 
-const { vrt, trackOptions } = setupVRT("events", APP_CONFIG.vrtProjects.Tamil);
+const { vrt, trackOptions } = setupVRT(
+  APP_CONFIG.projects.Tamil.Id,
+  APP_CONFIG.projects.Tamil.Events.name
+);
 
 test.beforeAll(async () => {
   await vrt.start();
@@ -16,5 +19,9 @@ test.afterAll(async () => {
 });
 
 test.describe.skip("Tamil - Events", () => {
-   trackPagesInVRT(vrt, trackOptions, APP_CONFIG.jsonConfig.Tamil.Events);
+  trackPagesInVRT(
+    vrt,
+    trackOptions,
+    APP_CONFIG.projects.Tamil.Events.jsonPath
+  );
 });

@@ -42,30 +42,51 @@ export const APP_CONFIG = {
   loginEmail: "",
   loginPassword: "",
   //VRT config
-  vrtProjects: {
-    English: "c162b87d-c1d0-4348-a428-17ffb9c1e38b",
-    Hindi: "12438585-efc0-48bc-8bbd-8de4cc220a92",
-    Tamil: "f408d220-612b-41a5-a4eb-435633dbdb86",
-  },
-  //JSON config
-  jsonConfig: {
+  projects: {
     English: {
-      PriorityPages:
-        "../../tests/testData/priority-pages/en-priority-pages.json",
-      Events: "../../tests/testData/events/en-events.json",
-      Blogs: "../../tests/testData/blogs/en-blogs.json",
+      Id: "c162b87d-c1d0-4348-a428-17ffb9c1e38b",
+      PriorityPages: {
+        name: "priority-pages",
+        jsonPath: "../../tests/testData/priority-pages/en-priority-pages.json",
+      },
+      Events: {
+        name: "events",
+        jsonPath: "../../tests/testData/events/en-events.json",
+      },
+      Blogs: {
+        name: "blogs",
+        jsonPath: "../../tests/testData/blogs/en-blogs.json",
+      },
     },
     Hindi: {
-      PriorityPages:
-        "../../tests/testData/priority-pages/hi-priority-pages.json",
-      Events: "../../tests/testData/events/hi-events.json",
-      Blogs: "../../tests/testData/blogs/hi-blogs.json",
+      Id: "12438585-efc0-48bc-8bbd-8de4cc220a92",
+      PriorityPages: {
+        name: "priority-pages",
+        jsonPath: "../../tests/testData/priority-pages/hi-priority-pages.json",
+      },
+      Events: {
+        name: "events",
+        jsonPath: "../../tests/testData/events/hi-events.json",
+      },
+      Blogs: {
+        name: "blogs",
+        jsonPath: "../../tests/testData/blogs/hi-blogs.json",
+      },
     },
     Tamil: {
-      PriorityPages:
-        "../../tests/testData/priority-pages/ta-priority-pages.json",
-      Events: "../../tests/testData/events/ta-events.json",
-      Blogs: "../../tests/testData/blogs/ta-blogs.json",
+      Id: "f408d220-612b-41a5-a4eb-435633dbdb86",
+      PriorityPages: {
+        name: "priority-pages",
+        jsonPath: "../../tests/testData/priority-pages/ta-priority-pages.json",
+      },
+      Events: {
+        name: "events",
+        jsonPath: "../../tests/testData/events/ta-events.json",
+      },
+      Blogs: {
+        name: "blogs",
+        jsonPath: "../../tests/testData/blogs/ta-blogs.json",
+      },
     },
   },
 };

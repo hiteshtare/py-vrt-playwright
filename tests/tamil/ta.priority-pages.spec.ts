@@ -6,8 +6,8 @@ import { setupVRT, trackPagesInVRT } from "../util/vrt.util";
 import { APP_CONFIG } from "../config";
 
 const { vrt, trackOptions } = setupVRT(
-  "priority-pages",
-  APP_CONFIG.vrtProjects.Tamil
+  APP_CONFIG.projects.Tamil.Id,
+  APP_CONFIG.projects.Tamil.PriorityPages.name
 );
 
 test.beforeAll(async () => {
@@ -18,6 +18,10 @@ test.afterAll(async () => {
   await vrt.stop();
 });
 
-test.describe.skip("Tamil - Priority Pages", () => {
-  trackPagesInVRT(vrt, trackOptions, APP_CONFIG.jsonConfig.Tamil.PriorityPages);
+test.describe.skip("Tamil - PriorityPages", () => {
+  trackPagesInVRT(
+    vrt,
+    trackOptions,
+    APP_CONFIG.projects.Tamil.PriorityPages.jsonPath
+  );
 });
