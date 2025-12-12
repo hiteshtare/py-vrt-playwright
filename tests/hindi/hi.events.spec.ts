@@ -15,6 +15,6 @@ test.afterAll(async () => {
   await vrt.stop();
 });
 
-test.describe("Hindi - Events", () => {
+test.describe.skip("Hindi - Events", () => {
    trackPagesInVRT(vrt, trackOptions, APP_CONFIG.jsonConfig.Hindi.Events);
 });

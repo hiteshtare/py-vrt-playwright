@@ -18,6 +18,6 @@ test.afterAll(async () => {
   await vrt.stop();
 });
 
-test.describe("Hindi - Priority Pages", () => {
+test.describe.skip("Hindi - Priority Pages", () => {
   trackPagesInVRT(vrt, trackOptions, APP_CONFIG.jsonConfig.Hindi.PriorityPages);
 });

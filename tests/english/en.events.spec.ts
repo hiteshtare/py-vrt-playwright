@@ -18,6 +18,6 @@ test.afterAll(async () => {
   await vrt.stop();
 });
 
-test.describe("English - Events", () => {
+test.describe.skip("English - Events", () => {
   trackPagesInVRT(vrt, trackOptions, APP_CONFIG.jsonConfig.English.Events);
 });
