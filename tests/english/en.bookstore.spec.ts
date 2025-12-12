@@ -19,7 +19,7 @@ test.afterAll(async () => {
   await vrt.stop();
 });
 
-test.describe.skip("Bookstore - Checkout flow", () => {
+test.describe.("Bookstore - Checkout flow", () => {
   test("RazorPay modal after clicking on PayNow", async ({ page }) => {
     const url = `autobiography-of-a-yogi`;
 
