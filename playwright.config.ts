@@ -61,18 +61,18 @@ export default defineConfig({
   },
   /* Configure projects for major browsers */
   projects: [
-    // {
-    //   name: "Desktop",
-    //   use: { ...devices["Desktop Chrome"] },
-    // },
-    /* PY - Test against mobile viewports. */
     {
-      name: "Mobile",
-      use: {
-        ...devices["Desktop Chrome"],
-        viewport: { width: 375, height: 667 },
-      },
+      name: "Desktop",
+      use: { ...devices["Desktop Chrome"] },
     },
+    /* PY - Test against mobile viewports. */
+    // {
+    //   name: "Mobile",
+    //   use: {
+    //     ...devices["Desktop Chrome"],
+    //     viewport: { width: 375, height: 667 },
+    //   },
+    // },
     /* PY - Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',
