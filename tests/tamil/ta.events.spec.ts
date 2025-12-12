@@ -18,7 +18,7 @@ test.afterAll(async () => {
   await vrt.stop();
 });
 
-test.describe.skip("Tamil - Events", () => {
+test.describe.("Tamil - Events", () => {
   trackPagesInVRT(
     vrt,
     trackOptions,
