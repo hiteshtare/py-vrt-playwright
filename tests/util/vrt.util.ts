@@ -53,27 +53,31 @@ export function trackPagesInVRT(vrt: any, trackOptions: any, filePath: string) {
 
   testDataForItems.forEach((item: any, index: number) => {
     test(`${item.label}`, async ({ page }) => {
-
       if (APP_CONFIG.baseURL === "yssofindia.org") {
         await navigateToPage(page, item.referenceUrl);
-      } else { 
+      } else {
         await navigateToPage(page, item.url);
       }
 
       if (item.elementSelector) {
         _logger.info("elementSelector");
         _logger.debug(item.elementSelector);
-       
+
         const selector = await page.$(`${item.elementSelector}`);
-        await vrt.trackElementHandle(selector, item.label, trackOptions);
+        await vrt.trackElementHandle(
+          selector,
+          item.label,
+          trackOptions,
+          APP_CONFIG.retryCount
+        );
       } else {
         if (item.clickSelector) {
-           _logger.info("clickSelector");
+          _logger.info("clickSelector");
           _logger.debug(item.clickSelector);
 
           await page.locator(item.clickSelector).click();
         }
-        await vrt.trackPage(page, item.label, trackOptions);
+        await vrt.trackPage(page, item.label, trackOptions, APP_CONFIG.retryCount);
       }
 
       // await expect(page).toHaveScreenshot(`${ item.label }.png`, {
