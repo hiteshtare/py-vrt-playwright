@@ -18,7 +18,7 @@ test.afterAll(async () => {
   await vrt.stop();
 });
 
-test.describe.skip("English - PriorityPages", () => {
+test.describe("English - PriorityPages", () => {
   trackPagesInVRT(
     vrt,
     trackOptions,

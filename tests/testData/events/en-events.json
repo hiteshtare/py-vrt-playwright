@@ -1,5 +1,33 @@
 [
 	{
+		"label": "Sadhana Sangam - Accordian #1 - Schedule / English",
+		"referenceUrl": "https://yssofindia.org/event/sadhana-sangams",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/event/sadhana-sangams?2893",
+		"elementSelector": "",
+		"clickSelector": "#schedule"
+	},
+	{
+		"label": "Sadhana Sangam - Accordian #2 - Registration / English",
+		"referenceUrl": "https://yssofindia.org/event/sadhana-sangams",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/event/sadhana-sangams?2893",
+		"elementSelector": "",
+		"clickSelector": "#registration"
+	},
+	{
+		"label": "Sadhana Sangam - Accordian #3 - Eligibility / English",
+		"referenceUrl": "https://yssofindia.org/event/sadhana-sangams",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/event/sadhana-sangams?2893",
+		"elementSelector": "",
+		"clickSelector": "#kriya"
+	},
+	{
+		"label": "Sadhana Sangam - Accordian #4 - Volunteers / English",
+		"referenceUrl": "https://yssofindia.org/event/sadhana-sangams",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/event/sadhana-sangams?2893",
+		"elementSelector": "",
+		"clickSelector": "#volunteers"
+	},
+	{
 		"label": "Spiritual Discourse on the Bhagavad Gita (in Hindi) / English",
 		"referenceUrl": "https://yssofindia.org/event/discourse-in-hindi-november-30-2025",
 		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/event/discourse-in-hindi-november-30-2025?2893",
