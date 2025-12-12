@@ -5,6 +5,7 @@ import {
 } from "@visual-regression-tracker/agent-playwright";
 import test, { chromium } from "@playwright/test";
 import { navigateToPage } from "./common.util";
+import { APP_CONFIG } from "../config";
 
 export function setupVRT(projectId: string, buildName: string) {
   const buildId = `${
@@ -43,7 +44,12 @@ export function trackPagesInVRT(vrt: any, trackOptions: any, filePath: string) {
 
   testDataForItems.forEach((item: any, index: number) => {
     test(`${item.label}`, async ({ page }) => {
-      await navigateToPage(page, item.url);
+
+      if (APP_CONFIG.baseURL === "yssofindia.org") {
+        await navigateToPage(page, item.referenceUrl);
+      } else { 
+        await navigateToPage(page, item.url);
+      }
 
       if (item.elementSelector) {
         const selector = await page.$(`${item.elementSelector}`);

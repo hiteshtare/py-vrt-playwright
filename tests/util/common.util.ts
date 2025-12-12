@@ -61,7 +61,9 @@ export function getLoggerLevel(): Logger {
 }
 
 
-export async function navigateToPage(page: Page, urlLegacy: string) {
+export async function navigateToPageWithInterations(page: Page, urlLegacy: string) {
+  // _logger.warn("navigateToPageWithInterations");
+
   let finalURL = "";
   const url = removeDomainRegex(urlLegacy);
 
@@ -81,6 +83,16 @@ export async function navigateToPage(page: Page, urlLegacy: string) {
   expect.soft(true, `Reference: https://yssofindia.org/${url}`).toBeTruthy();
   _logger.info(`link: ${finalURL}`);
   return await page.goto(finalURL, {
+    waitUntil: "load",
+  });
+}
+
+export async function navigateToPage(page: Page, url: string) {
+  // _logger.info("navigateToPage");
+
+  expect.soft(true, `url: ${url}`).toBeTruthy();
+  _logger.debug(`link: ${url}`);
+  return await page.goto(url, {
     waitUntil: "load",
   });
 }

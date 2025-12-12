@@ -1,10 +1,16 @@
 [
 	{
-		"label": "1-Homepage / Hindi",
-		"url": "https://yssofindia.org/hi/"
+		"label": "Homepage / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
-		"label": "2-AudioBook / Hindi",
-		"url": "https://yssofindia.org/hi/autobiography-of-a-yogi-regional-languages-free-audiobook"
+		"label": "AudioBook / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/autobiography-of-a-yogi-regional-languages-free-audiobook",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/autobiography-of-a-yogi-regional-languages-free-audiobook?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	}
 ]

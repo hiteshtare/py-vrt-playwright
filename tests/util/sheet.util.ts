@@ -116,8 +116,11 @@ export async function writeJSONFileUsingSheetTab(currentConfig: any) {
         // Map the rows to a clean JSON array (optional, if you need only specific fields)
         const jsonData = rows.map((row, index) => {
           return {
-            label: `${index + 1}-${row.get("label")}`,
+            label: `${row.get("label")} / ${row.get("Language")}`,
+            referenceUrl: row.get("referenceUrl"),
             url: row.get("url"),
+            elementSelector: row.get("elementSelector"),
+            clickSelector: row.get("clickSelector"),
             // Add other columns as needed
           };
         });

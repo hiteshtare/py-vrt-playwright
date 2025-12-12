@@ -32,11 +32,17 @@
 	{
 		"id": "6",
 		"name": "Templates",
-		"filePath": "undefined",
+		"filePath": "templates",
 		"sheetID": ""
 	},
 	{
 		"id": "7",
+		"name": "Bookstore",
+		"filePath": "undefined",
+		"sheetID": ""
+	},
+	{
+		"id": "8",
 		"name": "Teaching Library",
 		"filePath": "undefined",
 		"sheetID": ""
