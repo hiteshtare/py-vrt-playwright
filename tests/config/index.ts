@@ -42,7 +42,7 @@ export const APP_CONFIG = {
   loginEmail: "",
   loginPassword: "",
   //VRT config
-  retryCount:1,
+  retryCount:0,
   projects: {
     English: {
       Id: "c162b87d-c1d0-4348-a428-17ffb9c1e38b",
