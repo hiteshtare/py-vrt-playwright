@@ -4,14 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "allure:clear": "rm -r allure-results/** && cp -r allure-reports/history/ allure-results && rm -r allure-reports/**",
-    "allure:report": "allure generate allure-results --name 'PlayWright_Demo' --clean -o allure-reports",
     "regenerate-jsons": "tsx ./tests/util/regenerate-jsons.ts",
     "test:baseline": "NODE_ENV=release npx playwright test",
-    "pretest:compare": "npm run allure:clear",
-    "test:compare": "NODE_ENV=staging npx playwright test || npm run posttest:compare",
-    "posttest:compare": "npm run allure:report",
-    "test:update-baseline": "NODE_ENV=release npx playwright test --update-snapshots"
+    "test:compare": "NODE_ENV=staging npx playwright test"
   },
   "repository": {
     "type": "git",
