@@ -45,7 +45,7 @@ export const APP_CONFIG = {
   retryCount: 0,
   projects: {
     English: {
-      Id: "e26e49d5-6274-49c3-9689-2c6f754daa72",
+      Id: "c162b87d-c1d0-4348-a428-17ffb9c1e38b",
       PriorityPages: {
         name: "priority-pages",
         jsonPath: "../../tests/testData/priority-pages/en-priority-pages.json",
