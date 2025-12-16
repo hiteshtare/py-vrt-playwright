@@ -1,0 +1,79 @@
+[
+	{
+		"label": "Ranchi Ashram - Upcoming Events / English",
+		"referenceUrl": "https://yssofindia.org/location/ranchi",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/location/ranchi?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Ranchi Ashram - All Events / English",
+		"referenceUrl": "https://yssofindia.org/location/ranchi/event-schedule",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/location/ranchi/event-schedule?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Chennai Ashram - Upcoming Events / English",
+		"referenceUrl": "https://yssofindia.org/location/chennai",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/location/chennai?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Chennai Ashram - All Events / English",
+		"referenceUrl": "https://yssofindia.org/location/chennai/event-schedule",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/location/chennai/event-schedule?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Dakshineswar Ashram - Upcoming Events / English",
+		"referenceUrl": "https://yssofindia.org/location/dakshineswar",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/location/dakshineswar?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Dakshineswar Ashram - All Events / English",
+		"referenceUrl": "https://yssofindia.org/location/dakshineswar/event-schedule",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/location/dakshineswar/event-schedule?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Igatpuri Retreat - LoadMore Events / English",
+		"referenceUrl": "https://yssofindia.org/location/igatpuri",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/location/igatpuri?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Rajahmundry Retreat - LoadMore Events / English",
+		"referenceUrl": "https://yssofindia.org/location/rajahmundry-retreat",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/location/rajahmundry-retreat?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Shimla Retreat - LoadMore Events / English",
+		"referenceUrl": "https://yssofindia.org/location/shimla-retreat",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/location/shimla-retreat?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Mumbai Meditation Centre - LoadMore Events / English",
+		"referenceUrl": "https://yssofindia.org/location/mumbai",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/location/mumbai?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Chennai Meditation Centre - LoadMore Events / English",
+		"referenceUrl": "https://yssofindia.org/location/chennai-centre",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/location/chennai-centre?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	}
+]

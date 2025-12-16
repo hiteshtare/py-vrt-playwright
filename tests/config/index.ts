@@ -42,7 +42,7 @@ export const APP_CONFIG = {
   loginEmail: "",
   loginPassword: "",
   //VRT config
-  retryCount:0,
+  retryCount: 0,
   projects: {
     English: {
       Id: "c162b87d-c1d0-4348-a428-17ffb9c1e38b",
@@ -61,6 +61,10 @@ export const APP_CONFIG = {
       Templates: {
         name: "templates",
         jsonPath: "../../tests/testData/templates/en-templates.json",
+      },
+      Locations: {
+        name: "locations",
+        jsonPath: "../../tests/testData/locations/en-locations.json",
       },
     },
     Hindi: {
