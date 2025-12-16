@@ -6,8 +6,8 @@ import { setupVRT, trackPagesInVRT } from "../util/vrt.util";
 import { APP_CONFIG } from "../config";
 
 const { vrt, trackOptions } = setupVRT(
-  APP_CONFIG.projects.English.Id,
-  APP_CONFIG.projects.English.Templates.name
+  APP_CONFIG.projects.Hindi.Id,
+  APP_CONFIG.projects.Hindi.Locations.name
 );
 
 test.beforeAll(async () => {
@@ -18,10 +18,10 @@ test.afterAll(async () => {
   await vrt.stop();
 });
 
-test.describe("English - Templates", () => {
+test.describe.only("Hindi - Locations", () => {
   trackPagesInVRT(
     vrt,
     trackOptions,
-    APP_CONFIG.projects.English.Templates.jsonPath
+    APP_CONFIG.projects.Hindi.Locations.jsonPath
   );
 });

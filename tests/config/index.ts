@@ -45,7 +45,7 @@ export const APP_CONFIG = {
   retryCount: 0,
   projects: {
     English: {
-      Id: "c162b87d-c1d0-4348-a428-17ffb9c1e38b",
+      Id: "e26e49d5-6274-49c3-9689-2c6f754daa72",
       PriorityPages: {
         name: "priority-pages",
         jsonPath: "../../tests/testData/priority-pages/en-priority-pages.json",
@@ -81,6 +81,10 @@ export const APP_CONFIG = {
         name: "blogs",
         jsonPath: "../../tests/testData/blogs/hi-blogs.json",
       },
+      Locations: {
+        name: "locations",
+        jsonPath: "../../tests/testData/locations/hi-locations.json",
+      },
     },
     Tamil: {
       Id: "f408d220-612b-41a5-a4eb-435633dbdb86",
@@ -95,6 +99,24 @@ export const APP_CONFIG = {
       Blogs: {
         name: "blogs",
         jsonPath: "../../tests/testData/blogs/ta-blogs.json",
+      },
+      Locations: {
+        name: "locations",
+        jsonPath: "../../tests/testData/locations/ta-locations.json",
+      },
+    },
+    Telugu: {
+      Id: "1956ce30-5775-4cac-8182-8920028540b6",
+      Locations: {
+        name: "locations",
+        jsonPath: "../../tests/testData/locations/te-locations.json",
+      },
+    },
+    Bangla: {
+      Id: "c5409728-2b37-4227-8a2a-14e999ccfb42",
+      Locations: {
+        name: "locations",
+        jsonPath: "../../tests/testData/locations/bn-locations.json",
       },
     },
   },
