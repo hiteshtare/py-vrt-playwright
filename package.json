@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "regenerate-jsons": "tsx ./tests/util/regenerate-jsons.ts",
-    "test:baseline": "NODE_ENV=release npx playwright test",
-    "test:compare": "NODE_ENV=staging npx playwright test"
+    "test:desktop": "npx playwright test --project=Desktop",
+    "test:mobile": "npx playwright test --project=Mobile",
+    "test:baseline": "NODE_ENV=release LAYOUT='Desktop' npm run test:desktop && NODE_ENV=release LAYOUT='Mobile' npm run test:mobile",
+    "test:compare": "NODE_ENV=staging LAYOUT='Desktop' npm run test:desktop && NODE_ENV=staging LAYOUT='Mobile' npm run test:mobile"
   },
   "repository": {
     "type": "git",

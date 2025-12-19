@@ -40,12 +40,12 @@ export default defineConfig({
         open: "never",
         environmentInfo: {
           Test: `https://${APP_CONFIG.authPopUpUser}:${APP_CONFIG.authPopUpPassword}@${APP_CONFIG.baseURL}/`,
-          Reference: "https://yssofindia.org/"
+          Reference: "https://yssofindia.org/",
         },
       },
     ],
   ],
-  timeout: 180000, //3 mins
+  timeout: 120000, //2 mins
   snapshotPathTemplate: "./screenshots/{testFilePath}/{arg}{_projectName}{ext}",
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
@@ -63,16 +63,19 @@ export default defineConfig({
   projects: [
     {
       name: "Desktop",
-      use: { ...devices["Desktop Chrome"] },
+      use: {
+        ...devices["Desktop Chrome"],
+        viewport: { width: 1280, height: 720 },
+      },
     },
     /* PY - Test against mobile viewports. */
-    // {
-    //   name: "Mobile",
-    //   use: {
-    //     ...devices["Desktop Chrome"],
-    //     viewport: { width: 375, height: 667 },
-    //   },
-    // },
+    {
+      name: "Mobile",
+      use: {
+        ...devices["Desktop Chrome"],
+        viewport: { width: 375, height: 667 },
+      },
+    },
     /* PY - Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',

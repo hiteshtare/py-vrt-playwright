@@ -42,6 +42,7 @@ export const APP_CONFIG = {
   loginEmail: "",
   loginPassword: "",
   //VRT config
+  layout: "Desktop",
   retryCount: 0,
   projects: {
     English: {

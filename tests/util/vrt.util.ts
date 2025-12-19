@@ -17,9 +17,23 @@ config();
 const _logger = getLoggerLevel();
 
 export function setupVRT(projectId: string, buildName: string) {
-  const buildId = `${
-    process.env.VRT_BUILDPREFIX
-  }_${buildName}_${new Date().toLocaleDateString("en-IN")}`;
+  let layoutAgent = {
+    device: "Desktop",
+    viewport: "1280x720",
+  };
+
+  // _logger.debug(APP_CONFIG.layout);
+  
+  if (APP_CONFIG.layout === "Mobile") {
+    layoutAgent = {
+      device: "Mobile",
+      viewport: "375x667",
+    };
+  }
+
+  const buildId = `${process.env.VRT_BUILDPREFIX}_${buildName}_[${
+    APP_CONFIG.layout
+  }]_${new Date().toLocaleDateString("en-IN")}`;
 
   const config: Config = {
     apiUrl: "" + process.env.VRT_APIURL, // URL where backend is running
@@ -38,11 +52,7 @@ export function setupVRT(projectId: string, buildName: string) {
     screenshotOptions: {
       fullPage: true,
     },
-    // agent: {
-    //   device: "Desktop",
-    //   os:"Linux",
-    //   viewport: "1366x768"
-    // }
+    agent: layoutAgent,
   };
 
   return { vrt, trackOptions };
@@ -77,7 +87,12 @@ export function trackPagesInVRT(vrt: any, trackOptions: any, filePath: string) {
 
           await page.locator(item.clickSelector).click();
         }
-        await vrt.trackPage(page, item.label, trackOptions, APP_CONFIG.retryCount);
+        await vrt.trackPage(
+          page,
+          item.label,
+          trackOptions,
+          APP_CONFIG.retryCount
+        );
       }
 
       // await expect(page).toHaveScreenshot(`${ item.label }.png`, {

@@ -18,7 +18,7 @@ test.afterAll(async () => {
   await vrt.stop();
 });
 
-test.describe("English - Events", () => {
+test.describe.only("English - Events", () => {
   trackPagesInVRT(
     vrt,
     trackOptions,
