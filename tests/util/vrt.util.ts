@@ -31,9 +31,19 @@ export function setupVRT(projectId: string, buildName: string) {
     };
   }
 
+  const eventDate = new Date(); // Or any other date object
+  const options: Intl.DateTimeFormatOptions = {
+      day: '2-digit',   // Formats the day as two digits (e.g., 01, 23)
+      month: 'short'    // Formats the month as a short name (e.g., Jan, Dec)
+  };
+
+  // Use the 'en-GB' locale for a day-first order (DD Month)
+  let formattedDate = new Intl.DateTimeFormat('en-GB', options).format(eventDate);
+  formattedDate = formattedDate.replace(/ /g,"");
+
   const buildId = `${process.env.VRT_BUILDPREFIX}_${buildName}_[${
     APP_CONFIG.layout
-  }]_${new Date().toLocaleDateString("en-IN")}`;
+  }]_${formattedDate}`;
 
   const config: Config = {
     apiUrl: "" + process.env.VRT_APIURL, // URL where backend is running
