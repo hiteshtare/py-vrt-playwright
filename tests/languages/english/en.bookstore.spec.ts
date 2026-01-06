@@ -2,9 +2,9 @@
 import { expect, test } from "@playwright/test";
 
 //Importing Custom modules
-import { navigateToPageWithInterations } from "../util/common.util";
-import { setupVRT } from "../util/vrt.util";
-import { APP_CONFIG } from "../config";
+import { navigateToPageWithInterations } from "../../util/common.util";
+import { setupVRT } from "../../util/vrt.util";
+import { APP_CONFIG } from "../../config";
 
 const { vrt, trackOptions } = setupVRT(
   APP_CONFIG.projects.English.Id,

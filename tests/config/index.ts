@@ -120,5 +120,12 @@ export const APP_CONFIG = {
         jsonPath: "../../tests/testData/locations/bn-locations.json",
       },
     },
+    Kannada: {
+      Id: "a30c5d29-f292-494b-a2fc-10d06d777b64",
+      Locations: {
+        name: "locations",
+        jsonPath: "../../tests/testData/locations/kn-locations.json",
+      },
+    },
   },
 };

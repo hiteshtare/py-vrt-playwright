@@ -2,12 +2,12 @@
 import { test } from "@playwright/test";
 
 //Importing Custom modules
-import { setupVRT, trackPagesInVRT } from "../util/vrt.util";
-import { APP_CONFIG } from "../config";
+import { setupVRT, trackPagesInVRT } from "../../util/vrt.util";
+import { APP_CONFIG } from "../../config";
 
 const { vrt, trackOptions } = setupVRT(
-  APP_CONFIG.projects.Telugu.Id,
-  APP_CONFIG.projects.Telugu.Locations.name
+  APP_CONFIG.projects.Kannada.Id,
+  APP_CONFIG.projects.Kannada.Locations.name
 );
 
 test.beforeAll(async () => {
@@ -18,10 +18,10 @@ test.afterAll(async () => {
   await vrt.stop();
 });
 
-test.describe("Telugu - Locations", () => {
+test.describe.only("Kannada - Locations", () => {
   trackPagesInVRT(
     vrt,
     trackOptions,
-    APP_CONFIG.projects.Telugu.Locations.jsonPath
+    APP_CONFIG.projects.Kannada.Locations.jsonPath
   );
 });
