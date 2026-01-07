@@ -67,6 +67,10 @@ export const APP_CONFIG = {
         name: "locations",
         jsonPath: "../../tests/testData/locations/en-locations.json",
       },
+      ImageGallery: {
+        name: "image-gallery",
+        jsonPath: "../../tests/testData/image-gallery/en-image-gallery.json",
+      },
     },
     Hindi: {
       Id: "12438585-efc0-48bc-8bbd-8de4cc220a92",

@@ -53,7 +53,8 @@ export async function regenerateJSONS() {
   // let name = APP_CONFIG.projects.English.PriorityPages.name;
   // let name = APP_CONFIG.projects.English.Events.name;
   // let name = APP_CONFIG.projects.English.Blogs.name;
-  let name = APP_CONFIG.projects.Kannada.Locations.name;
+  // let name = APP_CONFIG.projects.English.Locations.name;
+  let name = APP_CONFIG.projects.English.ImageGallery.name;
 
   try {
     let message = "";
