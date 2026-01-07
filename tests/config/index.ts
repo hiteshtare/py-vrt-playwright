@@ -75,6 +75,10 @@ export const APP_CONFIG = {
         name: "bookstore",
         jsonPath: "../../tests/testData/bookstore/en-bookstore.json",
       },
+      TeachingsLibrary: {
+        name: "teachings-library",
+        jsonPath: "../../tests/testData/teachings-library/en-teachings-library.json",
+      },
     },
     Hindi: {
       Id: "12438585-efc0-48bc-8bbd-8de4cc220a92",

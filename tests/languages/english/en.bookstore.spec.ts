@@ -190,7 +190,7 @@ test.describe("Bookstore - Checkout flow", () => {
   });
 });
 
-test.describe.only("English - Bookstore", () => {
+test.describe("English - Bookstore", () => {
   trackPagesInVRT(
     vrt,
     trackOptions,
