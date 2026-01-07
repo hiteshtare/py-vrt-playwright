@@ -3,7 +3,7 @@ import { expect, test } from "@playwright/test";
 
 //Importing Custom modules
 import { navigateToPageWithInterations } from "../../util/common.util";
-import { setupVRT } from "../../util/vrt.util";
+import { setupVRT, trackPagesInVRT } from "../../util/vrt.util";
 import { APP_CONFIG } from "../../config";
 
 const { vrt, trackOptions } = setupVRT(
@@ -188,4 +188,12 @@ test.describe("Bookstore - Checkout flow", () => {
       fullPage: true,
     });
   });
+});
+
+test.describe.only("English - Bookstore", () => {
+  trackPagesInVRT(
+    vrt,
+    trackOptions,
+    APP_CONFIG.projects.English.Bookstore.jsonPath
+  );
 });
