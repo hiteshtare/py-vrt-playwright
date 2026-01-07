@@ -18,7 +18,7 @@ test.afterAll(async () => {
   await vrt.stop();
 });
 
-test.describe.only("English - TeachingsLibrary", () => {
+test.describe("English - TeachingsLibrary", () => {
   trackPagesInVRT(
     vrt,
     trackOptions,
