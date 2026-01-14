@@ -6,8 +6,8 @@ import { setupVRT, trackPagesInVRT } from "../../util/vrt.util";
 import { APP_CONFIG } from "../../config";
 
 const { vrt, trackOptions } = setupVRT(
-  APP_CONFIG.projects.English.Id,
-  APP_CONFIG.projects.English.ImageGallery.name
+  APP_CONFIG.projects.Telugu.Id,
+  APP_CONFIG.projects.Telugu.Events.name
 );
 
 test.beforeAll(async () => {
@@ -18,10 +18,10 @@ test.afterAll(async () => {
   await vrt.stop();
 });
 
-test.describe("English - ImageGallery", () => {
+test.describe("Telugu - Events", () => {
   trackPagesInVRT(
     vrt,
     trackOptions,
-    APP_CONFIG.projects.English.ImageGallery.jsonPath
+    APP_CONFIG.projects.Telugu.Events.jsonPath
   );
 });

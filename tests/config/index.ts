@@ -98,6 +98,10 @@ export const APP_CONFIG = {
         name: "locations",
         jsonPath: "../../tests/testData/locations/hi-locations.json",
       },
+      ImageGallery: {
+        name: "image-gallery",
+        jsonPath: "../../tests/testData/image-gallery/hi-image-gallery.json",
+      },
     },
     Tamil: {
       Id: "f408d220-612b-41a5-a4eb-435633dbdb86",
@@ -117,12 +121,32 @@ export const APP_CONFIG = {
         name: "locations",
         jsonPath: "../../tests/testData/locations/ta-locations.json",
       },
+      ImageGallery: {
+        name: "image-gallery",
+        jsonPath: "../../tests/testData/image-gallery/ta-image-gallery.json",
+      },
     },
     Telugu: {
       Id: "1956ce30-5775-4cac-8182-8920028540b6",
+      PriorityPages: {
+        name: "priority-pages",
+        jsonPath: "../../tests/testData/priority-pages/te-priority-pages.json",
+      },
+      Events: {
+        name: "events",
+        jsonPath: "../../tests/testData/events/te-events.json",
+      },
+      Blogs: {
+        name: "blogs",
+        jsonPath: "../../tests/testData/blogs/te-blogs.json",
+      },
       Locations: {
         name: "locations",
         jsonPath: "../../tests/testData/locations/te-locations.json",
+      },
+      ImageGallery: {
+        name: "image-gallery",
+        jsonPath: "../../tests/testData/image-gallery/te-image-gallery.json",
       },
     },
     Bangla: {
@@ -131,12 +155,28 @@ export const APP_CONFIG = {
         name: "locations",
         jsonPath: "../../tests/testData/locations/bn-locations.json",
       },
+      Events: {
+        name: "events",
+        jsonPath: "../../tests/testData/events/bn-events.json",
+      },
+      PriorityPages: {
+        name: "priority-pages",
+        jsonPath: "../../tests/testData/priority-pages/bn-priority-pages.json",
+      },
     },
     Kannada: {
       Id: "d4e11cce-9cae-49ac-904b-0f2df80488c9",
       Locations: {
         name: "locations",
         jsonPath: "../../tests/testData/locations/kn-locations.json",
+      },
+      Events: {
+        name: "events",
+        jsonPath: "../../tests/testData/events/kn-events.json",
+      },
+      PriorityPages: {
+        name: "priority-pages",
+        jsonPath: "../../tests/testData/priority-pages/kn-priority-pages.json",
       },
     },
   },
