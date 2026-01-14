@@ -5,5 +5,40 @@
 		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/teachings-library?2893",
 		"elementSelector": "",
 		"clickSelector": ""
+	},
+	{
+		"label": "OIS / English",
+		"referenceUrl": "https://yssofindia.org/teachings-library/the-kriya-yoga-path-of-divine-living-by-swami-chidananda-giri",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/teachings-library/the-kriya-yoga-path-of-divine-living-by-swami-chidananda-giri?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Video & Audio / English",
+		"referenceUrl": "https://yssofindia.org/teachings-library/paramahansa-yogananda-on-the-dream-nature-of-the-world",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/teachings-library/paramahansa-yogananda-on-the-dream-nature-of-the-world?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Bhagavad Gita / English",
+		"referenceUrl": "https://yssofindia.org/teachings-library/the-conch-shells-in-kurukshetra-battle-inner-vibratory-battle-in-meditation-part-ii-by-swami-smaranananda-giri",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/teachings-library/the-conch-shells-in-kurukshetra-battle-inner-vibratory-battle-in-meditation-part-ii-by-swami-smaranananda-giri?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Audio / English",
+		"referenceUrl": "https://yssofindia.org/teachings-library/in-the-temple-of-silence",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/teachings-library/in-the-temple-of-silence?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Audio / English",
+		"referenceUrl": "https://yssofindia.org/teachings-library/effort-is-progress-by-swami-suddhananda-giri",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/teachings-library/effort-is-progress-by-swami-suddhananda-giri?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	}
 ]
