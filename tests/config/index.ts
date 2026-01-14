@@ -165,7 +165,7 @@ export const APP_CONFIG = {
       },
     },
     Kannada: {
-      Id: "d4e11cce-9cae-49ac-904b-0f2df80488c9",
+      Id: "e82e871b-70f5-4b65-a185-8c9c48e9d832",
       Locations: {
         name: "locations",
         jsonPath: "../../tests/testData/locations/kn-locations.json",
