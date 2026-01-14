@@ -31,7 +31,7 @@ test.describe("Bookstore - Checkout flow", () => {
     //wait for 1 sec
     await page.waitForTimeout(1000);
 
-    await vrt.trackPage(page, "#1_Product page: AOY - Hindi", trackOptions);
+    await vrt.trackPage(page, "#1 Product page: AOY - Hindi", trackOptions);
 
     // Click on Quantity textbox & update to 2
     await page.locator("input.input-text.qty.text").fill("2");
@@ -48,7 +48,7 @@ test.describe("Bookstore - Checkout flow", () => {
       waitUntil: "domcontentloaded",
     });
 
-    await vrt.trackPage(page, "#2_Cart page: (2) AOY Hi", trackOptions);
+    await vrt.trackPage(page, "#2 Cart page: (2) AOY Hi", trackOptions);
 
     // Click on Proceed to Checkout button
     await page.locator('a:has-text("Proceed to Checkout")').click();
@@ -59,7 +59,7 @@ test.describe("Bookstore - Checkout flow", () => {
 
     await vrt.trackPage(
       page,
-      "#3_Checkout page without Login: (2) AOY Hi",
+      "#3 Checkout page without Login: (2) AOY Hi",
       trackOptions
     );
 
@@ -77,7 +77,7 @@ test.describe("Bookstore - Checkout flow", () => {
       waitUntil: "domcontentloaded",
     });
 
-    await vrt.trackPage(page, "#4_Checkout page: (2) AOY Hi", trackOptions);
+    await vrt.trackPage(page, "#4 Checkout page: (2) AOY Hi", trackOptions);
 
     // ---------------------- God Talks with Arjuna ---------------------- //
     const second_url = `product/god-talks-with-arjuna-the-bhagavad-gita`;
@@ -126,7 +126,7 @@ test.describe("Bookstore - Checkout flow", () => {
 
     await vrt.trackPage(
       page,
-      "#5_Checkout page: (2) AOY Hi + (1) GTWA + (2) MEQ",
+      "#5 Checkout page: (2) AOY Hi + (1) GTWA + (2) MEQ",
       trackOptions
     );
 
@@ -151,7 +151,7 @@ test.describe("Bookstore - Checkout flow", () => {
 
     await vrt.trackPage(
       page,
-      "#6_Checkout page: (2) AOY Hi + (1) GTWA + (2) MEQ + 1 Armrest",
+      "#6 Checkout page: (2) AOY Hi + (1) GTWA + (2) MEQ + 1 Armrest",
       trackOptions
     );
 
@@ -182,7 +182,7 @@ test.describe("Bookstore - Checkout flow", () => {
     //wait for 3 sec
     await page.waitForTimeout(3000);
 
-    await vrt.trackPage(page, "#7_RazorPay modal after PayNow", trackOptions);
+    await vrt.trackPage(page, "#7 RazorPay modal after PayNow", trackOptions);
 
     await expect(page).toHaveScreenshot("razor-pay-modal-after-paynow.png", {
       fullPage: true,
