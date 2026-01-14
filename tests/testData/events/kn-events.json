@@ -1,0 +1,107 @@
+[
+	{
+		"label": "Sadhana Sangam - Accordian #1 - Schedule / Kannada",
+		"referenceUrl": "https://yssofindia.org/kn/event/sadhana-sangams",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/event/sadhana-sangams?2893",
+		"elementSelector": "",
+		"clickSelector": "#schedule"
+	},
+	{
+		"label": "Sadhana Sangam - Accordian #2 - Registration / Kannada",
+		"referenceUrl": "https://yssofindia.org/kn/event/sadhana-sangams",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/event/sadhana-sangams?2893",
+		"elementSelector": "",
+		"clickSelector": "#registration"
+	},
+	{
+		"label": "Sadhana Sangam - Accordian #3 - Eligibility for Receiving Kriya Yoga / Kannada",
+		"referenceUrl": "https://yssofindia.org/kn/event/sadhana-sangams",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/event/sadhana-sangams?2893",
+		"elementSelector": "",
+		"clickSelector": "#kriya"
+	},
+	{
+		"label": "Sadhana Sangam - Accordian #4 - Volunteers / Kannada",
+		"referenceUrl": "https://yssofindia.org/kn/event/sadhana-sangams",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/event/sadhana-sangams?2893",
+		"elementSelector": "",
+		"clickSelector": "#volunteers"
+	},
+	{
+		"label": "Tuesday Meditation / Kannada",
+		"referenceUrl": "https://yssofindia.org/kn/event/yss-sannyasi-led-meditation-tuesdays",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/event/yss-sannyasi-led-meditation-tuesdays?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "DLM / Kannada",
+		"referenceUrl": "https://yssofindia.org/kn/event/devotee-led-online-meditations",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/event/devotee-led-online-meditations?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "IDOY / Kannada",
+		"referenceUrl": "https://yssofindia.org/kn/event/international-day-of-yoga",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/event/international-day-of-yoga?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Monastic Tours / Kannada",
+		"referenceUrl": "https://yssofindia.org/kn/monastic-tours",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/monastic-tours?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Retreats / Kannada",
+		"referenceUrl": "https://yssofindia.org/kn/programmes/retreats",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/programmes/retreats?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "ODK / Kannada",
+		"referenceUrl": "https://yssofindia.org/kn/online-meditation",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/online-meditation?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "ODK - How to participate / Kannada",
+		"referenceUrl": "https://yssofindia.org/kn/online-meditation/how-to-participate",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/online-meditation/how-to-participate?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "ODK Calendar / Kannada",
+		"referenceUrl": "https://yssofindia.org/kn/online-meditation/helpdesk",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/online-meditation/helpdesk?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "ODK Helpdesk / Kannada",
+		"referenceUrl": "https://yssofindia.org/kn/online-meditation/helpdesk",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/online-meditation/helpdesk?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "President India Tour 2025 / Kannada",
+		"referenceUrl": "https://yssofindia.org/kn/event/presidents-india-tour",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/event/presidents-india-tour?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Kumbha Mela 2025 / Kannada",
+		"referenceUrl": "https://yssofindia.org/kn/event/kumbha-mela",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/event/kumbha-mela?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	}
+]

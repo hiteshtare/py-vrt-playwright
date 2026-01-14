@@ -1,0 +1,79 @@
+[
+	{
+		"label": "Sadhana Sangam - Accordian #1 - Schedule / Bangla",
+		"referenceUrl": "https://yssofindia.org/bn/event/sadhana-sangams",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/bn/event/sadhana-sangams?2893",
+		"elementSelector": "",
+		"clickSelector": "#schedule"
+	},
+	{
+		"label": "Sadhana Sangam - Accordian #2 - Registration / Bangla",
+		"referenceUrl": "https://yssofindia.org/bn/event/sadhana-sangams",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/bn/event/sadhana-sangams?2893",
+		"elementSelector": "",
+		"clickSelector": "#registration"
+	},
+	{
+		"label": "Sadhana Sangam - Accordian #3 - Eligibility for Receiving Kriya Yoga / Bangla",
+		"referenceUrl": "https://yssofindia.org/bn/event/sadhana-sangams",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/bn/event/sadhana-sangams?2893",
+		"elementSelector": "",
+		"clickSelector": "#kriya"
+	},
+	{
+		"label": "Sadhana Sangam - Accordian #4 - Volunteers / Bangla",
+		"referenceUrl": "https://yssofindia.org/bn/event/sadhana-sangams",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/bn/event/sadhana-sangams?2893",
+		"elementSelector": "",
+		"clickSelector": "#volunteers"
+	},
+	{
+		"label": "Tuesday Meditation / Bangla",
+		"referenceUrl": "https://yssofindia.org/bn/event/yss-sannyasi-led-meditation-tuesdays",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/bn/event/yss-sannyasi-led-meditation-tuesdays?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "DLM / Bangla",
+		"referenceUrl": "https://yssofindia.org/bn/event/devotee-led-online-meditations",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/bn/event/devotee-led-online-meditations?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Monastic Tours / Bangla",
+		"referenceUrl": "https://yssofindia.org/bn/monastic-tours",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/bn/monastic-tours?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Retreats / Bangla",
+		"referenceUrl": "https://yssofindia.org/bn/programmes/retreats",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/bn/programmes/retreats?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "ODK Helpdesk / Bangla",
+		"referenceUrl": "https://yssofindia.org/bn/helpdesk",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/bn/helpdesk?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "President India Tour 2025 / Bangla",
+		"referenceUrl": "https://yssofindia.org/bn/event/presidents-india-tour",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/bn/event/presidents-india-tour?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Kumbha Mela 2025 / Bangla",
+		"referenceUrl": "https://yssofindia.org/bn/event/kumbha-mela",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/bn/event/kumbha-mela?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	}
+]
