@@ -7,10 +7,206 @@
 		"clickSelector": ""
 	},
 	{
-		"label": "AudioBook / English",
+		"label": "AOY AudioBook / English",
 		"referenceUrl": "https://yssofindia.org/autobiography-of-a-yogi-regional-languages-free-audiobook",
 		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/autobiography-of-a-yogi-regional-languages-free-audiobook?2893",
 		"elementSelector": "",
 		"clickSelector": ""
+	},
+	{
+		"label": "Autobiography of a Yogi / English",
+		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/autobiography-of-a-yogi"
+	},
+	{
+		"label": "Translations Around the World / English",
+		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/translations-around-the-world"
+	},
+	{
+		"label": "Autobiography of a Yogi MP3 Edition / English",
+		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/Autobiography-of-a-Yogi-mp3-edition"
+	},
+	{
+		"label": "Listen to Paramahansa Yogananda / English",
+		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/listen-to-paramahansa-yogananda"
+	},
+	{
+		"label": "Books and Recordings / English",
+		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/books-and-recordings"
+	},
+	{
+		"label": "Disciples Reminisce / English",
+		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/disciples-reminisce"
+	},
+	{
+		"label": "Comments and Reviews / English",
+		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/Comments-Reviews"
+	},
+	{
+		"label": "Stories of Close Disciples / English",
+		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/first-encounters"
+	},
+	{
+		"label": "Educators & Scientific Community / English",
+		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/educators-scientific-community"
+	},
+	{
+		"label": "YSS Magazine / English",
+		"referenceUrl": "https://yssofindia.org/spiritual/yogoda-satsanga-magazine"
+	},
+	{
+		"label": "Affirmations / English",
+		"referenceUrl": "https://yssofindia.org/spiritual/affirmations"
+	},
+	{
+		"label": "Affirmation Instructions / English",
+		"referenceUrl": "https://yssofindia.org/spiritual/affirmation-instructions"
+	},
+	{
+		"label": "Prayer / English",
+		"referenceUrl": "https://yssofindia.org/spiritual/Prayer"
+	},
+	{
+		"label": "Request a Prayer / English",
+		"referenceUrl": "https://yssofindia.org/prayer"
+	},
+	{
+		"label": "About YSS / English",
+		"referenceUrl": "https://yssofindia.org/about"
+	},
+	{
+		"label": "Aims & Ideals / English",
+		"referenceUrl": "https://yssofindia.org/about/aims-and-ideals"
+	},
+	{
+		"label": "Monastic Order / English",
+		"referenceUrl": "https://yssofindia.org/about/monastic-order"
+	},
+	{
+		"label": "Sannyas / English",
+		"referenceUrl": "https://yssofindia.org/about/Sannyas"
+	},
+	{
+		"label": "4 stage of Monastic Life / English",
+		"referenceUrl": "https://yssofindia.org/about/the-four-stages-of-monastic-life"
+	},
+	{
+		"label": "Information for New Visitors / English",
+		"referenceUrl": "https://yssofindia.org/about/information-for-new-visitors"
+	},
+	{
+		"label": "FAQ / English",
+		"referenceUrl": "https://yssofindia.org/about/frequently-asked-questions"
+	},
+	{
+		"label": "Glossary / English",
+		"referenceUrl": "https://yssofindia.org/about/yogoda-satsanga-society-of-india-glossary-page-1"
+	},
+	{
+		"label": "Request Free Literature / English",
+		"referenceUrl": "https://yssofindia.org/about/request-free-literature"
+	},
+	{
+		"label": "Learn to Meditate / English",
+		"referenceUrl": "https://yssofindia.org/meditation/learn-to-meditate"
+	},
+	{
+		"label": "How to Meditate / English",
+		"referenceUrl": "https://yssofindia.org/meditation/how-to-meditate"
+	},
+	{
+		"label": "Guided Meditations / English",
+		"referenceUrl": "https://yssofindia.org/meditation/guided-meditations"
+	},
+	{
+		"label": "The Divine Art of Kirtan / English",
+		"referenceUrl": "https://yssofindia.org/meditation/the-divine-art-of-kirtan"
+	},
+	{
+		"label": "Listen to Chants / English",
+		"referenceUrl": "https://yssofindia.org/meditation/listen-to-chants"
+	},
+	{
+		"label": "The Kriya Yoga Path of Meditation / English",
+		"referenceUrl": "https://yssofindia.org/meditation/the-kriya-yoga-path-of-meditation-yogoda-satsanga-society"
+	},
+	{
+		"label": "Lesson Programmes / English",
+		"referenceUrl": "https://yssofindia.org/lessons-programmes"
+	},
+	{
+		"label": "Lessons Main Page - Tab #1 - Start Your Journey on the Path / English",
+		"referenceUrl": "https://yssofindia.org/yss-lessons",
+		"elementSelector": "",
+		"clickSelector": "#startyourjourney"
+	},
+	{
+		"label": "Lessons Main Page - Tab #2 - Kriya Yoga / English",
+		"referenceUrl": "https://yssofindia.org/yss-lessons",
+		"elementSelector": "",
+		"clickSelector": "#kriyayoga"
+	},
+	{
+		"label": "Lessons Main Page - Tab #3 - Apply Now / English",
+		"referenceUrl": "https://yssofindia.org/yss-lessons",
+		"elementSelector": "",
+		"clickSelector": "#applynow"
+	},
+	{
+		"label": "Lessons Main Page - Tab #4 - Digital App / English",
+		"referenceUrl": "https://yssofindia.org/yss-lessons",
+		"elementSelector": "",
+		"clickSelector": "#digitalapp2"
+	},
+	{
+		"label": "Kriya Lessons / English",
+		"referenceUrl": "https://yssofindia.org/kriya-yoga-lessons"
+	},
+	{
+		"label": "Supplementary Lessons / English",
+		"referenceUrl": "https://yssofindia.org/supplement-lessons"
+	},
+	{
+		"label": "SRF/YSS App — FAQ / English",
+		"referenceUrl": "https://yssofindia.org/app-faq"
+	},
+	{
+		"label": "Ashrams and Centres / English",
+		"referenceUrl": "https://yssofindia.org/ashrams"
+	},
+	{
+		"label": "Ranchi Ashram / English",
+		"referenceUrl": "https://yssofindia.org/ashrams/yogoda-satsanga-sakha-ashram-ranchi"
+	},
+	{
+		"label": "Dwarahat Ashram / English",
+		"referenceUrl": "https://yssofindia.org/ashrams/yogoda-satsanga-sakha-ashram-dwarahat"
+	},
+	{
+		"label": "Dakshineswar Ashram / English",
+		"referenceUrl": "https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar"
+	},
+	{
+		"label": "Noida Ashram / English",
+		"referenceUrl": "https://yssofindia.org/ashrams/yogoda-satsanga-sakha-ashram-noida"
+	},
+	{
+		"label": "All Centers / English",
+		"referenceUrl": "https://yssofindia.org/list-of-centres"
+	},
+	{
+		"label": "Employment Opportunities / English",
+		"referenceUrl": "https://yssofindia.org/employment-opportunities"
+	},
+	{
+		"label": "Subscribe to Newsletter / English",
+		"referenceUrl": "https://yssofindia.org/enewsletter"
+	},
+	{
+		"label": "Newsletter archive / English",
+		"referenceUrl": "https://yssofindia.org/enewsletter/enewsletter-archive"
+	},
+	{
+		"label": "Kriya Yoga Royal Technique / English",
+		"referenceUrl": "https://yssofindia.org/programmes/Kriya-Yoga"
 	}
 ]

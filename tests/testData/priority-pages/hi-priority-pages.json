@@ -1,16 +1,204 @@
 [
 	{
 		"label": "Homepage / Hindi",
-		"referenceUrl": "https://yssofindia.org/hi/",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/?2893",
+		"referenceUrl": "https://yssofindia.org/hi",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi?2893",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "AudioBook / Hindi",
+		"label": "AOY AudioBook / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/autobiography-of-a-yogi-regional-languages-free-audiobook",
 		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/autobiography-of-a-yogi-regional-languages-free-audiobook?2893",
 		"elementSelector": "",
 		"clickSelector": ""
+	},
+	{
+		"label": "Autobiography of a Yogi / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/paramahansa-yogananda/autobiography-of-a-yogi"
+	},
+	{
+		"label": "Translations Around the World / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/paramahansa-yogananda/translations-around-the-world"
+	},
+	{
+		"label": "Autobiography of a Yogi MP3 Edition / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/paramahansa-yogananda/Autobiography-of-a-Yogi-mp3-edition"
+	},
+	{
+		"label": "Listen to Paramahansa Yogananda / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/paramahansa-yogananda/listen-to-paramahansa-yogananda"
+	},
+	{
+		"label": "Books and Recordings / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/paramahansa-yogananda/books-and-recordings"
+	},
+	{
+		"label": "Disciples Reminisce / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/paramahansa-yogananda/disciples-reminisce"
+	},
+	{
+		"label": "Comments and Reviews / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/paramahansa-yogananda/Comments-Reviews"
+	},
+	{
+		"label": "Stories of Close Disciples / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/paramahansa-yogananda/first-encounters"
+	},
+	{
+		"label": "Educators & Scientific Community / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/paramahansa-yogananda/educators-scientific-community"
+	},
+	{
+		"label": "YSS Magazine / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/spiritual/yogoda-satsanga-magazine"
+	},
+	{
+		"label": "Affirmations / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/spiritual/affirmations"
+	},
+	{
+		"label": "Affirmation Instructions / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/spiritual/affirmation-instructions"
+	},
+	{
+		"label": "Prayer / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/spiritual/Prayer"
+	},
+	{
+		"label": "Request a Prayer / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/prayer"
+	},
+	{
+		"label": "About YSS / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/about"
+	},
+	{
+		"label": "Aims & Ideals / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/about/aims-and-ideals"
+	},
+	{
+		"label": "Monastic Order / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/about/monastic-order"
+	},
+	{
+		"label": "Sannyas / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/about/Sannyas"
+	},
+	{
+		"label": "4 stage of Monastic Life / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/about/the-four-stages-of-monastic-life"
+	},
+	{
+		"label": "Information for New Visitors / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/about/information-for-new-visitors"
+	},
+	{
+		"label": "FAQ / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/about/frequently-asked-questions"
+	},
+	{
+		"label": "Glossary / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/about/yogoda-satsanga-society-of-india-glossary-page-1"
+	},
+	{
+		"label": "Request Free Literature / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/about/request-free-literature"
+	},
+	{
+		"label": "Learn to Meditate / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/meditation/learn-to-meditate"
+	},
+	{
+		"label": "How to Meditate / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/meditation/how-to-meditate"
+	},
+	{
+		"label": "Guided Meditations / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/meditation/guided-meditations"
+	},
+	{
+		"label": "The Divine Art of Kirtan / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/meditation/the-divine-art-of-kirtan"
+	},
+	{
+		"label": "Listen to Chants / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/meditation/listen-to-chants"
+	},
+	{
+		"label": "The Kriya Yoga Path of Meditation / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/meditation/the-kriya-yoga-path-of-meditation-yogoda-satsanga-society"
+	},
+	{
+		"label": "Lesson Programmes / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/lessons-programmes"
+	},
+	{
+		"label": "Lessons Main Page - Tab #1 - Start Your Journey on the Path / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/yss-lessons",
+		"elementSelector": "",
+		"clickSelector": "#startyourjourney"
+	},
+	{
+		"label": "Lessons Main Page - Tab #2 - Kriya Yoga / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/yss-lessons",
+		"elementSelector": "",
+		"clickSelector": "#kriyayoga"
+	},
+	{
+		"label": "Lessons Main Page - Tab #3 - Apply Now / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/yss-lessons",
+		"elementSelector": "",
+		"clickSelector": "#applynow"
+	},
+	{
+		"label": "Lessons Main Page - Tab #4 - Digital App / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/yss-lessons",
+		"elementSelector": "",
+		"clickSelector": "#digitalapp2"
+	},
+	{
+		"label": "Kriya Lessons / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/kriya-yoga-lessons"
+	},
+	{
+		"label": "SRF/YSS App — FAQ / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/app-faq"
+	},
+	{
+		"label": "Ashrams and Centres / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/ashrams"
+	},
+	{
+		"label": "Ranchi Ashram / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/ashrams/yogoda-satsanga-sakha-ashram-ranchi"
+	},
+	{
+		"label": "Dwarahat Ashram / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/ashrams/yogoda-satsanga-sakha-ashram-dwarahat"
+	},
+	{
+		"label": "Dakshineswar Ashram / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/ashrams/yogoda-satsanga-math-dakshineswar"
+	},
+	{
+		"label": "Noida Ashram / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/ashrams/yogoda-satsanga-sakha-ashram-noida"
+	},
+	{
+		"label": "All Centers / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/list-of-centres"
+	},
+	{
+		"label": "Employment Opportunities / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/employment-opportunities"
+	},
+	{
+		"label": "Subscribe to Newsletter / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/enewsletter"
+	},
+	{
+		"label": "Kriya Yoga Royal Technique / Hindi",
+		"referenceUrl": "https://yssofindia.org/hi/programmes/Kriya-Yoga"
 	}
 ]
