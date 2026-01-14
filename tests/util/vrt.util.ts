@@ -34,7 +34,8 @@ export function setupVRT(projectId: string, buildName: string) {
   const eventDate = new Date(); // Or any other date object
   const options: Intl.DateTimeFormatOptions = {
       day: '2-digit',   // Formats the day as two digits (e.g., 01, 23)
-      month: 'short'    // Formats the month as a short name (e.g., Jan, Dec)
+      month: 'short',    // Formats the month as a short name (e.g., Jan, Dec)
+      year: '2-digit'   // Formats the year as two digits (e.g., 01, 23)
   };
 
   // Use the 'en-GB' locale for a day-first order (DD Month)
