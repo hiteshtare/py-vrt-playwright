@@ -18,7 +18,7 @@ test.afterAll(async () => {
   await vrt.stop();
 });
 
-test.describe.only("Kannada - Locations", () => {
+test.describe("Kannada - Locations", () => {
   trackPagesInVRT(
     vrt,
     trackOptions,
