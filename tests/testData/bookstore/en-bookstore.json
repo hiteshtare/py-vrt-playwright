@@ -5,5 +5,103 @@
 		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/bookstore?2893",
 		"elementSelector": "",
 		"clickSelector": ""
+	},
+	{
+		"label": "Books Archive / English",
+		"referenceUrl": "https://yssofindia.org/product-category/books",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/product-category/books?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Ebooks Archive / English",
+		"referenceUrl": "https://yssofindia.org/ebooks",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ebooks?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Audio Archive / English",
+		"referenceUrl": "https://yssofindia.org/product-category/audio",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/product-category/audio?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Magazine / English",
+		"referenceUrl": "https://yssofindia.org/product-category/magazine",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/product-category/magazine?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Photos Archive / English",
+		"referenceUrl": "https://yssofindia.org/product-category/photos",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/product-category/photos?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Devotional Items / English",
+		"referenceUrl": "https://yssofindia.org/product-category/devotional-articles",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/product-category/devotional-articles?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Video Archive / English",
+		"referenceUrl": "https://yssofindia.org/product-category/video",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/product-category/video?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Ordering Info / English",
+		"referenceUrl": "https://yssofindia.org/ordering-info",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ordering-info?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Shopping cart / English",
+		"referenceUrl": "https://yssofindia.org/cart",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/cart?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Checkout / English",
+		"referenceUrl": "https://yssofindia.org/checkout",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/checkout?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Recent Purchases / English",
+		"referenceUrl": "https://yssofindia.org/my-account/orders",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/my-account/orders?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "AOY / English",
+		"referenceUrl": "https://yssofindia.org/product/autobiography-of-a-yogi",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/product/autobiography-of-a-yogi?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "GTWA / English",
+		"referenceUrl": "https://yssofindia.org/product/god-talks-with-arjuna-the-bhagavad-gita",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/product/god-talks-with-arjuna-the-bhagavad-gita?2893",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "Calendar / English",
+		"referenceUrl": "https://yssofindia.org/product/wall-calendar-2024",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/product/wall-calendar-2024?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	}
 ]
