@@ -18,7 +18,7 @@ test.afterAll(async () => {
   await vrt.stop();
 });
 
-test.describe("English - ImageGallery", () => {
+test.describe.only("English - ImageGallery", () => {
   trackPagesInVRT(
     vrt,
     trackOptions,
