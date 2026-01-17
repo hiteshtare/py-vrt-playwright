@@ -15,198 +15,331 @@
 	},
 	{
 		"label": "Autobiography of a Yogi / English",
-		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/autobiography-of-a-yogi"
+		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/autobiography-of-a-yogi",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/paramahansa-yogananda/autobiography-of-a-yogi?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Translations Around the World / English",
-		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/translations-around-the-world"
+		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/translations-around-the-world",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/paramahansa-yogananda/translations-around-the-world?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Autobiography of a Yogi MP3 Edition / English",
-		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/Autobiography-of-a-Yogi-mp3-edition"
+		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/Autobiography-of-a-Yogi-mp3-edition",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/paramahansa-yogananda/Autobiography-of-a-Yogi-mp3-edition?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Listen to Paramahansa Yogananda / English",
-		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/listen-to-paramahansa-yogananda"
+		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/listen-to-paramahansa-yogananda",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/paramahansa-yogananda/listen-to-paramahansa-yogananda?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Books and Recordings / English",
-		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/books-and-recordings"
+		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/books-and-recordings",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/paramahansa-yogananda/books-and-recordings?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Disciples Reminisce / English",
-		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/disciples-reminisce"
+		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/disciples-reminisce",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/paramahansa-yogananda/disciples-reminisce?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Comments and Reviews / English",
-		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/Comments-Reviews"
+		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/Comments-Reviews",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/paramahansa-yogananda/Comments-Reviews?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Stories of Close Disciples / English",
-		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/first-encounters"
+		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/first-encounters",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/paramahansa-yogananda/first-encounters?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Educators & Scientific Community / English",
-		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/educators-scientific-community"
+		"referenceUrl": "https://yssofindia.org/paramahansa-yogananda/educators-scientific-community",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/paramahansa-yogananda/educators-scientific-community?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "YSS Magazine / English",
-		"referenceUrl": "https://yssofindia.org/spiritual/yogoda-satsanga-magazine"
+		"referenceUrl": "https://yssofindia.org/spiritual/yogoda-satsanga-magazine",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/spiritual/yogoda-satsanga-magazine?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Affirmations / English",
-		"referenceUrl": "https://yssofindia.org/spiritual/affirmations"
+		"referenceUrl": "https://yssofindia.org/spiritual/affirmations",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/spiritual/affirmations?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Affirmation Instructions / English",
-		"referenceUrl": "https://yssofindia.org/spiritual/affirmation-instructions"
+		"referenceUrl": "https://yssofindia.org/spiritual/affirmation-instructions",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/spiritual/affirmation-instructions?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Prayer / English",
-		"referenceUrl": "https://yssofindia.org/spiritual/Prayer"
+		"referenceUrl": "https://yssofindia.org/spiritual/Prayer",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/spiritual/Prayer?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Request a Prayer / English",
-		"referenceUrl": "https://yssofindia.org/prayer"
+		"referenceUrl": "https://yssofindia.org/prayer",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/prayer?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "About YSS / English",
-		"referenceUrl": "https://yssofindia.org/about"
+		"referenceUrl": "https://yssofindia.org/about",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/about?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Aims & Ideals / English",
-		"referenceUrl": "https://yssofindia.org/about/aims-and-ideals"
+		"referenceUrl": "https://yssofindia.org/about/aims-and-ideals",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/about/aims-and-ideals?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Monastic Order / English",
-		"referenceUrl": "https://yssofindia.org/about/monastic-order"
+		"referenceUrl": "https://yssofindia.org/about/monastic-order",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/about/monastic-order?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Sannyas / English",
-		"referenceUrl": "https://yssofindia.org/about/Sannyas"
+		"referenceUrl": "https://yssofindia.org/about/Sannyas",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/about/Sannyas?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "4 stage of Monastic Life / English",
-		"referenceUrl": "https://yssofindia.org/about/the-four-stages-of-monastic-life"
+		"referenceUrl": "https://yssofindia.org/about/the-four-stages-of-monastic-life",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/about/the-four-stages-of-monastic-life?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Information for New Visitors / English",
-		"referenceUrl": "https://yssofindia.org/about/information-for-new-visitors"
+		"referenceUrl": "https://yssofindia.org/about/information-for-new-visitors",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/about/information-for-new-visitors?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "FAQ / English",
-		"referenceUrl": "https://yssofindia.org/about/frequently-asked-questions"
+		"referenceUrl": "https://yssofindia.org/about/frequently-asked-questions",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/about/frequently-asked-questions?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Glossary / English",
-		"referenceUrl": "https://yssofindia.org/about/yogoda-satsanga-society-of-india-glossary-page-1"
+		"referenceUrl": "https://yssofindia.org/about/yogoda-satsanga-society-of-india-glossary-page-1",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/about/yogoda-satsanga-society-of-india-glossary-page-1?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Request Free Literature / English",
-		"referenceUrl": "https://yssofindia.org/about/request-free-literature"
+		"referenceUrl": "https://yssofindia.org/about/request-free-literature",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/about/request-free-literature?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Learn to Meditate / English",
-		"referenceUrl": "https://yssofindia.org/meditation/learn-to-meditate"
+		"referenceUrl": "https://yssofindia.org/meditation/learn-to-meditate",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/meditation/learn-to-meditate?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "How to Meditate / English",
-		"referenceUrl": "https://yssofindia.org/meditation/how-to-meditate"
+		"referenceUrl": "https://yssofindia.org/meditation/how-to-meditate",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/meditation/how-to-meditate?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Guided Meditations / English",
-		"referenceUrl": "https://yssofindia.org/meditation/guided-meditations"
+		"referenceUrl": "https://yssofindia.org/meditation/guided-meditations",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/meditation/guided-meditations?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "The Divine Art of Kirtan / English",
-		"referenceUrl": "https://yssofindia.org/meditation/the-divine-art-of-kirtan"
+		"referenceUrl": "https://yssofindia.org/meditation/the-divine-art-of-kirtan",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/meditation/the-divine-art-of-kirtan?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Listen to Chants / English",
-		"referenceUrl": "https://yssofindia.org/meditation/listen-to-chants"
+		"referenceUrl": "https://yssofindia.org/meditation/listen-to-chants",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/meditation/listen-to-chants?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "The Kriya Yoga Path of Meditation / English",
-		"referenceUrl": "https://yssofindia.org/meditation/the-kriya-yoga-path-of-meditation-yogoda-satsanga-society"
+		"referenceUrl": "https://yssofindia.org/meditation/the-kriya-yoga-path-of-meditation-yogoda-satsanga-society",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/meditation/the-kriya-yoga-path-of-meditation-yogoda-satsanga-society?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Lesson Programmes / English",
-		"referenceUrl": "https://yssofindia.org/lessons-programmes"
+		"referenceUrl": "https://yssofindia.org/lessons-programmes",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/lessons-programmes?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Lessons Main Page - Tab #1 - Start Your Journey on the Path / English",
 		"referenceUrl": "https://yssofindia.org/yss-lessons",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/yss-lessons?2893",
 		"elementSelector": "",
 		"clickSelector": "#startyourjourney"
 	},
 	{
 		"label": "Lessons Main Page - Tab #2 - Kriya Yoga / English",
 		"referenceUrl": "https://yssofindia.org/yss-lessons",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/yss-lessons?2893",
 		"elementSelector": "",
 		"clickSelector": "#kriyayoga"
 	},
 	{
 		"label": "Lessons Main Page - Tab #3 - Apply Now / English",
 		"referenceUrl": "https://yssofindia.org/yss-lessons",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/yss-lessons?2893",
 		"elementSelector": "",
 		"clickSelector": "#applynow"
 	},
 	{
 		"label": "Lessons Main Page - Tab #4 - Digital App / English",
 		"referenceUrl": "https://yssofindia.org/yss-lessons",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/yss-lessons?2893",
 		"elementSelector": "",
 		"clickSelector": "#digitalapp2"
 	},
 	{
 		"label": "Kriya Lessons / English",
-		"referenceUrl": "https://yssofindia.org/kriya-yoga-lessons"
+		"referenceUrl": "https://yssofindia.org/kriya-yoga-lessons",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kriya-yoga-lessons?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Supplementary Lessons / English",
-		"referenceUrl": "https://yssofindia.org/supplement-lessons"
+		"referenceUrl": "https://yssofindia.org/supplement-lessons",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/supplement-lessons?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "SRF/YSS App — FAQ / English",
-		"referenceUrl": "https://yssofindia.org/app-faq"
+		"referenceUrl": "https://yssofindia.org/app-faq",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/app-faq?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Ashrams and Centres / English",
-		"referenceUrl": "https://yssofindia.org/ashrams"
+		"referenceUrl": "https://yssofindia.org/ashrams",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ashrams?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Ranchi Ashram / English",
-		"referenceUrl": "https://yssofindia.org/ashrams/yogoda-satsanga-sakha-ashram-ranchi"
+		"referenceUrl": "https://yssofindia.org/ashrams/yogoda-satsanga-sakha-ashram-ranchi",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ashrams/yogoda-satsanga-sakha-ashram-ranchi?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Dwarahat Ashram / English",
-		"referenceUrl": "https://yssofindia.org/ashrams/yogoda-satsanga-sakha-ashram-dwarahat"
+		"referenceUrl": "https://yssofindia.org/ashrams/yogoda-satsanga-sakha-ashram-dwarahat",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ashrams/yogoda-satsanga-sakha-ashram-dwarahat?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Dakshineswar Ashram / English",
-		"referenceUrl": "https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar"
+		"referenceUrl": "https://yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ashrams/yogoda-satsanga-math-dakshineswar?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Noida Ashram / English",
-		"referenceUrl": "https://yssofindia.org/ashrams/yogoda-satsanga-sakha-ashram-noida"
+		"referenceUrl": "https://yssofindia.org/ashrams/yogoda-satsanga-sakha-ashram-noida",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ashrams/yogoda-satsanga-sakha-ashram-noida?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "All Centers / English",
-		"referenceUrl": "https://yssofindia.org/list-of-centres"
+		"referenceUrl": "https://yssofindia.org/list-of-centres",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/list-of-centres?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Employment Opportunities / English",
-		"referenceUrl": "https://yssofindia.org/employment-opportunities"
+		"referenceUrl": "https://yssofindia.org/employment-opportunities",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/employment-opportunities?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Subscribe to Newsletter / English",
-		"referenceUrl": "https://yssofindia.org/enewsletter"
+		"referenceUrl": "https://yssofindia.org/enewsletter",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/enewsletter?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Newsletter archive / English",
-		"referenceUrl": "https://yssofindia.org/enewsletter/enewsletter-archive"
+		"referenceUrl": "https://yssofindia.org/enewsletter/enewsletter-archive",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/enewsletter/enewsletter-archive?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	},
 	{
 		"label": "Kriya Yoga Royal Technique / English",
-		"referenceUrl": "https://yssofindia.org/programmes/Kriya-Yoga"
+		"referenceUrl": "https://yssofindia.org/programmes/Kriya-Yoga",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/programmes/Kriya-Yoga?2893",
+		"elementSelector": "",
+		"clickSelector": ""
 	}
 ]
