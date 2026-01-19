@@ -73,14 +73,14 @@ export async function navigateToPageWithInterations(page: Page, urlLegacy: strin
   _logger.debug(`url: ${url}`);
 
   if (APP_CONFIG.baseURL === "yssofindia.org") {
-    finalURL = `https://${APP_CONFIG.baseURL}${url}`;
+    finalURL = `https://${APP_CONFIG.baseURL}/${url}`;
   } else {
-    finalURL = `https://${APP_CONFIG.authPopUpUser}:${APP_CONFIG.authPopUpPassword}@${APP_CONFIG.baseURL}${url}`;
+    finalURL = `https://${APP_CONFIG.authPopUpUser}:${APP_CONFIG.authPopUpPassword}@${APP_CONFIG.baseURL}/${url}`;
   }
   expect
     .soft(
       true,
-      `Test: https://${APP_CONFIG.authPopUpUser}:${APP_CONFIG.authPopUpPassword}@${APP_CONFIG.baseURL}${url}`
+      `Test: https://${APP_CONFIG.authPopUpUser}:${APP_CONFIG.authPopUpPassword}@${APP_CONFIG.baseURL}/${url}`
     )
     .toBeTruthy();
   expect.soft(true, `Reference: https://yssofindia.org/${url}`).toBeTruthy();
