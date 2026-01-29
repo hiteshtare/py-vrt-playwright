@@ -69,17 +69,32 @@ export function setupVRT(projectId: string, buildName: string) {
   return { vrt, trackOptions };
 }
 
-export function trackPagesInVRT(vrt: any, trackOptions: any, filePath: string) {
+export async function trackPagesInVRT(vrt: any, trackOptions: any, filePath: string) {
   const testDataForItems = require(filePath);
 
-  testDataForItems.forEach((item: any, index: number) => {
-    test(`${item.label}`, async ({ page }) => {
+  for (const item of testDataForItems) {
+     test(`${item.label}`, async ({ page }) => {
       if (APP_CONFIG.baseURL === "yssofindia.org") {
         await navigateToPage(page, item.referenceUrl);
       } else {
         await navigateToPage(page, item.url);
       }
 
+      //simulate continuous user scrolling until no new content appears
+      await page.evaluate(async () => {
+        const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+        let lastHeight = 0;
+        while (true) {
+          const currentHeight = document.body.scrollHeight;
+          if (currentHeight === lastHeight) {
+            break; // Stop if no new content has loaded
+          }
+          lastHeight = currentHeight;
+          window.scrollTo(0, currentHeight);
+          await delay(1000); // Wait for content to load
+        }
+      });
+          
       if (item.elementSelector) {
         _logger.info("elementSelector");
         _logger.debug(item.elementSelector);
@@ -110,5 +125,5 @@ export function trackPagesInVRT(vrt: any, trackOptions: any, filePath: string) {
       //   fullPage: true,
       // });
     });
-  });
+  }
 }
