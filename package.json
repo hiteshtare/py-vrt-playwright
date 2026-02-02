@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "generate-cache": "tsx ./tests/util/generate-cache.ts",
     "regenerate-jsons": "tsx ./tests/util/regenerate-jsons.ts",
     "test:desktop": "npx playwright test --project=Desktop",
     "test:mobile": "npx playwright test --project=Mobile",
@@ -33,6 +34,8 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
+    "@types/axios": "^0.9.36",
+    "axios": "^1.13.2",
     "@types/google-spreadsheet": "^3.3.2",
     "@types/lodash": "^4.17.21",
     "@visual-regression-tracker/agent-playwright": "^5.3.1",
