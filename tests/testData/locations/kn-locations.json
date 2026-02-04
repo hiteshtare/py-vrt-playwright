@@ -2,28 +2,28 @@
 	{
 		"label": "Ranchi Ashram - Upcoming Events / Kannada",
 		"referenceUrl": "https://yssofindia.org/kn/location/ranchi",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/location/ranchi?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/location/ranchi",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "Ranchi Ashram - All Events / Kannada",
 		"referenceUrl": "https://yssofindia.org/kn/location/ranchi/event-schedule",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/location/ranchi?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/location/ranchi/event-schedule",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "Chennai Ashram - Upcoming Events / Kannada",
 		"referenceUrl": "https://yssofindia.org/kn/location/chennai",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/location/ranchi/event-schedule?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/location/chennai",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "Chennai Ashram - All Events / Kannada",
 		"referenceUrl": "https://yssofindia.org/kn/location/chennai/event-schedule",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/location/chennai?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/kn/location/chennai/event-schedule",
 		"elementSelector": "",
 		"clickSelector": ""
 	}
