@@ -9,7 +9,9 @@
     "test:desktop": "npx playwright test --project=Desktop",
     "test:mobile": "npx playwright test --project=Mobile",
     "test:baseline": "NODE_ENV=release LAYOUT='Desktop' npm run test:desktop",
-    "test:compare": "NODE_ENV=staging LAYOUT='Desktop' npm run test:desktop"
+    "test:compare": "NODE_ENV=staging LAYOUT='Desktop' npm run test:desktop",
+    "test:baseline-mobile": "NODE_ENV=release LAYOUT='Mobile' npm run test:mobile",
+    "test:compare-mobile": "NODE_ENV=staging LAYOUT='Mobile' npm run test:mobile"
   },
   "repository": {
     "type": "git",
