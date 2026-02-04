@@ -2,182 +2,182 @@
 	{
 		"label": "Commemoration Event - Past Event / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/event/mahavatar-babaji-smriti-divas",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/mahavatar-babaji-smriti-divas?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/mahavatar-babaji-smriti-divas",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "Monastic Tour - 1 day - Past Event / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/event/monastic-tour-vellore-july-2023",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/monastic-tour-vellore-july-2023?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/monastic-tour-vellore-july-2023",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "Monastic Tour - 3 days - Past Event / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/event/monastic-tour-guwahati-april-2023",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/monastic-tour-guwahati-april-2023?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/monastic-tour-guwahati-april-2023",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "Retreat - Past Event / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/event/monastic-tour-thanjavur-july-2023",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/monastic-tour-thanjavur-july-2023?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/monastic-tour-thanjavur-july-2023",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "ODK Event - Upcoming / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/event/retreat-puri-december-2022",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/retreat-puri-december-2022?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/retreat-puri-december-2022",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "ODK Event - Past Event / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/event/discourse-in-tamil-april-14-2023",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/discourse-in-tamil-april-14-2023?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/discourse-in-tamil-april-14-2023",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "Sadhana Sangam - Accordian #1 - Schedule / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/event/sadhana-sangams",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/sadhana-sangams?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/sadhana-sangams",
 		"elementSelector": "",
 		"clickSelector": "#schedule"
 	},
 	{
 		"label": "Sadhana Sangam - Accordian #2 - Registration / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/event/sadhana-sangams",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/sadhana-sangams?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/sadhana-sangams",
 		"elementSelector": "",
 		"clickSelector": "#registration"
 	},
 	{
 		"label": "Sadhana Sangam - Accordian #3 - Eligibility for Receiving Kriya Yoga / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/event/sadhana-sangams",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/sadhana-sangams?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/sadhana-sangams",
 		"elementSelector": "",
 		"clickSelector": "#kriya"
 	},
 	{
 		"label": "Sadhana Sangam - Accordian #4 - Volunteers / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/event/sadhana-sangams",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/sadhana-sangams?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/sadhana-sangams",
 		"elementSelector": "",
 		"clickSelector": "#volunteers"
 	},
 	{
 		"label": "Tuesday Meditation / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/event/yss-sannyasi-led-meditation-tuesdays",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/yss-sannyasi-led-meditation-tuesdays?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/yss-sannyasi-led-meditation-tuesdays",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "Sunday Long Meditation / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/event/yss-sannyasi-led-3-hr-meditation-sundays",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/yss-sannyasi-led-3-hr-meditation-sundays?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/yss-sannyasi-led-3-hr-meditation-sundays",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "DLM / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/event/devotee-led-online-meditations",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/devotee-led-online-meditations?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/devotee-led-online-meditations",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "IDOY / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/international-day-of-yoga",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/international-day-of-yoga?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/international-day-of-yoga",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "IDOY - In-person Events / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/international-day-of-yoga/in-person-events",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/international-day-of-yoga/in-person-events?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/international-day-of-yoga/in-person-events",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "February Sangam / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/event/sangam-with-yss-srf-president-sri-sri-swami-chidananda-giri-2023",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/sangam-with-yss-srf-president-sri-sri-swami-chidananda-giri-2023?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/sangam-with-yss-srf-president-sri-sri-swami-chidananda-giri-2023",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "Monastic Tours / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/programmes/monastic-tours",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/programmes/monastic-tours?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/programmes/monastic-tours",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "Retreats / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/see-all-retreat-centres",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/see-all-retreat-centres?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/see-all-retreat-centres",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "ODK / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/online-meditation",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/online-meditation?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/online-meditation",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "ODK - How to participate / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/online-meditation/how-to-participate",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/online-meditation/how-to-participate?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/online-meditation/how-to-participate",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "ODK Calendar / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/online-meditation/calendar",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/online-meditation/calendar?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/online-meditation/calendar",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "ODK Helpdesk / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/online-meditation/helpdesk",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/online-meditation/helpdesk?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/online-meditation/helpdesk",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "Events archive / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/event",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "Past events archive / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/past-events",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/past-events?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/past-events",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "Kumbha Mela 2025 / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/event/kumbha-mela",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/kumbha-mela?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/kumbha-mela",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "Presidents India Tour 2025 / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/event/presidents-india-tour",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/presidents-india-tour?2893",
+		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/event/presidents-india-tour",
 		"elementSelector": "",
 		"clickSelector": ""
 	}
