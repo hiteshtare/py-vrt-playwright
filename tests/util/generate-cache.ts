@@ -36,7 +36,7 @@ async function generateCache() {
   const requests = [];
 
   for (const item of testDataForItems) {
-    const url = item.referenceUrl;
+    const url = item.url;
     _logger.debug(`Queueing request: ${url}`);
     // Create an async function to handle one call
     const requestPromise = (async () => {
@@ -69,7 +69,7 @@ async function generateCache() {
     if (res.error) {
       _logger.error(`Error fetching ${res.url}: ${res.error}`);
     } else {
-      _logger.info(`WPO Cache Status for ${res.url}: ${res.headers['wpo-cache-status']}`);
+      _logger.info(`Page cached for ${res.url}`);
       allResults.push(res.data);
     }
   });
