@@ -80,7 +80,7 @@ export async function trackPagesInVRT(vrt: any, trackOptions: any, filePath: str
         await navigateToPage(page, item.url);
       }
 
-      //simulate continuous user scrolling until no new content appears
+       // ---------- Scrolling until no NEW Content appears ---------- // 
       await page.evaluate(async () => {
         const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
         let lastHeight = 0;
@@ -94,6 +94,13 @@ export async function trackPagesInVRT(vrt: any, trackOptions: any, filePath: str
           await delay(1000); // Wait for content to load
         }
       });
+      // ---------- Scrolling until no NEW Content appears ---------- // 
+
+      // ++++++++++++++++++++ Scroll top for Sticky Header ++++++++++++++++++++ //
+      await page.evaluate(() => window.scrollTo(0, 0));
+      const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+      await delay(1000); 
+      // ++++++++++++++++++++ Scroll top for Sticky Header ++++++++++++++++++++ //
           
       if (item.elementSelector) {
         _logger.info("elementSelector");
