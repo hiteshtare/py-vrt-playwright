@@ -72,8 +72,12 @@ export function setupVRT(projectId: string, buildName: string) {
 export async function trackPagesInVRT(vrt: any, trackOptions: any, filePath: string) {
   const testDataForItems = require(filePath);
 
-  for (const item of testDataForItems) {
-     test(`${item.label}`, async ({ page }) => {
+  for (let i = 0; i < testDataForItems.length; i++) {
+    const item = testDataForItems[i];
+
+    test(`${item.label}`, async ({ page }) => {
+       _logger.warn(`Rendering ${i + 1} of ${testDataForItems.length} urls`);
+
       if (APP_CONFIG.baseURL === "yssofindia.org") {
         await navigateToPage(page, item.referenceUrl);
       } else {
