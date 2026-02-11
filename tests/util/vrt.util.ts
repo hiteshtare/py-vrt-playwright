@@ -95,7 +95,7 @@ export async function trackPagesInVRT(vrt: any, trackOptions: any, filePath: str
           }
           lastHeight = currentHeight;
           window.scrollTo(0, currentHeight);
-          await delay(1000); // Wait for content to load
+          await delay(1500); // Wait for content to load
         }
       });
       // ---------- Scrolling until no NEW Content appears ---------- //      
