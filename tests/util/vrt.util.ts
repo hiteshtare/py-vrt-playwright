@@ -106,6 +106,11 @@ export async function trackPagesInVRT(vrt: any, trackOptions: any, filePath: str
       await delay(1000); 
       // ++++++++++++++++++++ Scroll top for Sticky Header ++++++++++++++++++++ //
           
+      if (APP_CONFIG.isGenerateCache) { 
+        _logger.info("Generated Cache!");
+        return false;
+      }
+        
       if (item.elementSelector) {
         _logger.info("elementSelector");
         _logger.debug(item.elementSelector);

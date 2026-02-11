@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate-cache": "tsx ./tests/util/generate-cache.ts",
+    "generate-cache": "NODE_ENV=staging LAYOUT='Desktop' GEN_CACHE='true' npm run test:desktop",
+    "generate-cache:mobile": "NODE_ENV=staging LAYOUT='Mobile' GEN_CACHE='true'npm run test:mobile",
     "regenerate-jsons": "tsx ./tests/util/regenerate-jsons.ts",
     "test:desktop": "npx playwright test --project=Desktop",
     "test:mobile": "npx playwright test --project=Mobile",

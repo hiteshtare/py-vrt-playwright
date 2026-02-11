@@ -41,6 +41,8 @@ export const APP_CONFIG = {
   authPopUpPassword: "",
   loginEmail: "",
   loginPassword: "",
+    //Generate Cache config
+  isGenerateCache: false,
   //VRT config
   layout: "Desktop",
   retryCount: 0,

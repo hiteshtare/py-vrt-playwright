@@ -23,6 +23,9 @@ export function loadConfigFromENV(): void {
    APP_CONFIG.layout = "" + process.env.LAYOUT;
   _logger.info(`layout : ${APP_CONFIG.layout}`);
 
+   APP_CONFIG.isGenerateCache = process.env.GEN_CACHE === 'true';
+  _logger.info(`isGenerateCache : ${APP_CONFIG.isGenerateCache}`);
+
   APP_CONFIG.baseURL = "" + process.env.BASE_URL;
   APP_CONFIG.authPopUpUser = "" + process.env.AUTH_POPUP_USER;
   APP_CONFIG.authPopUpPassword = "" + process.env.AUTH_POPUP_PASSWORD;
