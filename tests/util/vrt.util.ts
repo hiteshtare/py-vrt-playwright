@@ -98,13 +98,7 @@ export async function trackPagesInVRT(vrt: any, trackOptions: any, filePath: str
           await delay(1000); // Wait for content to load
         }
       });
-      // ---------- Scrolling until no NEW Content appears ---------- // 
-
-      // ++++++++++++++++++++ Scroll top for Sticky Header ++++++++++++++++++++ //
-      await page.evaluate(() => window.scrollTo(0, 0));
-      const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-      await delay(1000); 
-      // ++++++++++++++++++++ Scroll top for Sticky Header ++++++++++++++++++++ //
+      // ---------- Scrolling until no NEW Content appears ---------- //      
           
       if (APP_CONFIG.isGenerateCache) { 
         _logger.info("Generated Cache!");
@@ -115,6 +109,12 @@ export async function trackPagesInVRT(vrt: any, trackOptions: any, filePath: str
         _logger.info("elementSelector");
         _logger.debug(item.elementSelector);
 
+        // ++++++++++++++++++++ Scroll top for Sticky Header ++++++++++++++++++++ //
+        await page.evaluate(() => window.scrollTo(0, 0));
+        const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+        await delay(1000); 
+        // ++++++++++++++++++++ Scroll top for Sticky Header ++++++++++++++++++++ //
+        
         const selector = await page.$(`${item.elementSelector}`);
         await vrt.trackElementHandle(
           selector,
@@ -129,6 +129,13 @@ export async function trackPagesInVRT(vrt: any, trackOptions: any, filePath: str
 
           await page.locator(item.clickSelector).click();
         }
+
+        // ++++++++++++++++++++ Scroll top for Sticky Header ++++++++++++++++++++ //
+        await page.evaluate(() => window.scrollTo(0, 0));
+        const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+        await delay(1000); 
+        // ++++++++++++++++++++ Scroll top for Sticky Header ++++++++++++++++++++ //
+        
         await vrt.trackPage(
           page,
           item.label,
