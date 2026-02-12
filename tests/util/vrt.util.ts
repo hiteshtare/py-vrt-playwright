@@ -59,7 +59,7 @@ export function setupVRT(projectId: string, buildName: string) {
   const vrt = new PlaywrightVisualRegressionTracker(browserName, config);
 
   const trackOptions: PageTrackOptions = {
-    diffTollerancePercent: 1,
+    diffTollerancePercent: 0,
     screenshotOptions: {
       fullPage: true,
     },
