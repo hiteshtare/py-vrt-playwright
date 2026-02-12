@@ -88,9 +88,10 @@ export async function navigateToPageWithInterations(page: Page, urlLegacy: strin
     .toBeTruthy();
   expect.soft(true, `Reference: https://yssofindia.org/${url}`).toBeTruthy();
   _logger.info(`link: ${finalURL}`);
-  return await page.goto(finalURL, {
+  await page.goto(finalURL, {
     waitUntil: "load",
   });
+  return await page.waitForFunction(() => document.fonts.ready);
 }
 
 export async function navigateToPage(page: Page, url: string) {
@@ -98,9 +99,10 @@ export async function navigateToPage(page: Page, url: string) {
 
   expect.soft(true, `url: ${url}`).toBeTruthy();
   _logger.debug(`link: ${url}`);
-  return await page.goto(url, {
+  await page.goto(url, {
     waitUntil: "load",
   });
+  return await page.waitForFunction(() => document.fonts.ready);
 }
 
 export function removeDomainRegex(urlString: string) {
