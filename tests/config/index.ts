@@ -106,7 +106,7 @@ export const APP_CONFIG = {
       },
     },
     Tamil: {
-      Id: "f4927ba0-bc10-4548-95e7-bb757617a2b9",
+      Id: "055d4a20-4a05-47e0-89c9-e27ea2aaacbf",
       PriorityPages: {
         name: "priority-pages",
         jsonPath: "../../tests/testData/priority-pages/ta-priority-pages.json",
@@ -129,7 +129,7 @@ export const APP_CONFIG = {
       },
     },
     Telugu: {
-      Id: "a6a2d128-5390-412a-a37d-1a33ad9a99e3",
+      Id: "c34ed4c5-6749-4dd0-bcb3-075ebea7a68f",
       PriorityPages: {
         name: "priority-pages",
         jsonPath: "../../tests/testData/priority-pages/te-priority-pages.json",
@@ -152,7 +152,7 @@ export const APP_CONFIG = {
       },
     },
     Bangla: {
-      Id: "875f2d2f-8fd1-4653-b3f7-21961b5aefa7",
+      Id: "5307a424-04a1-4ab4-a075-1a0876590219",
       Locations: {
         name: "locations",
         jsonPath: "../../tests/testData/locations/bn-locations.json",
@@ -167,7 +167,7 @@ export const APP_CONFIG = {
       },
     },
     Kannada: {
-      Id: "f593c451-1e6a-487e-855b-98224940720d",
+      Id: "510b59ed-32f5-4d53-b7be-6bda4f6f0e2c",
       Locations: {
         name: "locations",
         jsonPath: "../../tests/testData/locations/kn-locations.json",
