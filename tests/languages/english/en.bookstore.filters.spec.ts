@@ -20,7 +20,7 @@ test.afterAll(async () => {
 });
 
 test.describe("Bookstore - Filters check", () => {
-  test("Books by Sri Sri Daya Mata", async ({ page }) => {
+  test("#1 Books by Sri Sri Daya Mata", async ({ page }) => {
     const url = `product-category/books`;
 
     await navigateToPageWithInterations(page, url);
@@ -28,7 +28,7 @@ test.describe("Bookstore - Filters check", () => {
     //wait for 1 sec
     await page.waitForTimeout(1000);
 
-    await vrt.trackPage(page, "#1 Dashboard - Books Category", trackOptions);
+    await vrt.trackPage(page, "#1.1 Dashboard - Books Category", trackOptions);
 
     //Set Book Author to Sri Sri Daya Mata (value: 6930)
     await page.selectOption('select[name="person"]', { value: "6930" });
@@ -36,7 +36,7 @@ test.describe("Bookstore - Filters check", () => {
     //wait for 3 secs
     await page.waitForTimeout(3000);
 
-    await vrt.trackPage(page, "#2 Books by: Sri Sri Daya Mata", trackOptions);
+    await vrt.trackPage(page, "#1.2 Books by: Sri Sri Daya Mata", trackOptions);
 
     //Set Book Language to Hindi (value: 6898)
     await page.selectOption('select[name="pa_product-language"]', { value: "6898" });
@@ -44,10 +44,10 @@ test.describe("Bookstore - Filters check", () => {
     //wait for 3 secs
     await page.waitForTimeout(3000);
 
-    await vrt.trackPage(page, "#3 Books by: Sri Sri Daya Mata - Hindi", trackOptions);
+    await vrt.trackPage(page, "#1.3 Books by: Sri Sri Daya Mata - Hindi", trackOptions);
   });
 
-  test("Audio by Sri Sri Mrinalini Mata", async ({ page }) => {
+  test("#2 Audio by Sri Sri Mrinalini Mata", async ({ page }) => {
     const url = `product-category/audio`;
 
     await navigateToPageWithInterations(page, url);
@@ -55,7 +55,7 @@ test.describe("Bookstore - Filters check", () => {
     //wait for 1 sec
     await page.waitForTimeout(1000);
 
-    await vrt.trackPage(page, "#1 Dashboard - Audio Category", trackOptions);
+    await vrt.trackPage(page, "#2.1 Dashboard - Audio Category", trackOptions);
 
     //Set Book Author to Sri Sri Mrinalini Mata (value: 6931)
     await page.selectOption('select[name="person"]', { value: "6931" });
@@ -63,10 +63,10 @@ test.describe("Bookstore - Filters check", () => {
     //wait for 3 secs
     await page.waitForTimeout(3000);
 
-    await vrt.trackPage(page, "#2 Audio by: Sri Sri Mrinalini Mata", trackOptions);
+    await vrt.trackPage(page, "#2.2 Audio by: Sri Sri Mrinalini Mata", trackOptions);
   });
 
-  test("Photos of Babaji", async ({ page }) => {
+  test("#3 Photos of Babaji", async ({ page }) => {
     const url = `product-category/photos`;
 
     await navigateToPageWithInterations(page, url);
@@ -74,7 +74,7 @@ test.describe("Bookstore - Filters check", () => {
     //wait for 1 sec
     await page.waitForTimeout(1000);
 
-    await vrt.trackPage(page, "#1 Dashboard - Photos Category", trackOptions);
+    await vrt.trackPage(page, "#3.1 Dashboard - Photos Category", trackOptions);
 
     //Set Search Value to string 'Babaji'
     await page.locator("//input[@id='dgwt-wcas-search-input-1']").fill('Babaji');
@@ -82,6 +82,6 @@ test.describe("Bookstore - Filters check", () => {
     //wait for 3 secs
     await page.waitForTimeout(3000);
 
-    await vrt.trackPage(page, "#2 Photos of Babaji", trackOptions);
+    await vrt.trackPage(page, "#3.2 Photos of Babaji", trackOptions);
   });
 });
