@@ -3,7 +3,7 @@ import {
   Config,
   PageTrackOptions,
 } from "@visual-regression-tracker/agent-playwright";
-import test, { chromium } from "@playwright/test";
+import test, { chromium, Page } from "@playwright/test";
 import { config } from "dotenv";
 
 //Importing Custom modules
@@ -85,19 +85,7 @@ export async function trackPagesInVRT(vrt: any, trackOptions: any, filePath: str
       }
 
        // ---------- Scrolling until no NEW Content appears ---------- // 
-      await page.evaluate(async () => {
-        const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-        let lastHeight = 0;
-        while (true) {
-          const currentHeight = document.body.scrollHeight;
-          if (currentHeight === lastHeight) {
-            break; // Stop if no new content has loaded
-          }
-          lastHeight = currentHeight;
-          window.scrollTo(0, currentHeight);
-          await delay(1500); // Wait for content to load
-        }
-      });
+       await autoScroll(page, 100); // set limit to 100 scrolls
       // ---------- Scrolling until no NEW Content appears ---------- //      
           
       if (APP_CONFIG.isGenerateCache) { 
@@ -149,4 +137,29 @@ export async function trackPagesInVRT(vrt: any, trackOptions: any, filePath: str
       // });
     });
   }
+}
+
+async function autoScroll(page: Page, maxScrolls: number) {
+  await page.evaluate(async (maxScrolls) => {
+    await new Promise<void>((resolve) => {
+      var totalHeight = 0;
+      var distance = 100;
+      var scrolls = 0; // scrolls counter
+      var timer = setInterval(() => {
+        var scrollHeight = document.body.scrollHeight;
+        window.scrollBy(0, distance);
+        totalHeight += distance;
+        scrolls++; // increment counter
+
+        // stop scrolling if reached the end or the maximum number of scrolls
+        if (
+          totalHeight >= scrollHeight - window.innerHeight ||
+          scrolls >= maxScrolls
+        ) {
+          clearInterval(timer);
+          resolve();
+        }
+      }, 100);
+    });
+  }, maxScrolls); // pass maxScrolls to the function
 }

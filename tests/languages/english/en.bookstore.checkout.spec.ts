@@ -28,8 +28,8 @@ test.describe("Bookstore - Checkout flow", () => {
     // Click on Hindi language radio
     await page.locator('a:has-text("Hindi")').click();
 
-    //wait for 1 sec
-    await page.waitForTimeout(1000);
+    //wait for 2 sec
+    await page.waitForTimeout(2000);
 
     await vrt.trackPage(page, "#1 Product page: AOY - Hindi", trackOptions);
 
@@ -57,6 +57,9 @@ test.describe("Bookstore - Checkout flow", () => {
       waitUntil: "domcontentloaded",
     });
 
+    //wait for 4 secs
+    await page.waitForTimeout(4000);
+
     await vrt.trackPage(
       page,
       "#3 Checkout page without Login: (2) AOY Hi",
@@ -77,6 +80,9 @@ test.describe("Bookstore - Checkout flow", () => {
       waitUntil: "domcontentloaded",
     });
 
+    //wait for 4 secs
+    await page.waitForTimeout(4000);
+    
     await vrt.trackPage(page, "#4 Checkout page: (2) AOY Hi", trackOptions);
 
     // ---------------------- God Talks with Arjuna ---------------------- //
@@ -124,6 +130,9 @@ test.describe("Bookstore - Checkout flow", () => {
       )
     ).toBeHidden();
 
+    //wait for 4 secs
+    await page.waitForTimeout(4000);
+
     await vrt.trackPage(
       page,
       "#5 Checkout page: (2) AOY Hi + (1) GTWA + (2) MEQ",
@@ -148,6 +157,9 @@ test.describe("Bookstore - Checkout flow", () => {
     await page.waitForURL(`https://${APP_CONFIG.baseURL}/cart`, {
       waitUntil: "domcontentloaded",
     });
+
+    //wait for 4 secs
+    await page.waitForTimeout(4000);
 
     await vrt.trackPage(
       page,
