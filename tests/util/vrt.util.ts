@@ -84,8 +84,8 @@ export async function trackPagesInVRT(vrt: any, trackOptions: any, filePath: str
         await navigateToPage(page, item.url);
       }
 
-       // ---------- Scrolling until no NEW Content appears ---------- // 
-       await autoScroll(page, 100); // set limit to 100 scrolls
+      // ---------- Scrolling until no NEW Content appears ---------- // 
+       await autoScroll(page, 250); // set limit to 250 scrolls
       // ---------- Scrolling until no NEW Content appears ---------- //      
           
       if (APP_CONFIG.isGenerateCache) { 
