@@ -15,9 +15,9 @@ npm run regenerate-jsons
 
 #### Steps to run project:
 
-- Run the following script
+- Speed up VRT by Generating Cache for Staging env of Desktop Layout
 ```bash
-./run-baseline-AND-compare.sh
+npm run generate-cache
 ```
 #
 - Create baseline from Prod
