@@ -1,9 +1,14 @@
+import { Page } from "@playwright/test";
 // Import node modules
 import { expect, test } from "@playwright/test";
 
 //Importing Custom modules
 import { navigateToPageWithInterations } from "../../util/common.util";
-import { setupVRT, trackPagesInVRT } from "../../util/vrt.util";
+import {
+  scrollTopForStickyHeader,
+  setupVRT,
+  trackPagesInVRT,
+} from "../../util/vrt.util";
 import { APP_CONFIG } from "../../config";
 
 const { vrt, trackOptions } = setupVRT(
@@ -39,12 +44,18 @@ test.describe("Bookstore - Filters check", () => {
     await vrt.trackPage(page, "#1.2 Books by: Sri Sri Daya Mata", trackOptions);
 
     //Set Book Language to Hindi (value: 6898)
-    await page.selectOption('select[name="pa_product-language"]', { value: "6898" });
+    await page.selectOption('select[name="pa_product-language"]', {
+      value: "6898",
+    });
 
     //wait for 3 secs
     await page.waitForTimeout(3000);
 
-    await vrt.trackPage(page, "#1.3 Books by: Sri Sri Daya Mata - Hindi", trackOptions);
+    await vrt.trackPage(
+      page,
+      "#1.3 Books by: Sri Sri Daya Mata - Hindi",
+      trackOptions,
+    );
   });
 
   test("#2 Audio by Sri Sri Mrinalini Mata", async ({ page }) => {
@@ -63,7 +74,11 @@ test.describe("Bookstore - Filters check", () => {
     //wait for 3 secs
     await page.waitForTimeout(3000);
 
-    await vrt.trackPage(page, "#2.2 Audio by: Sri Sri Mrinalini Mata", trackOptions);
+    await vrt.trackPage(
+      page,
+      "#2.2 Audio by: Sri Sri Mrinalini Mata",
+      trackOptions,
+    );
   });
 
   test("#3 Photos of Babaji", async ({ page }) => {
@@ -77,11 +92,91 @@ test.describe("Bookstore - Filters check", () => {
     await vrt.trackPage(page, "#3.1 Dashboard - Photos Category", trackOptions);
 
     //Set Search Value to string 'Babaji'
-    await page.locator("//input[@id='dgwt-wcas-search-input-1']").fill('Babaji');
+    await page
+      .locator("//input[@id='dgwt-wcas-search-input-1']")
+      .fill("Babaji");
 
     //wait for 3 secs
     await page.waitForTimeout(3000);
 
     await vrt.trackPage(page, "#3.2 Photos of Babaji", trackOptions);
+  });
+
+  test("#4 Books by category How to Live series", async ({ page }) => {
+    const url = `product-category/books`;
+
+    await navigateToPageWithInterations(page, url);
+
+    //wait for 1 sec
+    await page.waitForTimeout(1000);
+
+    await vrt.trackPage(page, "#4.1 Dashboard - Books Category", trackOptions);
+
+    //Set Categories to How to Live series (value: 6947)
+    await page.selectOption('select[name="product-collections"]', {
+      value: "6947",
+    });
+
+    //wait for 3 secs
+    await page.waitForTimeout(3000);
+
+    await vrt.trackPage(
+      page,
+      "#4.2 Books by category: How to Live series (p. 1)",
+      trackOptions,
+    );
+
+    //Navigate to p. 2 by Clicking on Next button
+    await page.getByText("Next").click();
+
+    //wait for 3 secs
+    await page.waitForTimeout(3000);
+
+    await scrollTopForStickyHeader(page);
+
+    await vrt.trackPage(
+      page,
+      "#4.3 Books by category: How to Live series (p. 2)",
+      trackOptions,
+    );
+  });
+
+  test("#5 Audio by category Inspirational Audio", async ({ page }) => {
+    const url = `product-category/audio`;
+
+    await navigateToPageWithInterations(page, url);
+
+    //wait for 1 sec
+    await page.waitForTimeout(1000);
+
+    await vrt.trackPage(page, "#5.1 Dashboard - Audio Category", trackOptions);
+
+    //Set Categories to Inspirational Audio (value: 6950)
+    await page.selectOption('select[name="product-collections"]', {
+      value: "6950",
+    });
+
+    //wait for 3 secs
+    await page.waitForTimeout(3000);
+
+    await vrt.trackPage(
+      page,
+      "#5.2 Audio by category: Inspirational Audio (p. 1)",
+      trackOptions,
+    );
+
+    //Navigate to p. 2 by Clicking on Next button
+    await page.getByText("Next").click();
+
+    //wait for 3 secs
+    await page.waitForTimeout(3000);
+
+    await scrollTopForStickyHeader(page);
+
+    await vrt.trackPage(
+      page,
+      "#5.3 Audio by category: Inspirational Audio (p. 2)",
+      trackOptions,
+    );
   });
 });

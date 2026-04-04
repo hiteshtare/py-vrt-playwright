@@ -23,7 +23,7 @@ export function setupVRT(projectId: string, buildName: string) {
   };
 
   // _logger.debug(APP_CONFIG.layout);
-  
+
   if (APP_CONFIG.layout === "Mobile") {
     layoutAgent = {
       device: "Mobile",
@@ -33,14 +33,16 @@ export function setupVRT(projectId: string, buildName: string) {
 
   const eventDate = new Date(); // Or any other date object
   const options: Intl.DateTimeFormatOptions = {
-      day: '2-digit',   // Formats the day as two digits (e.g., 01, 23)
-      month: 'short',    // Formats the month as a short name (e.g., Jan, Dec)
-      year: '2-digit'   // Formats the year as two digits (e.g., 01, 23)
+    day: "2-digit", // Formats the day as two digits (e.g., 01, 23)
+    month: "short", // Formats the month as a short name (e.g., Jan, Dec)
+    year: "2-digit", // Formats the year as two digits (e.g., 01, 23)
   };
 
   // Use the 'en-GB' locale for a day-first order (DD Month)
-  let formattedDate = new Intl.DateTimeFormat('en-GB', options).format(eventDate);
-  formattedDate = formattedDate.replace(/ /g,"");
+  let formattedDate = new Intl.DateTimeFormat("en-GB", options).format(
+    eventDate,
+  );
+  formattedDate = formattedDate.replace(/ /g, "");
 
   const buildId = `${process.env.VRT_BUILDPREFIX}_${buildName}_[${
     APP_CONFIG.layout
@@ -69,14 +71,18 @@ export function setupVRT(projectId: string, buildName: string) {
   return { vrt, trackOptions };
 }
 
-export async function trackPagesInVRT(vrt: any, trackOptions: any, filePath: string) {
+export async function trackPagesInVRT(
+  vrt: any,
+  trackOptions: any,
+  filePath: string,
+) {
   const testDataForItems = require(filePath);
 
   for (let i = 0; i < testDataForItems.length; i++) {
     const item = testDataForItems[i];
 
     test(`${item.label}`, async ({ page }) => {
-       _logger.warn(`Rendering ${i + 1} of ${testDataForItems.length} urls`);
+      _logger.warn(`Rendering ${i + 1} of ${testDataForItems.length} urls`);
 
       if (APP_CONFIG.baseURL === "yssofindia.org") {
         await navigateToPage(page, item.referenceUrl);
@@ -84,31 +90,27 @@ export async function trackPagesInVRT(vrt: any, trackOptions: any, filePath: str
         await navigateToPage(page, item.url);
       }
 
-      // ---------- Scrolling until no NEW Content appears ---------- // 
-       await autoScroll(page, 250); // set limit to 250 scrolls
-      // ---------- Scrolling until no NEW Content appears ---------- //      
-          
-      if (APP_CONFIG.isGenerateCache) { 
+      // ---------- Scrolling until no NEW Content appears ---------- //
+      await autoScroll(page, 250); // set limit to 250 scrolls
+      // ---------- Scrolling until no NEW Content appears ---------- //
+
+      if (APP_CONFIG.isGenerateCache) {
         _logger.info("Generated Cache!");
         return false;
       }
-        
+
       if (item.elementSelector) {
         _logger.info("elementSelector");
         _logger.debug(item.elementSelector);
 
-        // ++++++++++++++++++++ Scroll top for Sticky Header ++++++++++++++++++++ //
-        await page.evaluate(() => window.scrollTo(0, 0));
-        const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-        await delay(1000); 
-        // ++++++++++++++++++++ Scroll top for Sticky Header ++++++++++++++++++++ //
-        
+        await scrollTopForStickyHeader(page);
+
         const selector = await page.$(`${item.elementSelector}`);
         await vrt.trackElementHandle(
           selector,
           item.label,
           trackOptions,
-          APP_CONFIG.retryCount
+          APP_CONFIG.retryCount,
         );
       } else {
         if (item.clickSelector) {
@@ -118,17 +120,13 @@ export async function trackPagesInVRT(vrt: any, trackOptions: any, filePath: str
           await page.locator(item.clickSelector).click();
         }
 
-        // ++++++++++++++++++++ Scroll top for Sticky Header ++++++++++++++++++++ //
-        await page.evaluate(() => window.scrollTo(0, 0));
-        const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-        await delay(1000); 
-        // ++++++++++++++++++++ Scroll top for Sticky Header ++++++++++++++++++++ //
-        
+        await scrollTopForStickyHeader(page);
+
         await vrt.trackPage(
           page,
           item.label,
           trackOptions,
-          APP_CONFIG.retryCount
+          APP_CONFIG.retryCount,
         );
       }
 
@@ -162,4 +160,10 @@ async function autoScroll(page: Page, maxScrolls: number) {
       }, 100);
     });
   }, maxScrolls); // pass maxScrolls to the function
+}
+
+export async function scrollTopForStickyHeader(page: Page) {
+  await page.evaluate(() => window.scrollTo(0, 0));
+  const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+  await delay(1000);
 }
