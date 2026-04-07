@@ -81,7 +81,7 @@ test.describe("Bookstore - Filters check", () => {
   });
 
 
-  test("#3 Books by category How to Live series", async ({ page }) => {
+  test("#3 Books by Filters: How to Live series, PY, EN, Paperback", async ({ page }) => {
     const url = `product-category/books`;
 
     await navigateToPageWithInterations(page, url);
@@ -91,9 +91,31 @@ test.describe("Bookstore - Filters check", () => {
 
     await vrt.trackPage(page, "#3.1 Dashboard - Books Category", trackOptions);
 
-    //Set Categories to How to Live series (value: 6947)
+    //Filter #1 - Set Categories to How to Live series (value: 6947)
     await page.selectOption('select[name="product-collections"]', {
       value: "6947",
+    });
+
+    //wait for 3 secs
+    // await page.waitForTimeout(3000);
+
+    //Filter #2 - Set Book Author to Sri Sri Paramahansa Yogananda (value: 6928)
+    await page.selectOption('select[name="person"]', { value: "6928" });
+
+    //wait for 3 secs
+    // await page.waitForTimeout(3000);
+
+    //Filter #3 - Set Book Language to English (value: 6897)
+    await page.selectOption('select[name="pa_product-language"]', {
+      value: "6897",
+    });
+
+    //wait for 3 secs
+    // await page.waitForTimeout(3000);
+
+    //Filter #4 - Set Book Formats to Paperback (value: 6891)
+    await page.selectOption('select[name="pa_product-format"]', {
+      value: "6891",
     });
 
     //wait for 3 secs
@@ -101,7 +123,7 @@ test.describe("Bookstore - Filters check", () => {
 
     await vrt.trackPage(
       page,
-      "#3.2 Books by category: How to Live series (p. 1)",
+      "#3.2 Books by Filters: How to Live series, PY, EN, Paperback (p. 1)",
       trackOptions,
     );
 
@@ -115,7 +137,7 @@ test.describe("Bookstore - Filters check", () => {
 
     await vrt.trackPage(
       page,
-      "#3.3 Books by category: How to Live series (p. 2)",
+      "#3.3 Books by Filters: How to Live series, PY, EN, Paperback (p. 2)",
       trackOptions,
     );
   });
@@ -143,7 +165,7 @@ test.describe("Bookstore - Filters check", () => {
     );
   });
 
-  test("#5 Audio by category Inspirational Audio", async ({ page }) => {
+  test("#5 Audio by Filters: Inspirational Audio, PY", async ({ page }) => {
     const url = `product-category/audio`;
 
     await navigateToPageWithInterations(page, url);
@@ -153,17 +175,23 @@ test.describe("Bookstore - Filters check", () => {
 
     await vrt.trackPage(page, "#5.1 Dashboard - Audio Category", trackOptions);
 
-    //Set Categories to Inspirational Audio (value: 6950)
+    //Filter #1 - Set Categories to Inspirational Audio (value: 6950)
     await page.selectOption('select[name="product-collections"]', {
       value: "6950",
     });
+
+    //wait for 3 secs
+    // await page.waitForTimeout(3000);
+
+     //Filter #2 - Set Book Author to Sri Sri Paramahansa Yogananda (value: 6928)
+    await page.selectOption('select[name="person"]', { value: "6928" });
 
     //wait for 3 secs
     await page.waitForTimeout(3000);
 
     await vrt.trackPage(
       page,
-      "#5.2 Audio by category: Inspirational Audio (p. 1)",
+      "#5.2 Audio by Filters: Inspirational Audio, PY (p. 1)",
       trackOptions,
     );
 
@@ -177,7 +205,7 @@ test.describe("Bookstore - Filters check", () => {
 
     await vrt.trackPage(
       page,
-      "#5.3 Audio by category: Inspirational Audio (p. 2)",
+      "#5.3 Audio by Filters: Inspirational Audio, PY (p. 2)",
       trackOptions,
     );
   });
