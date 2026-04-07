@@ -209,4 +209,25 @@ test.describe("Bookstore - Filters check", () => {
       trackOptions,
     );
   });
+
+  test("#6 BS Search Results for Daya", async ({ page }) => {
+    const url = `bookstore`;
+
+    await navigateToPageWithInterations(page, url);
+
+    //wait for 1 sec
+    await page.waitForTimeout(1000);
+
+    await vrt.trackPage(page, "#6.1 Dashboard - Bookstore", trackOptions);
+
+    //Set Search Value to string 'Daya'
+    await page
+      .locator("//input[@id='dgwt-wcas-search-input-1']")
+      .fill("Daya");
+
+    //wait for 5 secs
+    await page.waitForTimeout(5000);
+
+    await vrt.trackPage(page, "#6.2 Search Results for Daya", trackOptions);
+  });
 });

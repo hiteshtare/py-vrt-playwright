@@ -122,4 +122,28 @@ test.describe("TeachingsLibrary - Filters check", () => {
       trackOptions,
     );
   });
+
+  test("#2 TL Search Results for Daya", async ({ page }) => {
+    const url = `teachings-library`;
+
+    await navigateToPageWithInterations(page, url);
+
+    //wait for 1 sec
+    await page.waitForTimeout(1000);
+
+    await vrt.trackPage(page, "#2.1 Dashboard - TeachingsLibrary", trackOptions);
+
+    //Set Search Value to string 'Babaji'
+    await page
+      .locator("//input[@class='orig']")
+      .fill("Daya");
+
+    await page
+      .getByRole('button', { name: 'Search magnifier button' }).click();
+
+    //wait for 10 secs
+    await page.waitForTimeout(10000);
+
+    await vrt.trackPage(page, "#2.2 Search Results for Daya", trackOptions);
+  });
 });
