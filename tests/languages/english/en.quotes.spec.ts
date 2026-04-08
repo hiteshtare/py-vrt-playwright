@@ -33,22 +33,45 @@ test.describe("Quotes - Tabs check", () => {
     //wait for 1 sec
     await page.waitForTimeout(1000);
 
-    await vrt.trackPage(page, "#1.1 Homepage default Quote - en", trackOptions);
+    await scrollTopForStickyHeader(page);
+
+    const selector = await page.$(`.elementor-section.elementor-top-section.elementor-element.elementor-element-31fbe82e > .elementor-background-overlay`);
+    await vrt.trackElementHandle(
+      selector,
+      "#1.1 Homepage default Quote - en",
+      trackOptions,
+      APP_CONFIG.retryCount,
+    );
 
     //Click on Hindi language tab
     await page.getByRole("tab", { name: "Hindi" }).click();
 
-    await vrt.trackPage(page, "#1.2 Homepage Quote - hi", trackOptions);
+    await vrt.trackElementHandle(
+      selector,
+      "#1.2 Homepage Quote - hi",
+      trackOptions,
+      APP_CONFIG.retryCount,
+    );
 
     //Click on Tamil language tab
     await page.getByRole("tab", { name: "Tamil" }).click();
 
-    await vrt.trackPage(page, "#1.3 Homepage Quote - ta", trackOptions);
+    await vrt.trackElementHandle(
+      selector,
+      "#1.3 Homepage Quote - ta",
+      trackOptions,
+      APP_CONFIG.retryCount,
+    );
 
     //Click on Telugu language tab
     await page.getByRole("tab", { name: "Telugu" }).click();
 
-    await vrt.trackPage(page, "#1.4 Homepage Quote - te", trackOptions);
+    await vrt.trackElementHandle(
+      selector,
+      "#1.4 Homepage Quote - te",
+      trackOptions,
+      APP_CONFIG.retryCount,
+    );
   });
 
   test("#2 Quote Archive", async ({ page }) => {
