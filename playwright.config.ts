@@ -62,7 +62,7 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: "Desktop",
+      name: "Desk",
       use: {
         ...devices["Desktop Chrome"],
         viewport: { width: 1280, height: 720 },
@@ -70,7 +70,7 @@ export default defineConfig({
     },
     /* PY - Test against mobile viewports. */
     {
-      name: "Mobile",
+      name: "Mob",
       use: {
         ...devices["Desktop Chrome"],
         viewport: { width: 375, height: 667 },

@@ -35,7 +35,6 @@ export function setupVRT(projectId: string, buildName: string) {
   const options: Intl.DateTimeFormatOptions = {
     day: "2-digit", // Formats the day as two digits (e.g., 01, 23)
     month: "short", // Formats the month as a short name (e.g., Jan, Dec)
-    year: "2-digit", // Formats the year as two digits (e.g., 01, 23)
   };
 
   // Use the 'en-GB' locale for a day-first order (DD Month)

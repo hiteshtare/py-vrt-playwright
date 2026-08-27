@@ -4,15 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate-cache": "NODE_ENV=staging LAYOUT='Desktop' GEN_CACHE='true' npm run test:desktop",
-    "generate-cache:mobile": "NODE_ENV=staging LAYOUT='Mobile' GEN_CACHE='true'npm run test:mobile",
+    "generate-cache": "NODE_ENV=staging LAYOUT='Desk' GEN_CACHE='true' npm run test:desktop",
+    "generate-cache:mobile": "NODE_ENV=staging LAYOUT='Mob' GEN_CACHE='true'npm run test:mobile",
     "regenerate-jsons": "tsx ./tests/util/regenerate-jsons.ts",
-    "test:desktop": "npx playwright test --project=Desktop",
-    "test:mobile": "npx playwright test --project=Mobile",
-    "test:baseline": "NODE_ENV=release LAYOUT='Desktop' npm run test:desktop",
-    "test:compare": "NODE_ENV=staging LAYOUT='Desktop' npm run test:desktop",
-    "test:baseline-mobile": "NODE_ENV=release LAYOUT='Mobile' npm run test:mobile",
-    "test:compare-mobile": "NODE_ENV=staging LAYOUT='Mobile' npm run test:mobile"
+    "test:desktop": "npx playwright test --project=Desk",
+    "test:mobile": "npx playwright test --project=Mob",
+    "test:baseline": "NODE_ENV=release LAYOUT='Desk' npm run test:desktop",
+    "test:compare": "NODE_ENV=staging LAYOUT='Desk' npm run test:desktop",
+    "test:baseline-mobile": "NODE_ENV=release LAYOUT='Mob' npm run test:mobile",
+    "test:compare-mobile": "NODE_ENV=staging LAYOUT='Mob' npm run test:mobile"
   },
   "repository": {
     "type": "git",

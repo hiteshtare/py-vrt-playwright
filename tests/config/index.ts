@@ -44,7 +44,7 @@ export const APP_CONFIG = {
     //Generate Cache config
   isGenerateCache: false,
   //VRT config
-  layout: "Desktop",
+  layout: "Desk",
   retryCount: 0,
   projects: {
     English: {
