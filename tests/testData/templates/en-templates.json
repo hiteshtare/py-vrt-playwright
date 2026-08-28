@@ -1,36 +1,36 @@
 [
 	{
-		"label": "Header / English",
+		"label": "/about/aims-and-ideals - Header / English",
 		"referenceUrl": "https://yssofindia.org/about/aims-and-ideals",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/about/aims-and-ideals",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/about/aims-and-ideals",
 		"elementSelector": ".elementor-21520",
 		"clickSelector": ""
 	},
 	{
-		"label": "Breadcrumb / English",
+		"label": "/about/aims-and-ideals - Breadcrumb / English",
 		"referenceUrl": "https://yssofindia.org/about/aims-and-ideals",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/about/aims-and-ideals",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/about/aims-and-ideals",
 		"elementSelector": ".elementor-element-484fcce",
 		"clickSelector": ""
 	},
 	{
-		"label": "Language Switcher / English",
+		"label": "/about/aims-and-ideals - Language Switcher / English",
 		"referenceUrl": "https://yssofindia.org/about/aims-and-ideals",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/about/aims-and-ideals",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/about/aims-and-ideals",
 		"elementSelector": ".elementor-element-54c8036",
 		"clickSelector": ""
 	},
 	{
-		"label": "Social Share Buttons / English",
+		"label": "/about/aims-and-ideals - Social Share Buttons / English",
 		"referenceUrl": "https://yssofindia.org/about/aims-and-ideals",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/about/aims-and-ideals",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/about/aims-and-ideals",
 		"elementSelector": ".elementor-element-c8f445",
 		"clickSelector": ""
 	},
 	{
-		"label": "Footer / English",
+		"label": "/about/aims-and-ideals - Footer / English",
 		"referenceUrl": "https://yssofindia.org/about/aims-and-ideals",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/about/aims-and-ideals",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/about/aims-and-ideals",
 		"elementSelector": ".elementor-22086",
 		"clickSelector": ""
 	}

@@ -1,330 +1,330 @@
 [
 	{
-		"label": "Homepage / Tamil",
+		"label": "/ta - Homepage / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "AOY AudioBook / Tamil",
+		"label": "/ta/autobiography-of-a-yogi-regional-languages-free-audiobook - AOY AudioBook / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/autobiography-of-a-yogi-regional-languages-free-audiobook",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/autobiography-of-a-yogi-regional-languages-free-audiobook",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/autobiography-of-a-yogi-regional-languages-free-audiobook",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Autobiography of a Yogi / Tamil",
+		"label": "/ta/paramahansa-yogananda/autobiography-of-a-yogi - Autobiography of a Yogi / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/paramahansa-yogananda/autobiography-of-a-yogi",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/paramahansa-yogananda/autobiography-of-a-yogi",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/paramahansa-yogananda/autobiography-of-a-yogi",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Translations Around the World / Tamil",
+		"label": "/ta/paramahansa-yogananda/translations-around-the-world - Translations Around the World / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/paramahansa-yogananda/translations-around-the-world",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/paramahansa-yogananda/translations-around-the-world",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/paramahansa-yogananda/translations-around-the-world",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Autobiography of a Yogi MP3 Edition / Tamil",
+		"label": "/ta/paramahansa-yogananda/Autobiography-of-a-Yogi-mp3-edition - Autobiography of a Yogi MP3 Edition / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/paramahansa-yogananda/Autobiography-of-a-Yogi-mp3-edition",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/paramahansa-yogananda/Autobiography-of-a-Yogi-mp3-edition",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/paramahansa-yogananda/Autobiography-of-a-Yogi-mp3-edition",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Listen to Paramahansa Yogananda / Tamil",
+		"label": "/ta/paramahansa-yogananda/listen-to-paramahansa-yogananda - Listen to Paramahansa Yogananda / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/paramahansa-yogananda/listen-to-paramahansa-yogananda",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/paramahansa-yogananda/listen-to-paramahansa-yogananda",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/paramahansa-yogananda/listen-to-paramahansa-yogananda",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Books and Recordings / Tamil",
+		"label": "/ta/paramahansa-yogananda/books-and-recordings - Books and Recordings / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/paramahansa-yogananda/books-and-recordings",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/paramahansa-yogananda/books-and-recordings",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/paramahansa-yogananda/books-and-recordings",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Disciples Reminisce / Tamil",
+		"label": "/ta/paramahansa-yogananda/disciples-reminisce - Disciples Reminisce / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/paramahansa-yogananda/disciples-reminisce",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/paramahansa-yogananda/disciples-reminisce",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/paramahansa-yogananda/disciples-reminisce",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Comments and Reviews / Tamil",
+		"label": "/ta/paramahansa-yogananda/Comments-Reviews - Comments and Reviews / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/paramahansa-yogananda/Comments-Reviews",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/paramahansa-yogananda/Comments-Reviews",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/paramahansa-yogananda/Comments-Reviews",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Stories of Close Disciples / Tamil",
+		"label": "/ta/paramahansa-yogananda/first-encounters - Stories of Close Disciples / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/paramahansa-yogananda/first-encounters",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/paramahansa-yogananda/first-encounters",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/paramahansa-yogananda/first-encounters",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Educators & Scientific Community / Tamil",
+		"label": "/ta/paramahansa-yogananda/educators-scientific-community - Educators & Scientific Community / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/paramahansa-yogananda/educators-scientific-community",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/paramahansa-yogananda/educators-scientific-community",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/paramahansa-yogananda/educators-scientific-community",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "YSS Magazine / Tamil",
+		"label": "/ta/spiritual/yogoda-satsanga-magazine - YSS Magazine / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/spiritual/yogoda-satsanga-magazine",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/spiritual/yogoda-satsanga-magazine",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/spiritual/yogoda-satsanga-magazine",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Affirmations / Tamil",
+		"label": "/ta/spiritual/affirmations - Affirmations / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/spiritual/affirmations",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/spiritual/affirmations",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/spiritual/affirmations",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Affirmation Instructions / Tamil",
+		"label": "/ta/spiritual/affirmation-instructions - Affirmation Instructions / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/spiritual/affirmation-instructions",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/spiritual/affirmation-instructions",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/spiritual/affirmation-instructions",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Prayer / Tamil",
+		"label": "/ta/spiritual/Prayer - Prayer / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/spiritual/Prayer",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/spiritual/Prayer",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/spiritual/Prayer",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Request a Prayer / Tamil",
+		"label": "/ta/prayer - Request a Prayer / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/prayer",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/prayer",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/prayer",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "About YSS / Tamil",
+		"label": "/ta/about - About YSS / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/about",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/about",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/about",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Aims & Ideals / Tamil",
+		"label": "/ta/about/aims-and-ideals - Aims & Ideals / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/about/aims-and-ideals",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/about/aims-and-ideals",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/about/aims-and-ideals",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Monastic Order / Tamil",
+		"label": "/ta/about/monastic-order - Monastic Order / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/about/monastic-order",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/about/monastic-order",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/about/monastic-order",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Sannyas / Tamil",
+		"label": "/ta/about/Sannyas - Sannyas / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/about/Sannyas",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/about/Sannyas",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/about/Sannyas",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "4 stage of Monastic Life / Tamil",
+		"label": "/ta/about/the-four-stages-of-monastic-life - 4 stage of Monastic Life / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/about/the-four-stages-of-monastic-life",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/about/the-four-stages-of-monastic-life",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/about/the-four-stages-of-monastic-life",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Information for New Visitors / Tamil",
+		"label": "/ta/about/information-for-new-visitors - Information for New Visitors / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/about/information-for-new-visitors",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/about/information-for-new-visitors",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/about/information-for-new-visitors",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "FAQ / Tamil",
+		"label": "/ta/about/frequently-asked-questions - FAQ / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/about/frequently-asked-questions",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/about/frequently-asked-questions",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/about/frequently-asked-questions",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Glossary / Tamil",
+		"label": "/ta/about/yogoda-satsanga-society-of-india-glossary-page-1 - Glossary / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/about/yogoda-satsanga-society-of-india-glossary-page-1",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/about/yogoda-satsanga-society-of-india-glossary-page-1",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/about/yogoda-satsanga-society-of-india-glossary-page-1",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Request Free Literature / Tamil",
+		"label": "/ta/about/request-free-literature - Request Free Literature / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/about/request-free-literature",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/about/request-free-literature",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/about/request-free-literature",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Learn to Meditate / Tamil",
+		"label": "/ta/meditation/learn-to-meditate - Learn to Meditate / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/meditation/learn-to-meditate",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/meditation/learn-to-meditate",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/meditation/learn-to-meditate",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "How to Meditate / Tamil",
+		"label": "/ta/meditation/how-to-meditate - How to Meditate / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/meditation/how-to-meditate",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/meditation/how-to-meditate",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/meditation/how-to-meditate",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Guided Meditations / Tamil",
+		"label": "/ta/meditation/guided-meditations - Guided Meditations / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/meditation/guided-meditations",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/meditation/guided-meditations",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/meditation/guided-meditations",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "The Divine Art of Kirtan / Tamil",
+		"label": "/ta/meditation/the-divine-art-of-kirtan - The Divine Art of Kirtan / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/meditation/the-divine-art-of-kirtan",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/meditation/the-divine-art-of-kirtan",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/meditation/the-divine-art-of-kirtan",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Listen to Chants / Tamil",
+		"label": "/ta/meditation/listen-to-chants - Listen to Chants / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/meditation/listen-to-chants",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/meditation/listen-to-chants",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/meditation/listen-to-chants",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "The Kriya Yoga Path of Meditation / Tamil",
+		"label": "/ta/meditation/the-kriya-yoga-path-of-meditation-yogoda-satsanga-society - The Kriya Yoga Path of Meditation / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/meditation/the-kriya-yoga-path-of-meditation-yogoda-satsanga-society",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/meditation/the-kriya-yoga-path-of-meditation-yogoda-satsanga-society",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/meditation/the-kriya-yoga-path-of-meditation-yogoda-satsanga-society",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Lesson Programmes / Tamil",
+		"label": "/ta/lessons-programmes - Lesson Programmes / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/lessons-programmes",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/lessons-programmes",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/lessons-programmes",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Lessons Main Page - Tab #1 - Start Your Journey on the Path / Tamil",
+		"label": "/ta/yss-lessons - Lessons Main Page - Tab #1 - Start Your Journey on the Path / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/yss-lessons",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/yss-lessons",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/yss-lessons",
 		"elementSelector": "",
 		"clickSelector": "#startyourjourney"
 	},
 	{
-		"label": "Lessons Main Page - Tab #2 - Kriya Yoga / Tamil",
+		"label": "/ta/yss-lessons - Lessons Main Page - Tab #2 - Kriya Yoga / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/yss-lessons",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/yss-lessons",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/yss-lessons",
 		"elementSelector": "",
 		"clickSelector": "#kriyayoga"
 	},
 	{
-		"label": "Lessons Main Page - Tab #3 - Apply Now / Tamil",
+		"label": "/ta/yss-lessons - Lessons Main Page - Tab #3 - Apply Now / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/yss-lessons",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/yss-lessons",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/yss-lessons",
 		"elementSelector": "",
 		"clickSelector": "#applynow"
 	},
 	{
-		"label": "Lessons Main Page - Tab #4 - Digital App / Tamil",
+		"label": "/ta/yss-lessons - Lessons Main Page - Tab #4 - Digital App / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/yss-lessons",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/yss-lessons",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/yss-lessons",
 		"elementSelector": "",
 		"clickSelector": "#digitalapp2"
 	},
 	{
-		"label": "Kriya Lessons / Tamil",
+		"label": "/ta/kriya-yoga-lessons - Kriya Lessons / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/kriya-yoga-lessons",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/kriya-yoga-lessons",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/kriya-yoga-lessons",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "SRF/YSS App — FAQ / Tamil",
+		"label": "/ta/app-faq - SRF/YSS App — FAQ / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/app-faq",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/app-faq",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/app-faq",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Ashrams and Centres / Tamil",
+		"label": "/ta/ashrams - Ashrams and Centres / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/ashrams",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/ashrams",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/ashrams",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Ranchi Ashram / Tamil",
+		"label": "/ta/ashrams/yogoda-satsanga-sakha-ashram-ranchi - Ranchi Ashram / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/ashrams/yogoda-satsanga-sakha-ashram-ranchi",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/ashrams/yogoda-satsanga-sakha-ashram-ranchi",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/ashrams/yogoda-satsanga-sakha-ashram-ranchi",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Dwarahat Ashram / Tamil",
+		"label": "/ta/ashrams/yogoda-satsanga-sakha-ashram-dwarahat - Dwarahat Ashram / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/ashrams/yogoda-satsanga-sakha-ashram-dwarahat",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/ashrams/yogoda-satsanga-sakha-ashram-dwarahat",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/ashrams/yogoda-satsanga-sakha-ashram-dwarahat",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Dakshineswar Ashram / Tamil",
+		"label": "/ta/ashrams/yogoda-satsanga-math-dakshineswar - Dakshineswar Ashram / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/ashrams/yogoda-satsanga-math-dakshineswar",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/ashrams/yogoda-satsanga-math-dakshineswar",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/ashrams/yogoda-satsanga-math-dakshineswar",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Noida Ashram / Tamil",
+		"label": "/ta/ashrams/yogoda-satsanga-sakha-ashram-noida - Noida Ashram / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/ashrams/yogoda-satsanga-sakha-ashram-noida",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/ashrams/yogoda-satsanga-sakha-ashram-noida",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/ashrams/yogoda-satsanga-sakha-ashram-noida",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "All Centers / Tamil",
+		"label": "/ta/list-of-centres - All Centers / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/list-of-centres",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/list-of-centres",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/list-of-centres",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Employment Opportunities / Tamil",
+		"label": "/ta/employment-opportunities - Employment Opportunities / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/employment-opportunities",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/employment-opportunities",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/employment-opportunities",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Subscribe to Newsletter / Tamil",
+		"label": "/ta/enewsletter - Subscribe to Newsletter / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/enewsletter",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/enewsletter",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/enewsletter",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Kriya Yoga Royal Technique / Tamil",
+		"label": "/ta/programmes/Kriya-Yoga - Kriya Yoga Royal Technique / Tamil",
 		"referenceUrl": "https://yssofindia.org/ta/programmes/Kriya-Yoga",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ta/programmes/Kriya-Yoga",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ta/programmes/Kriya-Yoga",
 		"elementSelector": "",
 		"clickSelector": ""
 	}

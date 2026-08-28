@@ -1,36 +1,36 @@
 [
 	{
-		"label": "Ranchi Ashram - Upcoming Events / Telugu",
+		"label": "/te/location/ranchi - Ranchi Ashram - Upcoming Events / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/location/ranchi",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/location/ranchi",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/location/ranchi",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Ranchi Ashram - All Events / Telugu",
+		"label": "/te/location/ranchi/event-schedule - Ranchi Ashram - All Events / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/location/ranchi/event-schedule",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/location/ranchi/event-schedule",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/location/ranchi/event-schedule",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Chennai Ashram - Upcoming Events / Telugu",
+		"label": "/te/location/chennai - Chennai Ashram - Upcoming Events / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/location/chennai",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/location/chennai",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/location/chennai",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Chennai Ashram - All Events / Telugu",
+		"label": "/te/location/chennai/event-schedule - Chennai Ashram - All Events / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/location/chennai/event-schedule",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/location/chennai/event-schedule",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/location/chennai/event-schedule",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Rajahmundry Retreat - LoadMore Events / Telugu",
+		"label": "/te/location/rajahmundry-retreat - Rajahmundry Retreat - LoadMore Events / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/location/rajahmundry-retreat",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/location/rajahmundry-retreat",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/location/rajahmundry-retreat",
 		"elementSelector": "",
 		"clickSelector": ""
 	}

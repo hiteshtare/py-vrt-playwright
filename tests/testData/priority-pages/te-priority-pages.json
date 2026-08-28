@@ -1,330 +1,330 @@
 [
 	{
-		"label": "Homepage / Telugu",
+		"label": "/te - Homepage / Telugu",
 		"referenceUrl": "https://yssofindia.org/te",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "AOY AudioBook / Telugu",
+		"label": "/te/autobiography-of-a-yogi-regional-languages-free-audiobook - AOY AudioBook / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/autobiography-of-a-yogi-regional-languages-free-audiobook",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/autobiography-of-a-yogi-regional-languages-free-audiobook",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/autobiography-of-a-yogi-regional-languages-free-audiobook",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Autobiography of a Yogi / Telugu",
+		"label": "/te/paramahansa-yogananda/autobiography-of-a-yogi - Autobiography of a Yogi / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/paramahansa-yogananda/autobiography-of-a-yogi",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/paramahansa-yogananda/autobiography-of-a-yogi",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/paramahansa-yogananda/autobiography-of-a-yogi",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Translations Around the World / Telugu",
+		"label": "/te/paramahansa-yogananda/translations-around-the-world - Translations Around the World / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/paramahansa-yogananda/translations-around-the-world",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/paramahansa-yogananda/translations-around-the-world",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/paramahansa-yogananda/translations-around-the-world",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Autobiography of a Yogi MP3 Edition / Telugu",
+		"label": "/te/paramahansa-yogananda/Autobiography-of-a-Yogi-mp3-edition - Autobiography of a Yogi MP3 Edition / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/paramahansa-yogananda/Autobiography-of-a-Yogi-mp3-edition",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/paramahansa-yogananda/Autobiography-of-a-Yogi-mp3-edition",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/paramahansa-yogananda/Autobiography-of-a-Yogi-mp3-edition",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Listen to Paramahansa Yogananda / Telugu",
+		"label": "/te/paramahansa-yogananda/listen-to-paramahansa-yogananda - Listen to Paramahansa Yogananda / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/paramahansa-yogananda/listen-to-paramahansa-yogananda",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/paramahansa-yogananda/listen-to-paramahansa-yogananda",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/paramahansa-yogananda/listen-to-paramahansa-yogananda",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Books and Recordings / Telugu",
+		"label": "/te/paramahansa-yogananda/books-and-recordings - Books and Recordings / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/paramahansa-yogananda/books-and-recordings",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/paramahansa-yogananda/books-and-recordings",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/paramahansa-yogananda/books-and-recordings",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Disciples Reminisce / Telugu",
+		"label": "/te/paramahansa-yogananda/disciples-reminisce - Disciples Reminisce / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/paramahansa-yogananda/disciples-reminisce",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/paramahansa-yogananda/disciples-reminisce",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/paramahansa-yogananda/disciples-reminisce",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Comments and Reviews / Telugu",
+		"label": "/te/paramahansa-yogananda/Comments-Reviews - Comments and Reviews / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/paramahansa-yogananda/Comments-Reviews",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/paramahansa-yogananda/Comments-Reviews",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/paramahansa-yogananda/Comments-Reviews",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Stories of Close Disciples / Telugu",
+		"label": "/te/paramahansa-yogananda/first-encounters - Stories of Close Disciples / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/paramahansa-yogananda/first-encounters",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/paramahansa-yogananda/first-encounters",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/paramahansa-yogananda/first-encounters",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Educators & Scientific Community / Telugu",
+		"label": "/te/paramahansa-yogananda/educators-scientific-community - Educators & Scientific Community / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/paramahansa-yogananda/educators-scientific-community",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/paramahansa-yogananda/educators-scientific-community",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/paramahansa-yogananda/educators-scientific-community",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "YSS Magazine / Telugu",
+		"label": "/te/spiritual/yogoda-satsanga-magazine - YSS Magazine / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/spiritual/yogoda-satsanga-magazine",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/spiritual/yogoda-satsanga-magazine",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/spiritual/yogoda-satsanga-magazine",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Affirmations / Telugu",
+		"label": "/te/spiritual/affirmations - Affirmations / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/spiritual/affirmations",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/spiritual/affirmations",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/spiritual/affirmations",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Affirmation Instructions / Telugu",
+		"label": "/te/spiritual/affirmation-instructions - Affirmation Instructions / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/spiritual/affirmation-instructions",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/spiritual/affirmation-instructions",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/spiritual/affirmation-instructions",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Prayer / Telugu",
+		"label": "/te/spiritual/Prayer - Prayer / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/spiritual/Prayer",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/spiritual/Prayer",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/spiritual/Prayer",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Request a Prayer / Telugu",
+		"label": "/te/prayer - Request a Prayer / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/prayer",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/prayer",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/prayer",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "About YSS / Telugu",
+		"label": "/te/about - About YSS / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/about",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/about",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/about",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Aims & Ideals / Telugu",
+		"label": "/te/about/aims-and-ideals - Aims & Ideals / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/about/aims-and-ideals",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/about/aims-and-ideals",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/about/aims-and-ideals",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Monastic Order / Telugu",
+		"label": "/te/about/monastic-order - Monastic Order / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/about/monastic-order",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/about/monastic-order",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/about/monastic-order",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Sannyas / Telugu",
+		"label": "/te/about/Sannyas - Sannyas / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/about/Sannyas",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/about/Sannyas",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/about/Sannyas",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "4 stage of Monastic Life / Telugu",
+		"label": "/te/about/the-four-stages-of-monastic-life - 4 stage of Monastic Life / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/about/the-four-stages-of-monastic-life",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/about/the-four-stages-of-monastic-life",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/about/the-four-stages-of-monastic-life",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Information for New Visitors / Telugu",
+		"label": "/te/about/information-for-new-visitors - Information for New Visitors / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/about/information-for-new-visitors",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/about/information-for-new-visitors",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/about/information-for-new-visitors",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "FAQ / Telugu",
+		"label": "/te/about/frequently-asked-questions - FAQ / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/about/frequently-asked-questions",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/about/frequently-asked-questions",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/about/frequently-asked-questions",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Glossary / Telugu",
+		"label": "/te/about/yogoda-satsanga-society-of-india-glossary-page-1 - Glossary / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/about/yogoda-satsanga-society-of-india-glossary-page-1",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/about/yogoda-satsanga-society-of-india-glossary-page-1",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/about/yogoda-satsanga-society-of-india-glossary-page-1",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Request Free Literature / Telugu",
+		"label": "/te/about/request-free-literature - Request Free Literature / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/about/request-free-literature",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/about/request-free-literature",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/about/request-free-literature",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Learn to Meditate / Telugu",
+		"label": "/te/meditation/learn-to-meditate - Learn to Meditate / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/meditation/learn-to-meditate",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/meditation/learn-to-meditate",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/meditation/learn-to-meditate",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "How to Meditate / Telugu",
+		"label": "/te/meditation/how-to-meditate - How to Meditate / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/meditation/how-to-meditate",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/meditation/how-to-meditate",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/meditation/how-to-meditate",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Guided Meditations / Telugu",
+		"label": "/te/meditation/guided-meditations - Guided Meditations / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/meditation/guided-meditations",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/meditation/guided-meditations",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/meditation/guided-meditations",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "The Divine Art of Kirtan / Telugu",
+		"label": "/te/meditation/the-divine-art-of-kirtan - The Divine Art of Kirtan / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/meditation/the-divine-art-of-kirtan",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/meditation/the-divine-art-of-kirtan",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/meditation/the-divine-art-of-kirtan",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Listen to Chants / Telugu",
+		"label": "/te/meditation/listen-to-chants - Listen to Chants / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/meditation/listen-to-chants",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/meditation/listen-to-chants",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/meditation/listen-to-chants",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "The Kriya Yoga Path of Meditation / Telugu",
+		"label": "/te/meditation/the-kriya-yoga-path-of-meditation-yogoda-satsanga-society - The Kriya Yoga Path of Meditation / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/meditation/the-kriya-yoga-path-of-meditation-yogoda-satsanga-society",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/meditation/the-kriya-yoga-path-of-meditation-yogoda-satsanga-society",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/meditation/the-kriya-yoga-path-of-meditation-yogoda-satsanga-society",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Lesson Programmes / Telugu",
+		"label": "/te/lessons-programmes - Lesson Programmes / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/lessons-programmes",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/lessons-programmes",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/lessons-programmes",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Lessons Main Page - Tab #1 - Start Your Journey on the Path / Telugu",
+		"label": "/te/yss-lessons - Lessons Main Page - Tab #1 - Start Your Journey on the Path / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/yss-lessons",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/yss-lessons",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/yss-lessons",
 		"elementSelector": "",
 		"clickSelector": "#startyourjourney"
 	},
 	{
-		"label": "Lessons Main Page - Tab #2 - Kriya Yoga / Telugu",
+		"label": "/te/yss-lessons - Lessons Main Page - Tab #2 - Kriya Yoga / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/yss-lessons",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/yss-lessons",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/yss-lessons",
 		"elementSelector": "",
 		"clickSelector": "#kriyayoga"
 	},
 	{
-		"label": "Lessons Main Page - Tab #3 - Apply Now / Telugu",
+		"label": "/te/yss-lessons - Lessons Main Page - Tab #3 - Apply Now / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/yss-lessons",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/yss-lessons",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/yss-lessons",
 		"elementSelector": "",
 		"clickSelector": "#applynow"
 	},
 	{
-		"label": "Lessons Main Page - Tab #4 - Digital App / Telugu",
+		"label": "/te/yss-lessons - Lessons Main Page - Tab #4 - Digital App / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/yss-lessons",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/yss-lessons",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/yss-lessons",
 		"elementSelector": "",
 		"clickSelector": "#digitalapp2"
 	},
 	{
-		"label": "Kriya Lessons / Telugu",
+		"label": "/te/kriya-yoga-lessons - Kriya Lessons / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/kriya-yoga-lessons",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/kriya-yoga-lessons",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/kriya-yoga-lessons",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "SRF/YSS App — FAQ / Telugu",
+		"label": "/te/app-faq - SRF/YSS App — FAQ / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/app-faq",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/app-faq",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/app-faq",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Ashrams and Centres / Telugu",
+		"label": "/te/ashrams - Ashrams and Centres / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/ashrams",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/ashrams",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/ashrams",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Ranchi Ashram / Telugu",
+		"label": "/te/ashrams/yogoda-satsanga-sakha-ashram-ranchi - Ranchi Ashram / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/ashrams/yogoda-satsanga-sakha-ashram-ranchi",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/ashrams/yogoda-satsanga-sakha-ashram-ranchi",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/ashrams/yogoda-satsanga-sakha-ashram-ranchi",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Dwarahat Ashram / Telugu",
+		"label": "/te/ashrams/yogoda-satsanga-sakha-ashram-dwarahat - Dwarahat Ashram / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/ashrams/yogoda-satsanga-sakha-ashram-dwarahat",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/ashrams/yogoda-satsanga-sakha-ashram-dwarahat",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/ashrams/yogoda-satsanga-sakha-ashram-dwarahat",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Dakshineswar Ashram / Telugu",
+		"label": "/te/ashrams/yogoda-satsanga-math-dakshineswar - Dakshineswar Ashram / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/ashrams/yogoda-satsanga-math-dakshineswar",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/ashrams/yogoda-satsanga-math-dakshineswar",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/ashrams/yogoda-satsanga-math-dakshineswar",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Noida Ashram / Telugu",
+		"label": "/te/ashrams/yogoda-satsanga-sakha-ashram-noida - Noida Ashram / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/ashrams/yogoda-satsanga-sakha-ashram-noida",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/ashrams/yogoda-satsanga-sakha-ashram-noida",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/ashrams/yogoda-satsanga-sakha-ashram-noida",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "All Centers / Telugu",
+		"label": "/te/list-of-centres - All Centers / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/list-of-centres",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/list-of-centres",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/list-of-centres",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Employment Opportunities / Telugu",
+		"label": "/te/employment-opportunities - Employment Opportunities / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/employment-opportunities",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/employment-opportunities",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/employment-opportunities",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Subscribe to Newsletter / Telugu",
+		"label": "/te/enewsletter - Subscribe to Newsletter / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/enewsletter",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/enewsletter",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/enewsletter",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Kriya Yoga Royal Technique / Telugu",
+		"label": "/te/programmes/Kriya-Yoga - Kriya Yoga Royal Technique / Telugu",
 		"referenceUrl": "https://yssofindia.org/te/programmes/Kriya-Yoga",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/te/programmes/Kriya-Yoga",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/te/programmes/Kriya-Yoga",
 		"elementSelector": "",
 		"clickSelector": ""
 	}

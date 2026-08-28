@@ -1,330 +1,330 @@
 [
 	{
-		"label": "Homepage / Hindi",
+		"label": "/hi - Homepage / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "AOY AudioBook / Hindi",
+		"label": "/hi/autobiography-of-a-yogi-regional-languages-free-audiobook - AOY AudioBook / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/autobiography-of-a-yogi-regional-languages-free-audiobook",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/autobiography-of-a-yogi-regional-languages-free-audiobook",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/autobiography-of-a-yogi-regional-languages-free-audiobook",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Autobiography of a Yogi / Hindi",
+		"label": "/hi/paramahansa-yogananda/autobiography-of-a-yogi - Autobiography of a Yogi / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/paramahansa-yogananda/autobiography-of-a-yogi",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/paramahansa-yogananda/autobiography-of-a-yogi",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/paramahansa-yogananda/autobiography-of-a-yogi",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Translations Around the World / Hindi",
+		"label": "/hi/paramahansa-yogananda/translations-around-the-world - Translations Around the World / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/paramahansa-yogananda/translations-around-the-world",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/paramahansa-yogananda/translations-around-the-world",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/paramahansa-yogananda/translations-around-the-world",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Autobiography of a Yogi MP3 Edition / Hindi",
+		"label": "/hi/paramahansa-yogananda/Autobiography-of-a-Yogi-mp3-edition - Autobiography of a Yogi MP3 Edition / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/paramahansa-yogananda/Autobiography-of-a-Yogi-mp3-edition",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/paramahansa-yogananda/Autobiography-of-a-Yogi-mp3-edition",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/paramahansa-yogananda/Autobiography-of-a-Yogi-mp3-edition",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Listen to Paramahansa Yogananda / Hindi",
+		"label": "/hi/paramahansa-yogananda/listen-to-paramahansa-yogananda - Listen to Paramahansa Yogananda / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/paramahansa-yogananda/listen-to-paramahansa-yogananda",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/paramahansa-yogananda/listen-to-paramahansa-yogananda",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/paramahansa-yogananda/listen-to-paramahansa-yogananda",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Books and Recordings / Hindi",
+		"label": "/hi/paramahansa-yogananda/books-and-recordings - Books and Recordings / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/paramahansa-yogananda/books-and-recordings",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/paramahansa-yogananda/books-and-recordings",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/paramahansa-yogananda/books-and-recordings",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Disciples Reminisce / Hindi",
+		"label": "/hi/paramahansa-yogananda/disciples-reminisce - Disciples Reminisce / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/paramahansa-yogananda/disciples-reminisce",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/paramahansa-yogananda/disciples-reminisce",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/paramahansa-yogananda/disciples-reminisce",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Comments and Reviews / Hindi",
+		"label": "/hi/paramahansa-yogananda/Comments-Reviews - Comments and Reviews / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/paramahansa-yogananda/Comments-Reviews",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/paramahansa-yogananda/Comments-Reviews",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/paramahansa-yogananda/Comments-Reviews",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Stories of Close Disciples / Hindi",
+		"label": "/hi/paramahansa-yogananda/first-encounters - Stories of Close Disciples / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/paramahansa-yogananda/first-encounters",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/paramahansa-yogananda/first-encounters",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/paramahansa-yogananda/first-encounters",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Educators & Scientific Community / Hindi",
+		"label": "/hi/paramahansa-yogananda/educators-scientific-community - Educators & Scientific Community / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/paramahansa-yogananda/educators-scientific-community",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/paramahansa-yogananda/educators-scientific-community",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/paramahansa-yogananda/educators-scientific-community",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "YSS Magazine / Hindi",
+		"label": "/hi/spiritual/yogoda-satsanga-magazine - YSS Magazine / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/spiritual/yogoda-satsanga-magazine",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/spiritual/yogoda-satsanga-magazine",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/spiritual/yogoda-satsanga-magazine",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Affirmations / Hindi",
+		"label": "/hi/spiritual/affirmations - Affirmations / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/spiritual/affirmations",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/spiritual/affirmations",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/spiritual/affirmations",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Affirmation Instructions / Hindi",
+		"label": "/hi/spiritual/affirmation-instructions - Affirmation Instructions / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/spiritual/affirmation-instructions",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/spiritual/affirmation-instructions",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/spiritual/affirmation-instructions",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Prayer / Hindi",
+		"label": "/hi/spiritual/Prayer - Prayer / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/spiritual/Prayer",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/spiritual/Prayer",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/spiritual/Prayer",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Request a Prayer / Hindi",
+		"label": "/hi/prayer - Request a Prayer / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/prayer",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/prayer",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/prayer",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "About YSS / Hindi",
+		"label": "/hi/about - About YSS / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/about",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/about",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/about",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Aims & Ideals / Hindi",
+		"label": "/hi/about/aims-and-ideals - Aims & Ideals / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/about/aims-and-ideals",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/about/aims-and-ideals",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/about/aims-and-ideals",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Monastic Order / Hindi",
+		"label": "/hi/about/monastic-order - Monastic Order / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/about/monastic-order",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/about/monastic-order",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/about/monastic-order",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Sannyas / Hindi",
+		"label": "/hi/about/Sannyas - Sannyas / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/about/Sannyas",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/about/Sannyas",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/about/Sannyas",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "4 stage of Monastic Life / Hindi",
+		"label": "/hi/about/the-four-stages-of-monastic-life - 4 stage of Monastic Life / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/about/the-four-stages-of-monastic-life",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/about/the-four-stages-of-monastic-life",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/about/the-four-stages-of-monastic-life",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Information for New Visitors / Hindi",
+		"label": "/hi/about/information-for-new-visitors - Information for New Visitors / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/about/information-for-new-visitors",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/about/information-for-new-visitors",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/about/information-for-new-visitors",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "FAQ / Hindi",
+		"label": "/hi/about/frequently-asked-questions - FAQ / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/about/frequently-asked-questions",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/about/frequently-asked-questions",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/about/frequently-asked-questions",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Glossary / Hindi",
+		"label": "/hi/about/yogoda-satsanga-society-of-india-glossary-page-1 - Glossary / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/about/yogoda-satsanga-society-of-india-glossary-page-1",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/about/yogoda-satsanga-society-of-india-glossary-page-1",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/about/yogoda-satsanga-society-of-india-glossary-page-1",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Request Free Literature / Hindi",
+		"label": "/hi/about/request-free-literature - Request Free Literature / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/about/request-free-literature",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/about/request-free-literature",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/about/request-free-literature",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Learn to Meditate / Hindi",
+		"label": "/hi/meditation/learn-to-meditate - Learn to Meditate / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/meditation/learn-to-meditate",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/meditation/learn-to-meditate",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/meditation/learn-to-meditate",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "How to Meditate / Hindi",
+		"label": "/hi/meditation/how-to-meditate - How to Meditate / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/meditation/how-to-meditate",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/meditation/how-to-meditate",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/meditation/how-to-meditate",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Guided Meditations / Hindi",
+		"label": "/hi/meditation/guided-meditations - Guided Meditations / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/meditation/guided-meditations",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/meditation/guided-meditations",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/meditation/guided-meditations",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "The Divine Art of Kirtan / Hindi",
+		"label": "/hi/meditation/the-divine-art-of-kirtan - The Divine Art of Kirtan / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/meditation/the-divine-art-of-kirtan",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/meditation/the-divine-art-of-kirtan",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/meditation/the-divine-art-of-kirtan",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Listen to Chants / Hindi",
+		"label": "/hi/meditation/listen-to-chants - Listen to Chants / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/meditation/listen-to-chants",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/meditation/listen-to-chants",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/meditation/listen-to-chants",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "The Kriya Yoga Path of Meditation / Hindi",
+		"label": "/hi/meditation/the-kriya-yoga-path-of-meditation-yogoda-satsanga-society - The Kriya Yoga Path of Meditation / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/meditation/the-kriya-yoga-path-of-meditation-yogoda-satsanga-society",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/meditation/the-kriya-yoga-path-of-meditation-yogoda-satsanga-society",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/meditation/the-kriya-yoga-path-of-meditation-yogoda-satsanga-society",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Lesson Programmes / Hindi",
+		"label": "/hi/lessons-programmes - Lesson Programmes / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/lessons-programmes",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/lessons-programmes",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/lessons-programmes",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Lessons Main Page - Tab #1 - Start Your Journey on the Path / Hindi",
+		"label": "/hi/yss-lessons - Lessons Main Page - Tab #1 - Start Your Journey on the Path / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/yss-lessons",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/yss-lessons",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/yss-lessons",
 		"elementSelector": "",
 		"clickSelector": "#startyourjourney"
 	},
 	{
-		"label": "Lessons Main Page - Tab #2 - Kriya Yoga / Hindi",
+		"label": "/hi/yss-lessons - Lessons Main Page - Tab #2 - Kriya Yoga / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/yss-lessons",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/yss-lessons",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/yss-lessons",
 		"elementSelector": "",
 		"clickSelector": "#kriyayoga"
 	},
 	{
-		"label": "Lessons Main Page - Tab #3 - Apply Now / Hindi",
+		"label": "/hi/yss-lessons - Lessons Main Page - Tab #3 - Apply Now / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/yss-lessons",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/yss-lessons",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/yss-lessons",
 		"elementSelector": "",
 		"clickSelector": "#applynow"
 	},
 	{
-		"label": "Lessons Main Page - Tab #4 - Digital App / Hindi",
+		"label": "/hi/yss-lessons - Lessons Main Page - Tab #4 - Digital App / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/yss-lessons",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/yss-lessons",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/yss-lessons",
 		"elementSelector": "",
 		"clickSelector": "#digitalapp2"
 	},
 	{
-		"label": "Kriya Lessons / Hindi",
+		"label": "/hi/kriya-yoga-lessons - Kriya Lessons / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/kriya-yoga-lessons",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/kriya-yoga-lessons",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/kriya-yoga-lessons",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "SRF/YSS App — FAQ / Hindi",
+		"label": "/hi/app-faq - SRF/YSS App — FAQ / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/app-faq",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/app-faq",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/app-faq",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Ashrams and Centres / Hindi",
+		"label": "/hi/ashrams - Ashrams and Centres / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/ashrams",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/ashrams",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/ashrams",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Ranchi Ashram / Hindi",
+		"label": "/hi/ashrams/yogoda-satsanga-sakha-ashram-ranchi - Ranchi Ashram / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/ashrams/yogoda-satsanga-sakha-ashram-ranchi",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/ashrams/yogoda-satsanga-sakha-ashram-ranchi",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/ashrams/yogoda-satsanga-sakha-ashram-ranchi",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Dwarahat Ashram / Hindi",
+		"label": "/hi/ashrams/yogoda-satsanga-sakha-ashram-dwarahat - Dwarahat Ashram / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/ashrams/yogoda-satsanga-sakha-ashram-dwarahat",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/ashrams/yogoda-satsanga-sakha-ashram-dwarahat",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/ashrams/yogoda-satsanga-sakha-ashram-dwarahat",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Dakshineswar Ashram / Hindi",
+		"label": "/hi/ashrams/yogoda-satsanga-math-dakshineswar - Dakshineswar Ashram / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/ashrams/yogoda-satsanga-math-dakshineswar",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/ashrams/yogoda-satsanga-math-dakshineswar",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/ashrams/yogoda-satsanga-math-dakshineswar",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Noida Ashram / Hindi",
+		"label": "/hi/ashrams/yogoda-satsanga-sakha-ashram-noida - Noida Ashram / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/ashrams/yogoda-satsanga-sakha-ashram-noida",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/ashrams/yogoda-satsanga-sakha-ashram-noida",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/ashrams/yogoda-satsanga-sakha-ashram-noida",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "All Centers / Hindi",
+		"label": "/hi/list-of-centres - All Centers / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/list-of-centres",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/list-of-centres",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/list-of-centres",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Employment Opportunities / Hindi",
+		"label": "/hi/employment-opportunities - Employment Opportunities / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/employment-opportunities",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/employment-opportunities",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/employment-opportunities",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Subscribe to Newsletter / Hindi",
+		"label": "/hi/enewsletter - Subscribe to Newsletter / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/enewsletter",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/enewsletter",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/enewsletter",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Kriya Yoga Royal Technique / Hindi",
+		"label": "/hi/programmes/Kriya-Yoga - Kriya Yoga Royal Technique / Hindi",
 		"referenceUrl": "https://yssofindia.org/hi/programmes/Kriya-Yoga",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/hi/programmes/Kriya-Yoga",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/programmes/Kriya-Yoga",
 		"elementSelector": "",
 		"clickSelector": ""
 	}

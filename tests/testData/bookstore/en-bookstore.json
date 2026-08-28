@@ -1,106 +1,106 @@
 [
 	{
-		"label": "Bookstore Homepage / English",
+		"label": "/bookstore - Bookstore Homepage / English",
 		"referenceUrl": "https://yssofindia.org/bookstore",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/bookstore",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/bookstore",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Books Archive / English",
+		"label": "/product-category/books - Books Archive / English",
 		"referenceUrl": "https://yssofindia.org/product-category/books",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/product-category/books",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/product-category/books",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Ebooks Archive / English",
+		"label": "/ebooks - Ebooks Archive / English",
 		"referenceUrl": "https://yssofindia.org/ebooks",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ebooks",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ebooks",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Audio Archive / English",
+		"label": "/product-category/audio - Audio Archive / English",
 		"referenceUrl": "https://yssofindia.org/product-category/audio",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/product-category/audio",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/product-category/audio",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Magazine / English",
+		"label": "/product-category/magazine - Magazine / English",
 		"referenceUrl": "https://yssofindia.org/product-category/magazine",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/product-category/magazine",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/product-category/magazine",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Photos Archive / English",
+		"label": "/product-category/photos - Photos Archive / English",
 		"referenceUrl": "https://yssofindia.org/product-category/photos",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/product-category/photos",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/product-category/photos",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Devotional Items / English",
+		"label": "/product-category/devotional-articles - Devotional Items / English",
 		"referenceUrl": "https://yssofindia.org/product-category/devotional-articles",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/product-category/devotional-articles",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/product-category/devotional-articles",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Video Archive / English",
+		"label": "/product-category/video - Video Archive / English",
 		"referenceUrl": "https://yssofindia.org/product-category/video",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/product-category/video",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/product-category/video",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Ordering Info / English",
+		"label": "/ordering-info - Ordering Info / English",
 		"referenceUrl": "https://yssofindia.org/ordering-info",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/ordering-info",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/ordering-info",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Shopping cart / English",
+		"label": "/cart - Shopping cart / English",
 		"referenceUrl": "https://yssofindia.org/cart",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/cart",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/cart",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Checkout / English",
+		"label": "/checkout - Checkout / English",
 		"referenceUrl": "https://yssofindia.org/checkout",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/checkout",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/checkout",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Recent Purchases / English",
+		"label": "/my-account/orders - Recent Purchases / English",
 		"referenceUrl": "https://yssofindia.org/my-account/orders",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/my-account/orders",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/my-account/orders",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "AOY / English",
+		"label": "/product/autobiography-of-a-yogi - AOY / English",
 		"referenceUrl": "https://yssofindia.org/product/autobiography-of-a-yogi",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/product/autobiography-of-a-yogi",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/product/autobiography-of-a-yogi",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "GTWA / English",
+		"label": "/product/god-talks-with-arjuna-the-bhagavad-gita - GTWA / English",
 		"referenceUrl": "https://yssofindia.org/product/god-talks-with-arjuna-the-bhagavad-gita",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/product/god-talks-with-arjuna-the-bhagavad-gita",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/product/god-talks-with-arjuna-the-bhagavad-gita",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Calendar / English",
+		"label": "/product/wall-calendar-2024 - Calendar / English",
 		"referenceUrl": "https://yssofindia.org/product/wall-calendar-2024",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/product/wall-calendar-2024",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/product/wall-calendar-2024",
 		"elementSelector": "",
 		"clickSelector": ""
 	}

@@ -1,29 +1,29 @@
 [
 	{
-		"label": "Ranchi Ashram - Upcoming Events / Bangla",
+		"label": "/bn/location/ranchi - Ranchi Ashram - Upcoming Events / Bangla",
 		"referenceUrl": "https://yssofindia.org/bn/location/ranchi",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/bn/location/ranchi",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/bn/location/ranchi",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Ranchi Ashram - All Events / Bangla",
+		"label": "/bn/location/ranchi/event-schedule - Ranchi Ashram - All Events / Bangla",
 		"referenceUrl": "https://yssofindia.org/bn/location/ranchi/event-schedule",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/bn/location/ranchi/event-schedule",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/bn/location/ranchi/event-schedule",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Dakshineswar Ashram - Upcoming Events / Bangla",
+		"label": "/bn/location/dakshineswar - Dakshineswar Ashram - Upcoming Events / Bangla",
 		"referenceUrl": "https://yssofindia.org/bn/location/dakshineswar",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/bn/location/dakshineswar",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/bn/location/dakshineswar",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
-		"label": "Dakshineswar Ashram - All Events / Bangla",
+		"label": "/bn/location/dakshineswar/event-schedule - Dakshineswar Ashram - All Events / Bangla",
 		"referenceUrl": "https://yssofindia.org/bn/location/dakshineswar/event-schedule",
-		"url": "https://yssdev:Jaiguru@123!@test.yssofindia.org/bn/location/dakshineswar/event-schedule",
+		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/bn/location/dakshineswar/event-schedule",
 		"elementSelector": "",
 		"clickSelector": ""
 	}
