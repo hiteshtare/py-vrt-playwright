@@ -1,105 +1,105 @@
 [
 	{
 		"label": "/kn/event/sadhana-sangams - Sadhana Sangam - Accordian #1 - Schedule / Kannada",
-		"referenceUrl": "https://yssofindia.org/kn/event/sadhana-sangams",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/event/sadhana-sangams",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/event/sadhana-sangams",
 		"elementSelector": "",
 		"clickSelector": "#schedule"
 	},
 	{
 		"label": "/kn/event/sadhana-sangams - Sadhana Sangam - Accordian #2 - Registration / Kannada",
-		"referenceUrl": "https://yssofindia.org/kn/event/sadhana-sangams",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/event/sadhana-sangams",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/event/sadhana-sangams",
 		"elementSelector": "",
 		"clickSelector": "#registration"
 	},
 	{
 		"label": "/kn/event/sadhana-sangams - Sadhana Sangam - Accordian #3 - Eligibility for Receiving Kriya Yoga / Kannada",
-		"referenceUrl": "https://yssofindia.org/kn/event/sadhana-sangams",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/event/sadhana-sangams",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/event/sadhana-sangams",
 		"elementSelector": "",
 		"clickSelector": "#kriya"
 	},
 	{
 		"label": "/kn/event/sadhana-sangams - Sadhana Sangam - Accordian #4 - Volunteers / Kannada",
-		"referenceUrl": "https://yssofindia.org/kn/event/sadhana-sangams",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/event/sadhana-sangams",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/event/sadhana-sangams",
 		"elementSelector": "",
 		"clickSelector": "#volunteers"
 	},
 	{
 		"label": "/kn/event/yss-sannyasi-led-meditation-tuesdays - Tuesday Meditation / Kannada",
-		"referenceUrl": "https://yssofindia.org/kn/event/yss-sannyasi-led-meditation-tuesdays",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/event/yss-sannyasi-led-meditation-tuesdays",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/event/yss-sannyasi-led-meditation-tuesdays",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/kn/event/devotee-led-online-meditations - DLM / Kannada",
-		"referenceUrl": "https://yssofindia.org/kn/event/devotee-led-online-meditations",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/event/devotee-led-online-meditations",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/event/devotee-led-online-meditations",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/kn/event/international-day-of-yoga - IDOY / Kannada",
-		"referenceUrl": "https://yssofindia.org/kn/event/international-day-of-yoga",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/event/international-day-of-yoga",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/event/international-day-of-yoga",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/kn/monastic-tours - Monastic Tours / Kannada",
-		"referenceUrl": "https://yssofindia.org/kn/monastic-tours",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/monastic-tours",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/monastic-tours",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/kn/programmes/retreats - Retreats / Kannada",
-		"referenceUrl": "https://yssofindia.org/kn/programmes/retreats",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/programmes/retreats",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/programmes/retreats",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/kn/online-meditation - ODK / Kannada",
-		"referenceUrl": "https://yssofindia.org/kn/online-meditation",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/online-meditation",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/online-meditation",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/kn/online-meditation/how-to-participate - ODK - How to participate / Kannada",
-		"referenceUrl": "https://yssofindia.org/kn/online-meditation/how-to-participate",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/online-meditation/how-to-participate",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/online-meditation/how-to-participate",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/kn/online-meditation/calendar - ODK Calendar / Kannada",
-		"referenceUrl": "https://yssofindia.org/kn/online-meditation/calendar",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/online-meditation/calendar",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/online-meditation/calendar",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/kn/online-meditation/helpdesk - ODK Helpdesk / Kannada",
-		"referenceUrl": "https://yssofindia.org/kn/online-meditation/helpdesk",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/online-meditation/helpdesk",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/online-meditation/helpdesk",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/kn/event/presidents-india-tour - President India Tour 2025 / Kannada",
-		"referenceUrl": "https://yssofindia.org/kn/event/presidents-india-tour",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/event/presidents-india-tour",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/event/presidents-india-tour",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/kn/event/kumbha-mela - Kumbha Mela 2025 / Kannada",
-		"referenceUrl": "https://yssofindia.org/kn/event/kumbha-mela",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/event/kumbha-mela",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/kn/event/kumbha-mela",
 		"elementSelector": "",
 		"clickSelector": ""

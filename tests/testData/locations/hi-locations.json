@@ -1,42 +1,42 @@
 [
 	{
 		"label": "/hi/location/ranchi - Ranchi Ashram - Upcoming Events / Hindi",
-		"referenceUrl": "https://yssofindia.org/hi/location/ranchi",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/location/ranchi",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/location/ranchi",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/hi/location/ranchi/event-schedule - Ranchi Ashram - All Events / Hindi",
-		"referenceUrl": "https://yssofindia.org/hi/location/ranchi/event-schedule",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/location/ranchi/event-schedule",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/location/ranchi/event-schedule",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/hi/location/chennai - Chennai Ashram - Upcoming Events / Hindi",
-		"referenceUrl": "https://yssofindia.org/hi/location/chennai",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/location/chennai",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/location/chennai",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/hi/location/chennai/event-schedule - Chennai Ashram - All Events / Hindi",
-		"referenceUrl": "https://yssofindia.org/hi/location/chennai/event-schedule",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/location/chennai/event-schedule",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/location/chennai/event-schedule",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/hi/location/dakshineswar - Dakshineswar Ashram - Upcoming Events / Hindi",
-		"referenceUrl": "https://yssofindia.org/hi/location/dakshineswar",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/location/dakshineswar",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/location/dakshineswar",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/hi/location/dakshineswar/event-schedule - Dakshineswar Ashram - All Events / Hindi",
-		"referenceUrl": "https://yssofindia.org/hi/location/dakshineswar/event-schedule",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/location/dakshineswar/event-schedule",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/hi/location/dakshineswar/event-schedule",
 		"elementSelector": "",
 		"clickSelector": ""

@@ -1,238 +1,238 @@
 [
 	{
 		"label": "/event/sadhana-sangams - Sadhana Sangam - Accordian #1 - Schedule / English",
-		"referenceUrl": "https://yssofindia.org/event/sadhana-sangams",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/sadhana-sangams",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/sadhana-sangams",
 		"elementSelector": "",
 		"clickSelector": "#schedule"
 	},
 	{
 		"label": "/event/sadhana-sangams - Sadhana Sangam - Accordian #2 - Registration / English",
-		"referenceUrl": "https://yssofindia.org/event/sadhana-sangams",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/sadhana-sangams",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/sadhana-sangams",
 		"elementSelector": "",
 		"clickSelector": "#registration"
 	},
 	{
 		"label": "/event/sadhana-sangams - Sadhana Sangam - Accordian #3 - Eligibility / English",
-		"referenceUrl": "https://yssofindia.org/event/sadhana-sangams",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/sadhana-sangams",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/sadhana-sangams",
 		"elementSelector": "",
 		"clickSelector": "#kriya"
 	},
 	{
 		"label": "/event/sadhana-sangams - Sadhana Sangam - Accordian #4 - Volunteers / English",
-		"referenceUrl": "https://yssofindia.org/event/sadhana-sangams",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/sadhana-sangams",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/sadhana-sangams",
 		"elementSelector": "",
 		"clickSelector": "#volunteers"
 	},
 	{
 		"label": "/event/mahavatar-babaji-smriti-divas - Commemoration Event - Past Event / English",
-		"referenceUrl": "https://yssofindia.org/event/mahavatar-babaji-smriti-divas",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/mahavatar-babaji-smriti-divas",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/mahavatar-babaji-smriti-divas",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/event/monastic-tour-siliguri-march-2024 - Monastic Tour - 1 day - Upcoming / English",
-		"referenceUrl": "https://yssofindia.org/event/monastic-tour-siliguri-march-2024",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/monastic-tour-siliguri-march-2024",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/monastic-tour-siliguri-march-2024",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/event/monastic-tour-guwahati-april-2024 - Monastic Tour - 2 days - Upcoming / English",
-		"referenceUrl": "https://yssofindia.org/event/monastic-tour-guwahati-april-2024",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/monastic-tour-guwahati-april-2024",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/monastic-tour-guwahati-april-2024",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/event/monastic-tour-kanpur-august-2023 - Monastic Tour - 1 day - Past Event / English",
-		"referenceUrl": "https://yssofindia.org/event/monastic-tour-kanpur-august-2023",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/monastic-tour-kanpur-august-2023",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/monastic-tour-kanpur-august-2023",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/event/monastic-tour-bijainagar-august-2023 - Monastic Tour - 2 days - Past Event / English",
-		"referenceUrl": "https://yssofindia.org/event/monastic-tour-bijainagar-august-2023",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/monastic-tour-bijainagar-august-2023",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/monastic-tour-bijainagar-august-2023",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/event/monastic-tour-thanjavur-july-2023 - Monastic Tour - 3 days - Past Event / English",
-		"referenceUrl": "https://yssofindia.org/event/monastic-tour-thanjavur-july-2023",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/monastic-tour-thanjavur-july-2023",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/monastic-tour-thanjavur-july-2023",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/event/retreat-noida-august-2023 - Retreat - Past Event / English",
-		"referenceUrl": "https://yssofindia.org/event/retreat-noida-august-2023",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/retreat-noida-august-2023",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/retreat-noida-august-2023",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/event/discourse-in-hindi-march-17-2024 - ODK Event - Upcoming / English",
-		"referenceUrl": "https://yssofindia.org/event/discourse-in-hindi-march-17-2024",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/discourse-in-hindi-march-17-2024",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/discourse-in-hindi-march-17-2024",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/event/discourse-in-hindi-september-17-2023 - ODK Event - Past Event / English",
-		"referenceUrl": "https://yssofindia.org/event/discourse-in-hindi-september-17-2023",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/discourse-in-hindi-september-17-2023",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/discourse-in-hindi-september-17-2023",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/event/yss-lessons-study-group - Lessons Study Group / English",
-		"referenceUrl": "https://yssofindia.org/event/yss-lessons-study-group",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/yss-lessons-study-group",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/yss-lessons-study-group",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/event/yss-sannyasi-led-meditation-tuesdays - Tuesday Meditation / English",
-		"referenceUrl": "https://yssofindia.org/event/yss-sannyasi-led-meditation-tuesdays",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/yss-sannyasi-led-meditation-tuesdays",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/yss-sannyasi-led-meditation-tuesdays",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/event/yss-sannyasi-led-3-hr-meditation-sundays - Sunday Long Meditation / English",
-		"referenceUrl": "https://yssofindia.org/event/yss-sannyasi-led-3-hr-meditation-sundays",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/yss-sannyasi-led-3-hr-meditation-sundays",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/yss-sannyasi-led-3-hr-meditation-sundays",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/event/devotee-led-online-meditations - DLM / English",
-		"referenceUrl": "https://yssofindia.org/event/devotee-led-online-meditations",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/devotee-led-online-meditations",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/devotee-led-online-meditations",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/event/bhagavad-gita-discourses - Gita Event / English",
-		"referenceUrl": "https://yssofindia.org/event/bhagavad-gita-discourses",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/bhagavad-gita-discourses",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/bhagavad-gita-discourses",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/spiritual/discourses-on-the-bhagavad-gita - Gita Archive Page / English",
-		"referenceUrl": "https://yssofindia.org/spiritual/discourses-on-the-bhagavad-gita",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/spiritual/discourses-on-the-bhagavad-gita",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/spiritual/discourses-on-the-bhagavad-gita",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/international-day-of-yoga - IDOY / English",
-		"referenceUrl": "https://yssofindia.org/international-day-of-yoga",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/international-day-of-yoga",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/international-day-of-yoga",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/international-day-of-yoga/in-person-events - IDOY - In-person Events / English",
-		"referenceUrl": "https://yssofindia.org/international-day-of-yoga/in-person-events",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/international-day-of-yoga/in-person-events",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/international-day-of-yoga/in-person-events",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/event/sangam-with-yss-srf-president-sri-sri-swami-chidananda-giri-2023 - February Sangam / English",
-		"referenceUrl": "https://yssofindia.org/event/sangam-with-yss-srf-president-sri-sri-swami-chidananda-giri-2023",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/sangam-with-yss-srf-president-sri-sri-swami-chidananda-giri-2023",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/sangam-with-yss-srf-president-sri-sri-swami-chidananda-giri-2023",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/event/srf-sannyasinis-visit-to-yss-ashrams-2022 - Nuns Sangam / English",
-		"referenceUrl": "https://yssofindia.org/event/srf-sannyasinis-visit-to-yss-ashrams-2022",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/srf-sannyasinis-visit-to-yss-ashrams-2022",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/srf-sannyasinis-visit-to-yss-ashrams-2022",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/event/autobiography-of-a-yogi-group-study-and-contemplation - AOY Group Study and Contemplation Session / English",
-		"referenceUrl": "https://yssofindia.org/event/autobiography-of-a-yogi-group-study-and-contemplation",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/autobiography-of-a-yogi-group-study-and-contemplation",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/autobiography-of-a-yogi-group-study-and-contemplation",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/programmes/monastic-tours - Monastic Tours / English",
-		"referenceUrl": "https://yssofindia.org/programmes/monastic-tours",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/programmes/monastic-tours",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/programmes/monastic-tours",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/see-all-retreat-centres - Retreats / English",
-		"referenceUrl": "https://yssofindia.org/see-all-retreat-centres",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/see-all-retreat-centres",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/see-all-retreat-centres",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/online-meditation - ODK / English",
-		"referenceUrl": "https://yssofindia.org/online-meditation",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/online-meditation",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/online-meditation",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/online-meditation/how-to-participate - ODK - How to participate / English",
-		"referenceUrl": "https://yssofindia.org/online-meditation/how-to-participate",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/online-meditation/how-to-participate",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/online-meditation/how-to-participate",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/online-meditation/calendar - ODK Calendar / English",
-		"referenceUrl": "https://yssofindia.org/online-meditation/calendar",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/online-meditation/calendar",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/online-meditation/calendar",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/online-meditation/helpdesk - ODK Helpdesk / English",
-		"referenceUrl": "https://yssofindia.org/online-meditation/helpdesk",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/online-meditation/helpdesk",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/online-meditation/helpdesk",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/event - Events archive / English",
-		"referenceUrl": "https://yssofindia.org/event",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/past-events - Past events archive / English",
-		"referenceUrl": "https://yssofindia.org/past-events",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/past-events",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/past-events",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/event/kumbha-mela - Kumbha Mela 2025 / English",
-		"referenceUrl": "https://yssofindia.org/event/kumbha-mela",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/kumbha-mela",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/kumbha-mela",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/event/presidents-india-tour - Presidents India Tour 2025 / English",
-		"referenceUrl": "https://yssofindia.org/event/presidents-india-tour",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/presidents-india-tour",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/event/presidents-india-tour",
 		"elementSelector": "",
 		"clickSelector": ""

@@ -1,77 +1,77 @@
 [
 	{
 		"label": "/location/ranchi - Ranchi Ashram - Upcoming Events / English",
-		"referenceUrl": "https://yssofindia.org/location/ranchi",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/location/ranchi",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/location/ranchi",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/location/ranchi/event-schedule - Ranchi Ashram - All Events / English",
-		"referenceUrl": "https://yssofindia.org/location/ranchi/event-schedule",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/location/ranchi/event-schedule",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/location/ranchi/event-schedule",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/location/chennai - Chennai Ashram - Upcoming Events / English",
-		"referenceUrl": "https://yssofindia.org/location/chennai",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/location/chennai",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/location/chennai",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/location/chennai/event-schedule - Chennai Ashram - All Events / English",
-		"referenceUrl": "https://yssofindia.org/location/chennai/event-schedule",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/location/chennai/event-schedule",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/location/chennai/event-schedule",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/location/dakshineswar - Dakshineswar Ashram - Upcoming Events / English",
-		"referenceUrl": "https://yssofindia.org/location/dakshineswar",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/location/dakshineswar",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/location/dakshineswar",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/location/dakshineswar/event-schedule - Dakshineswar Ashram - All Events / English",
-		"referenceUrl": "https://yssofindia.org/location/dakshineswar/event-schedule",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/location/dakshineswar/event-schedule",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/location/dakshineswar/event-schedule",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/location/igatpuri - Igatpuri Retreat - LoadMore Events / English",
-		"referenceUrl": "https://yssofindia.org/location/igatpuri",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/location/igatpuri",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/location/igatpuri",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/location/rajahmundry-retreat - Rajahmundry Retreat - LoadMore Events / English",
-		"referenceUrl": "https://yssofindia.org/location/rajahmundry-retreat",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/location/rajahmundry-retreat",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/location/rajahmundry-retreat",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/location/shimla-retreat - Shimla Retreat - LoadMore Events / English",
-		"referenceUrl": "https://yssofindia.org/location/shimla-retreat",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/location/shimla-retreat",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/location/shimla-retreat",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/location/mumbai - Mumbai Meditation Centre - LoadMore Events / English",
-		"referenceUrl": "https://yssofindia.org/location/mumbai",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/location/mumbai",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/location/mumbai",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/location/chennai-centre - Chennai Meditation Centre - LoadMore Events / English",
-		"referenceUrl": "https://yssofindia.org/location/chennai-centre",
+		"referenceUrl": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/location/chennai-centre",
 		"url": "https://yssdev:Jaiguru@123!@staging4.yssofindia.org/location/chennai-centre",
 		"elementSelector": "",
 		"clickSelector": ""
