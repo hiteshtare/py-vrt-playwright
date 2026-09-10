@@ -24,7 +24,7 @@ export function setupVRT(projectId: string, buildName: string) {
 
   // _logger.debug(APP_CONFIG.layout);
 
-  if (APP_CONFIG.layout === "Mobile") {
+  if (APP_CONFIG.layout === "Mob") {
     layoutAgent = {
       device: "Mobile",
       viewport: "375x667",
