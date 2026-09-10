@@ -34,16 +34,6 @@ export default defineConfig({
   reporter: [
     ["list", { open: "never" }],
     ["html", { open: "never" }],
-    [
-      "allure-playwright",
-      {
-        open: "never",
-        environmentInfo: {
-          Test: `https://${APP_CONFIG.authPopUpUser}:${APP_CONFIG.authPopUpPassword}@${APP_CONFIG.baseURL}/`,
-          Reference: "https://yssofindia.org/",
-        },
-      },
-    ],
   ],
   timeout: 120000, //2 mins
   snapshotPathTemplate: "./screenshots/{testFilePath}/{arg}{_projectName}{ext}",
