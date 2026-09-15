@@ -17,6 +17,9 @@ const _logger = getLoggerLevel();
 export function loadConfigFromENV(): void {
   _logger.warn("loadConfigFromENV");
 
+  // First line of your entry file - Default to Indian Standard Time (IST)
+  process.env.TZ = "Asia/Kolkata";
+
  APP_CONFIG.loggerLevel = "" + process.env.LOGGER_LEVEL;
   _logger.info(`loggerLevel : ${APP_CONFIG.loggerLevel}`);
 
