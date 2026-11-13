@@ -77,11 +77,32 @@
 		"clickSelector": ""
 	},
 	{
-		"label": "/spiritual/yogoda-satsanga-magazine - YSS Magazine / English",
+		"label": "/spiritual/yogoda-satsanga-magazine - YSS Magazine - Tab #1 - Yogoda Satsanga Magazine / English",
 		"referenceUrl": "https://staging6.yssofindia.org/spiritual/yogoda-satsanga-magazine",
 		"url": "https://staging6.yssofindia.org/spiritual/yogoda-satsanga-magazine",
 		"elementSelector": "",
-		"clickSelector": ""
+		"clickSelector": "#iyogoda-satsangai-magazine"
+	},
+	{
+		"label": "/spiritual/yogoda-satsanga-magazine - YSS Magazine - Tab #2 - A sampling of articles / English",
+		"referenceUrl": "https://staging6.yssofindia.org/spiritual/yogoda-satsanga-magazine",
+		"url": "https://staging6.yssofindia.org/spiritual/yogoda-satsanga-magazine",
+		"elementSelector": "",
+		"clickSelector": "#samplearticles"
+	},
+	{
+		"label": "/spiritual/yogoda-satsanga-magazine - YSS Magazine - Tab #3 - Further inspirations from our website / English",
+		"referenceUrl": "https://staging6.yssofindia.org/spiritual/yogoda-satsanga-magazine",
+		"url": "https://staging6.yssofindia.org/spiritual/yogoda-satsanga-magazine",
+		"elementSelector": "",
+		"clickSelector": "#further-inspirations-from-our-website"
+	},
+	{
+		"label": "/spiritual/yogoda-satsanga-magazine - YSS Magazine - Tab #4 - Subscribe / English",
+		"referenceUrl": "https://staging6.yssofindia.org/spiritual/yogoda-satsanga-magazine",
+		"url": "https://staging6.yssofindia.org/spiritual/yogoda-satsanga-magazine",
+		"elementSelector": "",
+		"clickSelector": "#subscribe"
 	},
 	{
 		"label": "/spiritual/affirmations - Affirmations / English",
@@ -217,11 +238,25 @@
 		"clickSelector": ""
 	},
 	{
-		"label": "/lessons-programmes - Lesson Programmes / English",
+		"label": "/lessons-programmes - Lesson Programmes - Tab #1 - What are the YSS Lessons? / English",
 		"referenceUrl": "https://staging6.yssofindia.org/lessons-programmes",
 		"url": "https://staging6.yssofindia.org/lessons-programmes",
 		"elementSelector": "",
-		"clickSelector": ""
+		"clickSelector": "#what-are-the-yss-lessons"
+	},
+	{
+		"label": "/lessons-programmes - Lesson Programmes - Tab #2 - Purpose & History / English",
+		"referenceUrl": "https://staging6.yssofindia.org/lessons-programmes",
+		"url": "https://staging6.yssofindia.org/lessons-programmes",
+		"elementSelector": "",
+		"clickSelector": "#purpose-history"
+	},
+	{
+		"label": "/lessons-programmes - Lesson Programmes - Tab #3 - Digital App / English",
+		"referenceUrl": "https://staging6.yssofindia.org/lessons-programmes",
+		"url": "https://staging6.yssofindia.org/lessons-programmes",
+		"elementSelector": "",
+		"clickSelector": "#digital-app"
 	},
 	{
 		"label": "/yss-lessons - Lessons Main Page - Tab #1 - Start Your Journey on the Path / English",
@@ -252,11 +287,25 @@
 		"clickSelector": "#digitalapp2"
 	},
 	{
-		"label": "/kriya-yoga-lessons - Kriya Lessons / English",
+		"label": "/kriya-yoga-lessons - Kriya Lessons - Tab #1 - NEW STUDENTS: How to Apply for Kriya Yoga Initiation / English",
 		"referenceUrl": "https://staging6.yssofindia.org/kriya-yoga-lessons",
 		"url": "https://staging6.yssofindia.org/kriya-yoga-lessons",
 		"elementSelector": "",
-		"clickSelector": ""
+		"clickSelector": "#new-students-how-to-apply-for-kriya-yoga-initiation"
+	},
+	{
+		"label": "/kriya-yoga-lessons - Kriya Lessons - Tab #2 - KRIYABANS: Request the New Edition of the Kriya Yoga Lessons / English",
+		"referenceUrl": "https://staging6.yssofindia.org/kriya-yoga-lessons",
+		"url": "https://staging6.yssofindia.org/kriya-yoga-lessons",
+		"elementSelector": "",
+		"clickSelector": "#kriyabans-request-the-new-edition-of-the-kriya-yoga-lessons"
+	},
+	{
+		"label": "/kriya-yoga-lessons - Kriya Lessons - Tab #3 - Am I Eligible to Apply for Kriya Yoga Initiation? / English",
+		"referenceUrl": "https://staging6.yssofindia.org/kriya-yoga-lessons",
+		"url": "https://staging6.yssofindia.org/kriya-yoga-lessons",
+		"elementSelector": "",
+		"clickSelector": "#am-i-eligible-to-apply-for-kriya-yoga-initiation"
 	},
 	{
 		"label": "/supplement-lessons - Supplementary Lessons / English",

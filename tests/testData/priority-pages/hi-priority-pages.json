@@ -77,11 +77,32 @@
 		"clickSelector": ""
 	},
 	{
-		"label": "/hi/spiritual/yogoda-satsanga-magazine - YSS Magazine / Hindi",
+		"label": "/hi/spiritual/yogoda-satsanga-magazine - YSS Magazine - Tab #1 - Yogoda Satsanga Magazine / Hindi",
 		"referenceUrl": "https://staging6.yssofindia.org/hi/spiritual/yogoda-satsanga-magazine",
 		"url": "https://staging6.yssofindia.org/hi/spiritual/yogoda-satsanga-magazine",
 		"elementSelector": "",
-		"clickSelector": ""
+		"clickSelector": "#iyogoda-satsangai-magazine"
+	},
+	{
+		"label": "/hi/spiritual/yogoda-satsanga-magazine - YSS Magazine - Tab #2 - A sampling of articles / Hindi",
+		"referenceUrl": "https://staging6.yssofindia.org/hi/spiritual/yogoda-satsanga-magazine",
+		"url": "https://staging6.yssofindia.org/hi/spiritual/yogoda-satsanga-magazine",
+		"elementSelector": "",
+		"clickSelector": "#samplearticles"
+	},
+	{
+		"label": "/hi/spiritual/yogoda-satsanga-magazine - YSS Magazine - Tab #3 - Further inspirations from our website / Hindi",
+		"referenceUrl": "https://staging6.yssofindia.org/hi/spiritual/yogoda-satsanga-magazine",
+		"url": "https://staging6.yssofindia.org/hi/spiritual/yogoda-satsanga-magazine",
+		"elementSelector": "",
+		"clickSelector": "#further-inspirations-from-our-website"
+	},
+	{
+		"label": "/hi/spiritual/yogoda-satsanga-magazine - YSS Magazine - Tab #4 - Subscribe / Hindi",
+		"referenceUrl": "https://staging6.yssofindia.org/hi/spiritual/yogoda-satsanga-magazine",
+		"url": "https://staging6.yssofindia.org/hi/spiritual/yogoda-satsanga-magazine",
+		"elementSelector": "",
+		"clickSelector": "#subscribe"
 	},
 	{
 		"label": "/hi/spiritual/affirmations - Affirmations / Hindi",
@@ -217,11 +238,25 @@
 		"clickSelector": ""
 	},
 	{
-		"label": "/hi/lessons-programmes - Lesson Programmes / Hindi",
+		"label": "/hi/lessons-programmes - Lesson Programmes - Tab #1 - What are the YSS Lessons? / Hindi",
 		"referenceUrl": "https://staging6.yssofindia.org/hi/lessons-programmes",
 		"url": "https://staging6.yssofindia.org/hi/lessons-programmes",
 		"elementSelector": "",
-		"clickSelector": ""
+		"clickSelector": "#what-are-the-yss-lessons"
+	},
+	{
+		"label": "/hi/lessons-programmes - Lesson Programmes - Tab #2 - Purpose & History / Hindi",
+		"referenceUrl": "https://staging6.yssofindia.org/hi/lessons-programmes",
+		"url": "https://staging6.yssofindia.org/hi/lessons-programmes",
+		"elementSelector": "",
+		"clickSelector": "#purpose-history"
+	},
+	{
+		"label": "/hi/lessons-programmes - Lesson Programmes - Tab #3 - Digital App / Hindi",
+		"referenceUrl": "https://staging6.yssofindia.org/hi/lessons-programmes",
+		"url": "https://staging6.yssofindia.org/hi/lessons-programmes",
+		"elementSelector": "",
+		"clickSelector": "#digital-app"
 	},
 	{
 		"label": "/hi/yss-lessons - Lessons Main Page - Tab #1 - Start Your Journey on the Path / Hindi",
@@ -252,11 +287,25 @@
 		"clickSelector": "#digitalapp2"
 	},
 	{
-		"label": "/hi/kriya-yoga-lessons - Kriya Lessons / Hindi",
+		"label": "/hi/kriya-yoga-lessons - Kriya Lessons - Tab #1 - NEW STUDENTS: How to Apply for Kriya Yoga Initiation / Hindi",
 		"referenceUrl": "https://staging6.yssofindia.org/hi/kriya-yoga-lessons",
 		"url": "https://staging6.yssofindia.org/hi/kriya-yoga-lessons",
 		"elementSelector": "",
-		"clickSelector": ""
+		"clickSelector": "#new-students-how-to-apply-for-kriya-yoga-initiation"
+	},
+	{
+		"label": "/hi/kriya-yoga-lessons - Kriya Lessons - Tab #2 - KRIYABANS: Request the New Edition of the Kriya Yoga Lessons / Hindi",
+		"referenceUrl": "https://staging6.yssofindia.org/hi/kriya-yoga-lessons",
+		"url": "https://staging6.yssofindia.org/hi/kriya-yoga-lessons",
+		"elementSelector": "",
+		"clickSelector": "#kriyabans-request-the-new-edition-of-the-kriya-yoga-lessons"
+	},
+	{
+		"label": "/hi/kriya-yoga-lessons - Kriya Lessons - Tab #3 - Am I Eligible to Apply for Kriya Yoga Initiation? / Hindi",
+		"referenceUrl": "https://staging6.yssofindia.org/hi/kriya-yoga-lessons",
+		"url": "https://staging6.yssofindia.org/hi/kriya-yoga-lessons",
+		"elementSelector": "",
+		"clickSelector": "#am-i-eligible-to-apply-for-kriya-yoga-initiation"
 	},
 	{
 		"label": "/hi/app-faq - SRF/YSS App — FAQ / Hindi",

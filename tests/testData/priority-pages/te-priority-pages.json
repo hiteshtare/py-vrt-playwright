@@ -77,11 +77,32 @@
 		"clickSelector": ""
 	},
 	{
-		"label": "/te/spiritual/yogoda-satsanga-magazine - YSS Magazine / Telugu",
+		"label": "/te/spiritual/yogoda-satsanga-magazine - YSS Magazine - Tab #1 - Yogoda Satsanga Magazine / Telugu",
 		"referenceUrl": "https://staging6.yssofindia.org/te/spiritual/yogoda-satsanga-magazine",
 		"url": "https://staging6.yssofindia.org/te/spiritual/yogoda-satsanga-magazine",
 		"elementSelector": "",
-		"clickSelector": ""
+		"clickSelector": "#iyogoda-satsangai-magazine"
+	},
+	{
+		"label": "/te/spiritual/yogoda-satsanga-magazine - YSS Magazine - Tab #2 - A sampling of articles / Telugu",
+		"referenceUrl": "https://staging6.yssofindia.org/te/spiritual/yogoda-satsanga-magazine",
+		"url": "https://staging6.yssofindia.org/te/spiritual/yogoda-satsanga-magazine",
+		"elementSelector": "",
+		"clickSelector": "#samplearticles"
+	},
+	{
+		"label": "/te/spiritual/yogoda-satsanga-magazine - YSS Magazine - Tab #3 - Further inspirations from our website / Telugu",
+		"referenceUrl": "https://staging6.yssofindia.org/te/spiritual/yogoda-satsanga-magazine",
+		"url": "https://staging6.yssofindia.org/te/spiritual/yogoda-satsanga-magazine",
+		"elementSelector": "",
+		"clickSelector": "#further-inspirations-from-our-website"
+	},
+	{
+		"label": "/te/spiritual/yogoda-satsanga-magazine - YSS Magazine - Tab #4 - Subscribe / Telugu",
+		"referenceUrl": "https://staging6.yssofindia.org/te/spiritual/yogoda-satsanga-magazine",
+		"url": "https://staging6.yssofindia.org/te/spiritual/yogoda-satsanga-magazine",
+		"elementSelector": "",
+		"clickSelector": "#subscribe"
 	},
 	{
 		"label": "/te/spiritual/affirmations - Affirmations / Telugu",
@@ -217,11 +238,25 @@
 		"clickSelector": ""
 	},
 	{
-		"label": "/te/lessons-programmes - Lesson Programmes / Telugu",
+		"label": "/te/lessons-programmes - Lesson Programmes - Tab #1 - What are the YSS Lessons? / Telugu",
 		"referenceUrl": "https://staging6.yssofindia.org/te/lessons-programmes",
 		"url": "https://staging6.yssofindia.org/te/lessons-programmes",
 		"elementSelector": "",
-		"clickSelector": ""
+		"clickSelector": "#what-are-the-yss-lessons"
+	},
+	{
+		"label": "/te/lessons-programmes - Lesson Programmes - Tab #2 - Purpose & History / Telugu",
+		"referenceUrl": "https://staging6.yssofindia.org/te/lessons-programmes",
+		"url": "https://staging6.yssofindia.org/te/lessons-programmes",
+		"elementSelector": "",
+		"clickSelector": "#purpose-history"
+	},
+	{
+		"label": "/te/lessons-programmes - Lesson Programmes - Tab #3 - Digital App / Telugu",
+		"referenceUrl": "https://staging6.yssofindia.org/te/lessons-programmes",
+		"url": "https://staging6.yssofindia.org/te/lessons-programmes",
+		"elementSelector": "",
+		"clickSelector": "#digital-app"
 	},
 	{
 		"label": "/te/yss-lessons - Lessons Main Page - Tab #1 - Start Your Journey on the Path / Telugu",
@@ -252,11 +287,25 @@
 		"clickSelector": "#digitalapp2"
 	},
 	{
-		"label": "/te/kriya-yoga-lessons - Kriya Lessons / Telugu",
+		"label": "/te/kriya-yoga-lessons - Kriya Lessons - Tab #1 - NEW STUDENTS: How to Apply for Kriya Yoga Initiation / Telugu",
 		"referenceUrl": "https://staging6.yssofindia.org/te/kriya-yoga-lessons",
 		"url": "https://staging6.yssofindia.org/te/kriya-yoga-lessons",
 		"elementSelector": "",
-		"clickSelector": ""
+		"clickSelector": "#new-students-how-to-apply-for-kriya-yoga-initiation"
+	},
+	{
+		"label": "/te/kriya-yoga-lessons - Kriya Lessons - Tab #2 - KRIYABANS: Request the New Edition of the Kriya Yoga Lessons / Telugu",
+		"referenceUrl": "https://staging6.yssofindia.org/te/kriya-yoga-lessons",
+		"url": "https://staging6.yssofindia.org/te/kriya-yoga-lessons",
+		"elementSelector": "",
+		"clickSelector": "#kriyabans-request-the-new-edition-of-the-kriya-yoga-lessons"
+	},
+	{
+		"label": "/te/kriya-yoga-lessons - Kriya Lessons - Tab #3 - Am I Eligible to Apply for Kriya Yoga Initiation? / Telugu",
+		"referenceUrl": "https://staging6.yssofindia.org/te/kriya-yoga-lessons",
+		"url": "https://staging6.yssofindia.org/te/kriya-yoga-lessons",
+		"elementSelector": "",
+		"clickSelector": "#am-i-eligible-to-apply-for-kriya-yoga-initiation"
 	},
 	{
 		"label": "/te/app-faq - SRF/YSS App — FAQ / Telugu",
