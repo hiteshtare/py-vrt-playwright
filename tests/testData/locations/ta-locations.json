@@ -1,29 +1,29 @@
 [
 	{
 		"label": "/ta/location/ranchi - Ranchi Ashram - Upcoming Events / Tamil",
-		"referenceUrl": "https://staging4.yssofindia.org/ta/location/ranchi",
-		"url": "https://staging4.yssofindia.org/ta/location/ranchi",
+		"referenceUrl": "https://staging6.yssofindia.org/ta/location/ranchi",
+		"url": "https://staging6.yssofindia.org/ta/location/ranchi",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/ta/location/ranchi/event-schedule - Ranchi Ashram - All Events / Tamil",
-		"referenceUrl": "https://staging4.yssofindia.org/ta/location/ranchi/event-schedule",
-		"url": "https://staging4.yssofindia.org/ta/location/ranchi/event-schedule",
+		"referenceUrl": "https://staging6.yssofindia.org/ta/location/ranchi/event-schedule",
+		"url": "https://staging6.yssofindia.org/ta/location/ranchi/event-schedule",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/ta/location/chennai - Chennai Ashram - Upcoming Events / Tamil",
-		"referenceUrl": "https://staging4.yssofindia.org/ta/location/chennai",
-		"url": "https://staging4.yssofindia.org/ta/location/chennai",
+		"referenceUrl": "https://staging6.yssofindia.org/ta/location/chennai",
+		"url": "https://staging6.yssofindia.org/ta/location/chennai",
 		"elementSelector": "",
 		"clickSelector": ""
 	},
 	{
 		"label": "/ta/location/chennai/event-schedule - Chennai Ashram - All Events / Tamil",
-		"referenceUrl": "https://staging4.yssofindia.org/ta/location/chennai/event-schedule",
-		"url": "https://staging4.yssofindia.org/ta/location/chennai/event-schedule",
+		"referenceUrl": "https://staging6.yssofindia.org/ta/location/chennai/event-schedule",
+		"url": "https://staging6.yssofindia.org/ta/location/chennai/event-schedule",
 		"elementSelector": "",
 		"clickSelector": ""
 	}
