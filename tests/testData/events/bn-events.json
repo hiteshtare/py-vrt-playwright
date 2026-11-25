@@ -63,13 +63,6 @@
 		"clickSelector": ""
 	},
 	{
-		"label": "/bn/helpdesk - ODK Helpdesk / Bangla",
-		"referenceUrl": "https://staging6.yssofindia.org/bn/helpdesk",
-		"url": "https://staging6.yssofindia.org/bn/helpdesk",
-		"elementSelector": "",
-		"clickSelector": ""
-	},
-	{
 		"label": "/bn/event/presidents-india-tour - President India Tour 2025 / Bangla",
 		"referenceUrl": "https://staging6.yssofindia.org/bn/event/presidents-india-tour",
 		"url": "https://staging6.yssofindia.org/bn/event/presidents-india-tour",

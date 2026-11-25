@@ -35,13 +35,6 @@
 		"clickSelector": ""
 	},
 	{
-		"label": "/bn/prayer - Request a Prayer / Bangla",
-		"referenceUrl": "https://staging6.yssofindia.org/bn/prayer",
-		"url": "https://staging6.yssofindia.org/bn/prayer",
-		"elementSelector": "",
-		"clickSelector": ""
-	},
-	{
 		"label": "/bn/about/aims-and-ideals - Aims & Ideals / Bangla",
 		"referenceUrl": "https://staging6.yssofindia.org/bn/about/aims-and-ideals",
 		"url": "https://staging6.yssofindia.org/bn/about/aims-and-ideals",

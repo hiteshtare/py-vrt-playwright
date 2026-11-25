@@ -140,13 +140,6 @@
 		"clickSelector": ""
 	},
 	{
-		"label": "/te/online-meditation/helpdesk - ODK Helpdesk / Telugu",
-		"referenceUrl": "https://staging6.yssofindia.org/te/online-meditation/helpdesk",
-		"url": "https://staging6.yssofindia.org/te/online-meditation/helpdesk",
-		"elementSelector": "",
-		"clickSelector": ""
-	},
-	{
 		"label": "/te/event - Events archive / Telugu",
 		"referenceUrl": "https://staging6.yssofindia.org/te/event",
 		"url": "https://staging6.yssofindia.org/te/event",

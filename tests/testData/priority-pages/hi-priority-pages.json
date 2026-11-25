@@ -7,13 +7,6 @@
 		"clickSelector": ""
 	},
 	{
-		"label": "/hi/autobiography-of-a-yogi-regional-languages-free-audiobook - AOY AudioBook / Hindi",
-		"referenceUrl": "https://staging6.yssofindia.org/hi/autobiography-of-a-yogi-regional-languages-free-audiobook",
-		"url": "https://staging6.yssofindia.org/hi/autobiography-of-a-yogi-regional-languages-free-audiobook",
-		"elementSelector": "",
-		"clickSelector": ""
-	},
-	{
 		"label": "/hi/paramahansa-yogananda/autobiography-of-a-yogi - Autobiography of a Yogi / Hindi",
 		"referenceUrl": "https://staging6.yssofindia.org/hi/paramahansa-yogananda/autobiography-of-a-yogi",
 		"url": "https://staging6.yssofindia.org/hi/paramahansa-yogananda/autobiography-of-a-yogi",
@@ -122,13 +115,6 @@
 		"label": "/hi/spiritual/Prayer - Prayer / Hindi",
 		"referenceUrl": "https://staging6.yssofindia.org/hi/spiritual/Prayer",
 		"url": "https://staging6.yssofindia.org/hi/spiritual/Prayer",
-		"elementSelector": "",
-		"clickSelector": ""
-	},
-	{
-		"label": "/hi/prayer - Request a Prayer / Hindi",
-		"referenceUrl": "https://staging6.yssofindia.org/hi/prayer",
-		"url": "https://staging6.yssofindia.org/hi/prayer",
 		"elementSelector": "",
 		"clickSelector": ""
 	},

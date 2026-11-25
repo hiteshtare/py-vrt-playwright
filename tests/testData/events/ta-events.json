@@ -147,13 +147,6 @@
 		"clickSelector": ""
 	},
 	{
-		"label": "/ta/online-meditation/helpdesk - ODK Helpdesk / Tamil",
-		"referenceUrl": "https://staging6.yssofindia.org/ta/online-meditation/helpdesk",
-		"url": "https://staging6.yssofindia.org/ta/online-meditation/helpdesk",
-		"elementSelector": "",
-		"clickSelector": ""
-	},
-	{
 		"label": "/ta/event - Events archive / Tamil",
 		"referenceUrl": "https://staging6.yssofindia.org/ta/event",
 		"url": "https://staging6.yssofindia.org/ta/event",

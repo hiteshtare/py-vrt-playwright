@@ -7,13 +7,6 @@
 		"clickSelector": ""
 	},
 	{
-		"label": "/autobiography-of-a-yogi-regional-languages-free-audiobook - AOY AudioBook / English",
-		"referenceUrl": "https://staging6.yssofindia.org/autobiography-of-a-yogi-regional-languages-free-audiobook",
-		"url": "https://staging6.yssofindia.org/autobiography-of-a-yogi-regional-languages-free-audiobook",
-		"elementSelector": "",
-		"clickSelector": ""
-	},
-	{
 		"label": "/paramahansa-yogananda/autobiography-of-a-yogi - Autobiography of a Yogi / English",
 		"referenceUrl": "https://staging6.yssofindia.org/paramahansa-yogananda/autobiography-of-a-yogi",
 		"url": "https://staging6.yssofindia.org/paramahansa-yogananda/autobiography-of-a-yogi",
@@ -122,13 +115,6 @@
 		"label": "/spiritual/Prayer - Prayer / English",
 		"referenceUrl": "https://staging6.yssofindia.org/spiritual/Prayer",
 		"url": "https://staging6.yssofindia.org/spiritual/Prayer",
-		"elementSelector": "",
-		"clickSelector": ""
-	},
-	{
-		"label": "/prayer - Request a Prayer / English",
-		"referenceUrl": "https://staging6.yssofindia.org/prayer",
-		"url": "https://staging6.yssofindia.org/prayer",
 		"elementSelector": "",
 		"clickSelector": ""
 	},

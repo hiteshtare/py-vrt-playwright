@@ -147,13 +147,6 @@
 		"clickSelector": ""
 	},
 	{
-		"label": "/hi/online-meditation/helpdesk - ODK Helpdesk / Hindi",
-		"referenceUrl": "https://staging6.yssofindia.org/hi/online-meditation/helpdesk",
-		"url": "https://staging6.yssofindia.org/hi/online-meditation/helpdesk",
-		"elementSelector": "",
-		"clickSelector": ""
-	},
-	{
 		"label": "/hi/event - Events archive / Hindi",
 		"referenceUrl": "https://staging6.yssofindia.org/hi/event",
 		"url": "https://staging6.yssofindia.org/hi/event",

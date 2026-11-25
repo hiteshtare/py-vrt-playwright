@@ -203,13 +203,6 @@
 		"clickSelector": ""
 	},
 	{
-		"label": "/online-meditation/helpdesk - ODK Helpdesk / English",
-		"referenceUrl": "https://staging6.yssofindia.org/online-meditation/helpdesk",
-		"url": "https://staging6.yssofindia.org/online-meditation/helpdesk",
-		"elementSelector": "",
-		"clickSelector": ""
-	},
-	{
 		"label": "/event - Events archive / English",
 		"referenceUrl": "https://staging6.yssofindia.org/event",
 		"url": "https://staging6.yssofindia.org/event",

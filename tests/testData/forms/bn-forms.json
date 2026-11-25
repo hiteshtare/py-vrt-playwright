@@ -1,0 +1,23 @@
+[
+	{
+		"label": "/bn/prayer - Request a Prayer / Bangla",
+		"referenceUrl": "https://staging6.yssofindia.org/bn/prayer",
+		"url": "https://staging6.yssofindia.org/bn/prayer",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "/bn/online-meditation/helpdesk - ODK Helpdesk / Bangla",
+		"referenceUrl": "https://staging6.yssofindia.org/bn/online-meditation/helpdesk",
+		"url": "https://staging6.yssofindia.org/bn/online-meditation/helpdesk",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "/bn/autobiography-of-a-yogi-regional-languages-free-audiobook - AOY AudioBook / Bangla",
+		"referenceUrl": "https://staging6.yssofindia.org/bn/autobiography-of-a-yogi-regional-languages-free-audiobook",
+		"url": "https://staging6.yssofindia.org/bn/autobiography-of-a-yogi-regional-languages-free-audiobook",
+		"elementSelector": "",
+		"clickSelector": ""
+	}
+]

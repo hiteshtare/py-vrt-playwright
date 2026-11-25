@@ -84,13 +84,6 @@
 		"clickSelector": ""
 	},
 	{
-		"label": "/kn/online-meditation/helpdesk - ODK Helpdesk / Kannada",
-		"referenceUrl": "https://staging6.yssofindia.org/kn/online-meditation/helpdesk",
-		"url": "https://staging6.yssofindia.org/kn/online-meditation/helpdesk",
-		"elementSelector": "",
-		"clickSelector": ""
-	},
-	{
 		"label": "/kn/event/presidents-india-tour - President India Tour 2025 / Kannada",
 		"referenceUrl": "https://staging6.yssofindia.org/kn/event/presidents-india-tour",
 		"url": "https://staging6.yssofindia.org/kn/event/presidents-india-tour",

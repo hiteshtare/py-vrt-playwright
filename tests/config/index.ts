@@ -61,13 +61,13 @@ export const APP_CONFIG = {
         name: "blogs",
         jsonPath: "../../tests/testData/blogs/en-blogs.json",
       },
-      Templates: {
-        name: "templates",
-        jsonPath: "../../tests/testData/templates/en-templates.json",
-      },
       Locations: {
         name: "locations",
         jsonPath: "../../tests/testData/locations/en-locations.json",
+      },
+      Forms: {
+        name: "forms",
+        jsonPath: "../../tests/testData/forms/en-forms.json",
       },
       ImageGallery: {
         name: "image-gallery",
@@ -80,6 +80,10 @@ export const APP_CONFIG = {
       TeachingsLibrary: {
         name: "teachings-library",
         jsonPath: "../../tests/testData/teachings-library/en-teachings-library.json",
+      },
+      Templates: {
+        name: "templates",
+        jsonPath: "../../tests/testData/templates/en-templates.json",
       },
     },
     Hindi: {
@@ -99,6 +103,10 @@ export const APP_CONFIG = {
       Locations: {
         name: "locations",
         jsonPath: "../../tests/testData/locations/hi-locations.json",
+      },
+      Forms: {
+        name: "forms",
+        jsonPath: "../../tests/testData/forms/hi-forms.json",
       },
       ImageGallery: {
         name: "image-gallery",
@@ -123,6 +131,10 @@ export const APP_CONFIG = {
         name: "locations",
         jsonPath: "../../tests/testData/locations/ta-locations.json",
       },
+      Forms: {
+        name: "forms",
+        jsonPath: "../../tests/testData/forms/ta-forms.json",
+      },
       ImageGallery: {
         name: "image-gallery",
         jsonPath: "../../tests/testData/image-gallery/ta-image-gallery.json",
@@ -146,6 +158,10 @@ export const APP_CONFIG = {
         name: "locations",
         jsonPath: "../../tests/testData/locations/te-locations.json",
       },
+      Forms: {
+        name: "forms",
+        jsonPath: "../../tests/testData/forms/te-forms.json",
+      },
       ImageGallery: {
         name: "image-gallery",
         jsonPath: "../../tests/testData/image-gallery/te-image-gallery.json",
@@ -165,6 +181,10 @@ export const APP_CONFIG = {
         name: "priority-pages",
         jsonPath: "../../tests/testData/priority-pages/bn-priority-pages.json",
       },
+      Forms: {
+        name: "forms",
+        jsonPath: "../../tests/testData/forms/bn-forms.json",
+      },
     },
     Kannada: {
       Id: "510b59ed-32f5-4d53-b7be-6bda4f6f0e2c",
@@ -179,6 +199,10 @@ export const APP_CONFIG = {
       PriorityPages: {
         name: "priority-pages",
         jsonPath: "../../tests/testData/priority-pages/kn-priority-pages.json",
+      },
+      Forms: {
+        name: "forms",
+        jsonPath: "../../tests/testData/forms/kn-forms.json",
       },
     },
   },

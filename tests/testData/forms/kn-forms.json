@@ -1,0 +1,23 @@
+[
+	{
+		"label": "/kn/prayer - Request a Prayer / Kannada",
+		"referenceUrl": "https://staging6.yssofindia.org/kn/prayer",
+		"url": "https://staging6.yssofindia.org/kn/prayer",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "/kn/online-meditation/helpdesk - ODK Helpdesk / Kannada",
+		"referenceUrl": "https://staging6.yssofindia.org/kn/online-meditation/helpdesk",
+		"url": "https://staging6.yssofindia.org/kn/online-meditation/helpdesk",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "/kn/autobiography-of-a-yogi-regional-languages-free-audiobook - AOY AudioBook / Kannada",
+		"referenceUrl": "https://staging6.yssofindia.org/kn/autobiography-of-a-yogi-regional-languages-free-audiobook",
+		"url": "https://staging6.yssofindia.org/kn/autobiography-of-a-yogi-regional-languages-free-audiobook",
+		"elementSelector": "",
+		"clickSelector": ""
+	}
+]

@@ -1,0 +1,23 @@
+[
+	{
+		"label": "/te/prayer - Request a Prayer / Telugu",
+		"referenceUrl": "https://staging6.yssofindia.org/te/prayer",
+		"url": "https://staging6.yssofindia.org/te/prayer",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "/ta/online-meditation/helpdesk - ODK Helpdesk / Tamil",
+		"referenceUrl": "https://staging6.yssofindia.org/ta/online-meditation/helpdesk",
+		"url": "https://staging6.yssofindia.org/ta/online-meditation/helpdesk",
+		"elementSelector": "",
+		"clickSelector": ""
+	},
+	{
+		"label": "/ta/autobiography-of-a-yogi-regional-languages-free-audiobook - AOY AudioBook / Tamil",
+		"referenceUrl": "https://staging6.yssofindia.org/ta/autobiography-of-a-yogi-regional-languages-free-audiobook",
+		"url": "https://staging6.yssofindia.org/ta/autobiography-of-a-yogi-regional-languages-free-audiobook",
+		"elementSelector": "",
+		"clickSelector": ""
+	}
+]
