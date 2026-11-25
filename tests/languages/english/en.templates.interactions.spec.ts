@@ -33,11 +33,17 @@ test.describe("Templates - Interactions", () => {
     //wait for 1 sec
     await page.waitForTimeout(1000);
 
-    await vrt.trackPage(page, "#1.1 Bookstore Menu - Loaded", trackOptions);
-
     //Hover on Bookstore to load its Menu sections
     await page.locator('a').filter({ hasText: 'Bookstore' }).first().hover();
 
-    await vrt.trackPage(page, "#1.2 Bookstore Menu - Hovered", trackOptions);
+    // const selector = await page.$(`.elementor-section.elementor-top-section.elementor-element.elementor-element-31fbe82e > .elementor-background-overlay`);
+    // await vrt.trackElementHandle(
+    //   selector,
+    //   "#1.1 Bookstore Menu - Hovered",
+    //   trackOptions,
+    //   APP_CONFIG.retryCount,
+    // );
+    
+    await vrt.trackPage(page, "#1.1 Bookstore Menu - Hovered", trackOptions);
   });
 });
